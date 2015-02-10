@@ -1,4 +1,5 @@
-\textbf{DNA methylation in reef-building corals: patterns and potential functional roles}
+\section{DNA methylation in reef-building corals: patterns and potential functional roles}
+
 
 James L. Dimond, Steven B. Roberts
 
@@ -10,7 +11,8 @@ School of Aquatic and Fishery Sciences, University of Washington, Seattle, WA
 
 DNA methylation is an epigenetic mark that plays an important yet inadequately understood role in gene regulation, particularly in non-model species. Because it can be influenced by the environment and potentially transferred to subsequent generations, DNA methylation may contribute to the ability of organisms to acclimatize and adapt to environmental change. Here we will evaluate the distribution of gene body methylation in reef-building corals, a group of organisms facing a number of significant environmental challenges. Gene body methylation in six species of corals will be inferred from in silico transcriptome analysis of CpGo/e ratios, which are highly correlated with patterns of methylation enrichment. Consistent with what has been documented in other invertebrates, preliminary results suggest that hypermethylated genes are those with housekeeping functions, while hypomethylated genes tend to have inducible functions. We will therefore also test the hypothesis that genes that are differentially expressed in response to environmental change tend to be sparsely methylated. This may yield insight into the potential role of methylation in mediating phenotypic plasticity and acclimatization. 
 
-\textbf{Introduction}
+\section{Introduction}
+
  
 The capacity of a genotype to produce a range of phenotypes in response to environmental heterogeneity is known as phenotypic plasticity. Environmental variability is thought to drive the evolution of phenotypic plasticity, as a greater phenotypic range will promote success in variable or changing environments. Because phenotypic plasticity permits a more rapid response to environmental change than is possible through adaptation, it may become especially critical to the persistence of many species as anthropogenic global change expands and intensifies (Charmantier et al., 2008, Chevin et al., 2010). 
  
@@ -25,11 +27,13 @@ Evaluation of epigenetic processes therefore represents a logical next step in u
 The link between inducible gene expression and low germline methylation can be probed even further using the abundant data on coral gene expression in response to elevated temperature, ocean acidification, and other stressors (e.g. Meyer et al., 2011, Moya et al., 2012). In this study, we evaluate germline methylation patterns in the transcriptomes and environmental response genes of six scleractinian coral species. Germline methylation levels in these data are inferred based on the hypermutability of methylated cytosines, which leads to a reduction in CpG dinucleotides over evolutionary time (Sved and Bird 1990). These data are then matched with gene ontology information, permitting evaluation of methylation patterns associated with broad categories of biological processes. 
 
 
-\textbf{Methods}
+\section{Methods}
+
 
 Germline methylation patterns in the transcriptomes and environmental response genes of six scleractinian coral species were evaluated, including Acropora hyacinthus, A. millepora, A. palmata, Montastraea faveolata, Stylophora pistillata, and Pocillopora damicornis. Table 1 (in progress) shows the datasets used in the analyses. Germline methylation levels were inferred based on the hypermutability of methylated cytosines, which tend towards conversion to thymines over evolutionary time. This results in a reduction in CpG dinucleotides, meaning that historically heavily methylated genomic regions are associated with reduced numbers of CpGs. We developed an iPython script that calculated CpG ratio (also known as CpG O/E) as:
 
-\section{CpG O/E = (number of CpG / number of C x number of G) x (l^2/l-1)}
+\subsection{CpG O/E = (number of CpG / number of C x number of G) x (l^2/l-1)}
+
 
 
 where l is the number of nucleotides in the contig.
