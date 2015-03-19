@@ -4,7 +4,7 @@
 
 - Start with phenotypic plasticity? Or go right into epigenetics and DNA methylation?
 - DNA methylation in general
-- DNA methylation in invertebrates: gene body methylation, functions, potential role in phenotypic plasticity
+- DNA methylation in invertebrates: gene body methylation - functions, potential role in phenotypic plasticity
 - DNA methylation in corals and why it is of interest: potential basis of phenotypic plasticity/acclimatization/resilience to env change
 - Introduce objectives of the study: explore patterns of germline methylation in coral transcriptomes and env response genes
 
