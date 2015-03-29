@@ -41,7 +41,7 @@ Transcriptomes were annotated in an IPython notebook workflow. All transcriptome
     E-value = 10-5
     number of threads = 8
 
-After removing pipes from the tab-delimited output file, the file was uploaded to SQLShare and joined with the tables SPID and GO Numbers and GO_to_GOslim in order to obtain GOslim IDs for all contigs. Only GOslim biological process ('P') terms were included. This join process allowed an individual contig to fall into more than one GOslim bin, but did not allow it to occur in the same bin more than once. The result was an annotation file including contig IDs and GOslim IDs.
+After removing pipes from the tab-delimited output file, the file was uploaded to SQLShare and joined by Swiss-Prot ID to a GOSlim annotation table. Only GOSlim biological process ('P') terms were included. This join process allowed an individual contig to fall into more than one GOslim bin, but did not allow it to occur in the same bin more than once. The result was an annotation file including contig IDs and GOslim IDs.
 
 CpG ratio analysis
 
