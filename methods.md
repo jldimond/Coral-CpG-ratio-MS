@@ -1,6 +1,8 @@
+_**Transcriptome data**_
+
 Germline methylation patterns in the transcriptomes and environmental response genes of six scleractinian coral species were evaluated, including Acropora hyacinthus, A. millepora, A. palmata, Montastraea faveolata, Stylophora pistillata, and Pocillopora damicornis. Table 1 (in progress) shows the datasets used in the analyses. Germline methylation levels were inferred based on the hypermutability of methylated cytosines, which tend towards conversion to thymines over evolutionary time. This results in a reduction in CpG dinucleotides, meaning that historically heavily methylated genomic regions are associated with reduced numbers of CpGs.
 
-Transcriptome annotation
+_**Transcriptome annotation**_
 
 Transcriptomes were annotated in an IPython notebook workflow. All transcriptomes were annotated using Blastx (version 2.2.29) for comparison to the UniProt/Swiss-Prot protein database (version 2/17/2015). Parameters for blastx were has follows:
 
@@ -8,7 +10,7 @@ maximum number of target sequences = 1 maximum number of high-scoring pairs = 1 
 
 After removing pipes from the tab-delimited output file, the file was uploaded to SQLShare and joined by Swiss-Prot ID to a GOSlim annotation table. Only GOSlim biological process (’P’) terms were included. This join process allowed an individual contig to fall into more than one GOslim bin, but did not allow it to occur in the same bin more than once. The result was an annotation file including contig IDs and GOslim IDs.
 
-CpG ratio analysis
+_**Predicted germline methylation**_
 
 Next, an IPython notebook workflow was developed to serve as a pipeline for analysis of CpG O/E. The original FASTA file was converted to tab-delimited format, then a new column with the number of sequences in each contig was added to the file. The number of C, G, and CG in each contig were then computed and each passed to separate files that were subsequently appended to the main file. The script then calculated CpG O/E as:
 
