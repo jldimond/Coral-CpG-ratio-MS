@@ -52,7 +52,7 @@ The file Spist.fasta is a *Stylophora pistillata* transcriptome [downloaded](htt
 
 ###*Transcriptome annotation*
 
-All transcriptomes were annotated using Blastx (version 2.2.29) for comparison to the UniProt/Swiss-Prot protein database (version 2/17/2015). Parameters for blastx were has follows: maximum number of target sequences = 1; maximum number of high-scoring pairs = 1; E-value = 10<sup>-5</sup>; number of threads = 8. The output file was uploaded to SQLShare and joined by Swiss-Prot ID to a GOslim annotation table. Only GOslim biological process (’P’) terms were included. This join process allowed an individual contig to fall into more than one GOslim bin, but did not allow it to occur in the same bin more than once. The result was an annotation file including contig IDs and GOslim IDs.
+All transcriptomes were annotated using Blastx (version 2.2.29) for comparison to the UniProt/Swiss-Prot protein database (version 2/17/2015). Parameters for blastx were as follows: maximum number of target sequences = 1; maximum number of high-scoring pairs = 1; E-value = 10<sup>-5</sup>; number of threads = 8. The output file was uploaded to SQLShare and joined by Swiss-Prot ID to a GOslim annotation table. Only GOslim biological process (’P’) terms were included. This join process allowed an individual contig to fall into more than one GOslim bin, but did not allow it to occur in the same bin more than once. The result was an annotation file including contig IDs and GOslim IDs.
 
 ###*Predicted germline methylation*
 
