@@ -4,15 +4,13 @@ Germline methylation patterns in the transcriptomes and environmental response g
 
 _**Transcriptome annotation**_
 
-All transcriptomes were annotated using Blastx (version 2.2.29) for comparison to the UniProt/Swiss-Prot protein database (version 2/17/2015). Parameters for blastx were has follows: maximum number of target sequences = 1; maximum number of high-scoring pairs = 1; E-value = 10<sup>-</sup>5; number of threads = 8.
-
-After removing pipes from the tab-delimited output file, the file was uploaded to SQLShare and joined by Swiss-Prot ID to a GOSlim annotation table. Only GOSlim biological process (’P’) terms were included. This join process allowed an individual contig to fall into more than one GOslim bin, but did not allow it to occur in the same bin more than once. The result was an annotation file including contig IDs and GOslim IDs.
+All transcriptomes were annotated using Blastx (version 2.2.29) for comparison to the UniProt/Swiss-Prot protein database (version 2/17/2015). Parameters for blastx were has follows: maximum number of target sequences = 1; maximum number of high-scoring pairs = 1; E-value = 10<sup>-5</sup>; number of threads = 8. The output file was uploaded to SQLShare and joined by Swiss-Prot ID to a GOSlim annotation table. Only GOSlim biological process (’P’) terms were included. This join process allowed an individual contig to fall into more than one GOslim bin, but did not allow it to occur in the same bin more than once. The result was an annotation file including contig IDs and GOslim IDs.
 
 _**Predicted germline methylation**_
 
-Next, an IPython notebook workflow was developed to serve as a pipeline for analysis of CpG O/E. The original FASTA file was converted to tab-delimited format, then a new column with the number of sequences in each contig was added to the file. The number of C, G, and CG in each contig were then computed and each passed to separate files that were subsequently appended to the main file. The script then calculated CpG O/E as:
+Next, an IPython notebook workflow served as a pipeline for analysis of CpG O/E. The original FASTA file was converted to tab-delimited format, then a new column with the number of sequences in each contig was added to the file. The number of C, G, and CG in each contig were then computed and each passed to separate files that were subsequently appended to the main file. The script then calculated CpG O/E as:
 
-CpG O/E = (number of CpG / number of C x number of G) x (lexp2/l-1)
+CpG O/E = (number of CpG / number of C x number of G) x (l<sup>2</sup>/l-1)
 
 where l is the number of nucleotides in the contig.
 
