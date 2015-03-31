@@ -17,7 +17,7 @@ Organism | Transcriptome reference | Data link | # Contigs
 
 The *Acropora hyacinthus* transcriptome was [downloaded](http://palumbi.stanford.edu/data/33496_Ahyacinthus_CoralContigs.fasta.zip) on 1/15/2015. It was featured in an article by [Barshis et al. (2013)](http://www.pnas.org/content/110/4/1387.abstract). The [supporting information file](http://www.pnas.org/content/suppl/2013/01/02/1210224110.DCSupplemental/pnas.201210224SI.pdf) contains detailed information on the experimental conditions and the methods used to create the transcriptome. Briefly, the transcriptome contains 33,496 contigs with high similarity to other cnidarian sequences. The authors used coral and dinoflagellate sequences to filter out dinoflagellate sequences, so the transcriptome contains mostly coral transcripts. 
 
-The same study also evaluated differential gene expression in response to 72 h of thermal stress. A total of 484 contigs were differentially expressed between control and heated corals, regardless of source population. Data on differentially expressed contigs was obtained from a [supplementary information file]((http://www.pnas.org/content/suppl/2013/01/02/1210224110.DCSupplemental/sd01.xlsx).
+The same study also evaluated differential gene expression in response to 72 h of thermal stress. A total of 484 contigs were differentially expressed between control and heated corals, regardless of source population. Data on differentially expressed contigs was obtained from a [supplementary information file](http://www.pnas.org/content/suppl/2013/01/02/1210224110.DCSupplemental/sd01.xlsx).
 
 ######*Acropora millepora*
 
