@@ -1,6 +1,6 @@
 #Methods
 
-###*Transcriptome data*
+_**Transcriptome data**_
 
 Germline methylation patterns in the transcriptomes and environmental response genes of six scleractinian coral species were evaluated, including *Acropora hyacinthus*, *A. millepora*, *A. palmata*, *Orbicella faveolata, *Stylophora pistillata*, and *Pocillopora damicornis*. Table 1 (in progress) describes the data sources used in the analyses. 
 
@@ -50,11 +50,11 @@ A related study by [Vidal-Dupiol et al. (2014)](http://journals.plos.org/plosone
 The file Spist.fasta is a *Stylophora pistillata* transcriptome [downloaded](http://data.centrescientifique.mc/Data/454Isotigs.fas.zip) on 2/19/2015. This transcriptome was featured in an article by [Karako-Lampert et al. (2014)](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0088615). The transcriptome consists of 15,052 contigs and was developed from adult coral tissue, but the authors determined that only approximately 2.5% of the sequences mapped exclusively to the *Symbiodinium* genome. Thus, the vast majority of transcripts are coral transcripts.
 
 
-###*Transcriptome annotation*
+_**Transcriptome annotation**_
 
 All transcriptomes were annotated using Blastx (version 2.2.29) for comparison to the UniProt/Swiss-Prot protein database (version 2/17/2015). Parameters for blastx were as follows: maximum number of target sequences = 1; maximum number of high-scoring pairs = 1; E-value = 10<sup>-5</sup>; number of threads = 8. The output file was uploaded to SQLShare and joined by Swiss-Prot ID to a GOslim annotation table. Only GOslim biological process (’P’) terms were included. This join process allowed an individual contig to fall into more than one GOslim bin, but did not allow it to occur in the same bin more than once. The result was an annotation file including contig IDs and GOslim IDs.
 
-###*Predicted germline methylation*
+_**Predicted germline methylation**_
 
 Germline methylation levels were inferred based on the hypermutability of methylated cytosines, which tend towards conversion to thymines over evolutionary time. This results in a reduction in CpG dinucleotides, meaning that historically heavily methylated genomic regions are associated with reduced numbers of CpGs. We used an IPython notebook workflow as a pipeline for analysis of CpG O/E. CpG O/E 
 was calculated as:
