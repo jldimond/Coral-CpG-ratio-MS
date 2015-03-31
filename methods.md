@@ -6,7 +6,7 @@ Germline methylation patterns in the transcriptomes and environmental response g
 
 #####Table 1.Transcriptomes used in the study
 Organism | Transcriptome reference | Data link | # Contigs
---------- | ---------- 
+--------- | ---------- | --------- | --------
 *Acropora hyacinthus* | Barshis et al. (2013) | [URL](http://palumbi.stanford.edu/data/33496_Ahyacinthus_CoralContigs.fasta.zip) | 33,496
 *Acropora millepora* | Moya et al. (2012) | [URL](http://www.ncbi.nlm.nih.gov/nuccore?term=74409%5BBioProject%5D) | 52,963
 *Acropora palmata* | Polato et al. (2011) | [URL](https://usegalaxy.org/datasets/cb51c4a06d7ae94e/display?to_ext=fasta) | 88,020
