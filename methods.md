@@ -47,7 +47,7 @@ A related study by \cite{25259845} evaluated the transcriptomic response of *P. 
 
 ######*Stylophora pistillata*
 
-The file Spist.fasta is a *Stylophora pistillata* transcriptome [downloaded](http://data.centrescientifique.mc/Data/454Isotigs.fas.zip) on 2/19/2015. This transcriptome was featured in an article by \cite{24551124}. The transcriptome consists of 15,052 contigs and was developed from adult coral tissue, but the authors determined that only approximately 2.5% of the sequences mapped exclusively to the *Symbiodinium* genome. Thus, the vast majority of transcripts are coral transcripts.
+The *Stylophora pistillata* transcriptome was [downloaded](http://data.centrescientifique.mc/Data/454Isotigs.fas.zip) on 2/19/2015. This transcriptome was featured in an article by \cite{24551124}. The transcriptome consists of 15,052 contigs and was developed from adult coral tissue with symbionts, but the authors determined that only approximately 2.5% of the sequences mapped exclusively to the *Symbiodinium* genome. Thus, the vast majority of transcripts are coral transcripts.
 
 
 _**Transcriptome annotation**_
