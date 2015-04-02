@@ -31,11 +31,7 @@ The study above also evaluated differential gene expression in response to ocean
 
 The *Acopora palmata* transcriptome was [downloaded](https://usegalaxy.org/datasets/cb51c4a06d7ae94e/display?to_ext=fasta) on 2/19/2015. It was featured in an article by \cite{22216101} and was developed from symbiont-free larval tissue. The transcriptome consists of 88,020 contigs.
 
-A related study by \cite{23331636} evaluated differential gene expression in of *A. palmata* larvae in response to either one or two days of thermal stress. Data on differentially expressed contigs were obtained from a [supplementary file](http://datadryad.org/bitstream/handle/10255/dryad.39350/SuppTableS3_Final.xlsx?sequence=1).
-
-(Note: also cite the following in refs)
-Additionally, please cite the Dryad data package:
-Polato NR, Baums IB, Altman NS (2013) Data from: Variation in the transcriptional response of threatened coral larvae to elevated temperatures. Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.t3pr6
+A related study by \cite{23331636} evaluated differential gene expression in of *A. palmata* larvae in response to either one or two days of thermal stress. Data on differentially expressed contigs were obtained from a [supplementary file](http://datadryad.org/bitstream/handle/10255/dryad.39350/SuppTableS3_Final.xlsx?sequence=1) [Polato et al. 2013](http://dx.doi.org/10.5061/dryad.t3pr6).
 
 ######*Pocillopora damicornis*
 
