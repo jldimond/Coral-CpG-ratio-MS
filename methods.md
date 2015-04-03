@@ -16,7 +16,9 @@ Organism | Transcriptome reference | Data link | # Contigs
 
 _**Transcriptome annotation**_
 
-In order to maintain All transcriptomes were annotated using Blastx (version 2.2.29) for comparison to the UniProt/Swiss-Prot protein database (version 2/17/2015). Parameters for blastx were as follows: maximum number of target sequences = 1; maximum number of high-scoring pairs = 1; E-value = 10<sup>-5</sup>; number of threads = 8. The output file was uploaded to SQLShare and joined by Swiss-Prot ID to a GOslim annotation table. Only GOslim biological process (’P’) terms were included. This join process allowed an individual contig to fall into more than one GOslim bin, but did not allow it to occur in the same bin more than once. The result was an annotation file including contig IDs and GOslim IDs.
+In order to maintain consistancy in comparing dataset all transcriptomes were annotated using Blastx (version 2.2.29) for comparison to the UniProt/Swiss-Prot protein database (version 2/17/2015). Parameters for blastx were as follows: maximum number of target sequences = 1; maximum number of high-scoring pairs = 1; E-value = 10<sup>-5</sup>; number of threads = 8. 
+
+The output file was uploaded to SQLShare and joined by Swiss-Prot ID to a GOslim annotation table. Only GOslim biological process (’P’) terms were included. This join process allowed an individual contig to fall into more than one GOslim bin, but did not allow it to occur in the same bin more than once. The result was an annotation file including contig IDs and GOslim IDs.
 
 _**Predicted germline methylation**_
 
@@ -29,4 +31,3 @@ where l is the number of nucleotides in the contig.
 
 To permit analysis of these data based on GOslim terms, the data were joined with the GOslim annotation file described above based on common contig ID numbers. However, because the GOslim annotation file contained contigs that were duplicated if they fell into more than one GOslim bin, whole-transcriptome CpG O/E patterns were analyzed using the data generated prior to joining with GOslim annotation files.
 
-Analyses were perfomed on a computer running Ubuntu 14.04 with Python 2.7.
