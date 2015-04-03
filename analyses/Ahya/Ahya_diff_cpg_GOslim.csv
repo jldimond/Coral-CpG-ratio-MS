@@ -1,0 +1,1085 @@
+Column1,Column2,GOslim_bin
+contig100302_114262_202031,,
+contig100349,0.524223,RNA metabolism
+contig100349,0.524223,stress response
+contig100349,0.524223,other biological processes
+contig100349,0.524223,other metabolic processes
+contig102770,1.2155,RNA metabolism
+contig102770,1.2155,transport
+contig102770,1.2155,protein metabolism
+contig102770,1.2155,cell cycle and proliferation
+contig102770,1.2155,signal transduction
+contig102770,1.2155,developmental processes
+contig102770,1.2155,other metabolic processes
+contig102770,1.2155,other biological processes
+contig103080_193887,,
+contig104395_153016,0.885662,RNA metabolism
+contig104395_153016,0.885662,other biological processes
+contig105632_159216,2.26543,other metabolic processes
+contig105645,1.45804,other biological processes
+contig105949,0.973447,transport
+contig105949,0.973447,cell organization and biogenesis
+contig107034,0.727932,protein metabolism
+contig107336,,
+contig110017,,
+contig110172,0.729807,other metabolic processes
+contig110172,0.729807,signal transduction
+contig110751,1.08054,transport
+contig112007_150291_111307,1.03768,developmental processes
+contig112007_150291_111307,1.03768,signal transduction
+contig112007_150291_111307,1.03768,cell cycle and proliferation
+contig112007_150291_111307,1.03768,cell-cell signaling
+contig112463,0.627976,other biological processes
+contig112484,0.775876,DNA metabolism
+contig112484,0.775876,protein metabolism
+contig112589_152022,0.832483,signal transduction
+contig112626_149884,0.921502,protein metabolism
+contig112626_149884,0.921502,other biological processes
+contig112688_170707_146883,0.783514,developmental processes
+contig112688_170707_146883,0.783514,other biological processes
+contig112688_170707_146883,0.783514,other metabolic processes
+contig112688_170707_146883,0.783514,transport
+contig112688_170707_146883,0.783514,cell organization and biogenesis
+contig112688_170707_146883,0.783514,signal transduction
+contig112809_149298_131394_104581_171125,0.931365,protein metabolism
+contig112809_149298_131394_104581_171125,0.931365,other metabolic processes
+contig112861_100291_151214,0.822462,protein metabolism
+contig112861_100291_151214,0.822462,developmental processes
+contig112861_100291_151214,0.822462,other biological processes
+contig113128,0.579855,other biological processes
+contig113501_174692_88537_82393,1.22023,signal transduction
+contig113836,,
+contig115860_4992_195722_171755,0.96949,protein metabolism
+contig115860_4992_195722_171755,0.96949,other biological processes
+contig115890_205214,0.924856,signal transduction
+contig116802_21164,1.08049,transport
+contig116802_21164,1.08049,cell-cell signaling
+contig117054,0.707814,other biological processes
+contig117987_182302,,
+contig118470_120199_147241,,
+contig118916,0.696836,transport
+contig118916,0.696836,other metabolic processes
+contig118916,0.696836,cell-cell signaling
+contig119016,0.928775,transport
+contig119224_216987,,
+contig119310_211061,0.886472,other biological processes
+contig11991,0.49281,other metabolic processes
+contig11991,0.49281,protein metabolism
+contig120251,0.832526,death
+contig120251,0.832526,other biological processes
+contig120251,0.832526,signal transduction
+contig12336_105256,0.992275,RNA metabolism
+contig12336_105256,0.992275,developmental processes
+contig12336_105256,0.992275,other biological processes
+contig123587_153243,0.818188,RNA metabolism
+contig123587_153243,0.818188,cell organization and biogenesis
+contig123587_153243,0.818188,protein metabolism
+contig123658,,
+contig124917,0.572254,cell adhesion
+contig124917,0.572254,developmental processes
+contig124917,0.572254,other biological processes
+contig127735_145547,0.633427,stress response
+contig127735_145547,0.633427,cell cycle and proliferation
+contig127735_145547,0.633427,signal transduction
+contig127735_145547,0.633427,death
+contig127735_145547,0.633427,RNA metabolism
+contig127735_145547,0.633427,other metabolic processes
+contig127735_145547,0.633427,transport
+contig12867_142623_79520_172896_150105_152164_214037,0.735131,RNA metabolism
+contig132286,0.846371,DNA metabolism
+contig132286,0.846371,protein metabolism
+contig132443,0.777932,signal transduction
+contig132966_210546_87461_180132,2.84197,stress response
+contig132966_210546_87461_180132,2.84197,other metabolic processes
+contig132966_210546_87461_180132,2.84197,transport
+contig132966_210546_87461_180132,2.84197,developmental processes
+contig132966_210546_87461_180132,2.84197,other biological processes
+contig13535_144960,0.629115,RNA metabolism
+contig13535_144960,0.629115,developmental processes
+contig13535_144960,0.629115,other biological processes
+contig13535_144960,0.629115,cell organization and biogenesis
+contig13535_144960,0.629115,cell cycle and proliferation
+contig13535_144960,0.629115,signal transduction
+contig13535_144960,0.629115,other metabolic processes
+contig13535_144960,0.629115,cell adhesion
+contig13535_144960,0.629115,stress response
+contig13535_144960,0.629115,death
+contig13535_144960,0.629115,transport
+contig137624,,
+contig14041_149895,,
+contig140774_54258_205078,1.03492,other metabolic processes
+contig142399_212311,1.3403,signal transduction
+contig143957,0.854936,stress response
+contig143957,0.854936,other metabolic processes
+contig144019_111820,2.46214,other metabolic processes
+contig144019_111820,2.46214,transport
+contig145010,,
+contig145043_179370,0.632694,signal transduction
+contig145043_179370,0.632694,protein metabolism
+contig145043_179370,0.632694,other biological processes
+contig145043_179370,0.632694,cell organization and biogenesis
+contig145043_179370,0.632694,cell adhesion
+contig145043_179370,0.632694,developmental processes
+contig145084,0.752543,RNA metabolism
+contig145084,0.752543,developmental processes
+contig145084,0.752543,other biological processes
+contig145084,0.752543,cell organization and biogenesis
+contig145084,0.752543,cell cycle and proliferation
+contig145084,0.752543,signal transduction
+contig145084,0.752543,other metabolic processes
+contig145084,0.752543,cell adhesion
+contig145084,0.752543,stress response
+contig145084,0.752543,death
+contig145084,0.752543,transport
+contig145165,0.668622,other biological processes
+contig145219,0.730383,transport
+contig145219,0.730383,signal transduction
+contig145229,0.641168,other biological processes
+contig145275_179145,0.776613,RNA metabolism
+contig145332_178661,0.601263,developmental processes
+contig145332_178661,0.601263,protein metabolism
+contig145390_123740_152068,0.888176,developmental processes
+contig145390_123740_152068,0.888176,other metabolic processes
+contig145390_123740_152068,0.888176,other biological processes
+contig145390_123740_152068,0.888176,cell organization and biogenesis
+contig145396,0.289492,other metabolic processes
+contig145396,0.289492,protein metabolism
+contig145450_181814_176045,0.717948,RNA metabolism
+contig145450_181814_176045,0.717948,developmental processes
+contig145530,0.77226,developmental processes
+contig145530,0.77226,signal transduction
+contig145530,0.77226,cell-cell signaling
+contig145533,0.491408,RNA metabolism
+contig145533,0.491408,stress response
+contig145655,,
+contig145710,1.07678,RNA metabolism
+contig145710,1.07678,developmental processes
+contig145710,1.07678,other biological processes
+contig145710,1.07678,cell cycle and proliferation
+contig145710,1.07678,stress response
+contig145710,1.07678,other metabolic processes
+contig145710,1.07678,death
+contig145730,,
+contig145804,0.726213,transport
+contig145804,0.726213,developmental processes
+contig145804,0.726213,other biological processes
+contig145894,0.729265,RNA metabolism
+contig146097,0.959496,protein metabolism
+contig146097,0.959496,cell adhesion
+contig146097,0.959496,other metabolic processes
+contig146097,0.959496,developmental processes
+contig146323_179117,1.03515,transport
+contig146325,0.676175,death
+contig146325,0.676175,cell adhesion
+contig146325,0.676175,developmental processes
+contig146559_191353,0.936944,other biological processes
+contig146559_191353,0.936944,stress response
+contig146559_191353,0.936944,other metabolic processes
+contig146578,,
+contig146582,,
+contig146593,,
+contig146613,0.67055,other metabolic processes
+contig146613,0.67055,other biological processes
+contig146613,0.67055,transport
+contig146613,0.67055,cell-cell signaling
+contig146633,,
+contig146820,0.963936,RNA metabolism
+contig146820,0.963936,developmental processes
+contig146917,,
+contig146975,0.763595,developmental processes
+contig146975,0.763595,death
+contig146975,0.763595,other biological processes
+contig146975,0.763595,cell adhesion
+contig146975,0.763595,cell organization and biogenesis
+contig146975,0.763595,cell cycle and proliferation
+contig146975,0.763595,signal transduction
+contig147000,1.03049,signal transduction
+contig147000,1.03049,other metabolic processes
+contig147000,1.03049,other biological processes
+contig147000,1.03049,protein metabolism
+contig147000,1.03049,stress response
+contig147007,0.583431,signal transduction
+contig147007,0.583431,developmental processes
+contig147007,0.583431,protein metabolism
+contig147007,0.583431,cell adhesion
+contig147007,0.583431,cell organization and biogenesis
+contig147007,0.583431,other metabolic processes
+contig147007,0.583431,other biological processes
+contig147007,0.583431,RNA metabolism
+contig147007,0.583431,stress response
+contig14703_24352_93157_153249,1.52143,cell adhesion
+contig14703_24352_93157_153249,1.52143,developmental processes
+contig14703_24352_93157_153249,1.52143,other biological processes
+contig14703_24352_93157_153249,1.52143,cell organization and biogenesis
+contig147237,0.617648,DNA metabolism
+contig147237,0.617648,stress response
+contig147237,0.617648,RNA metabolism
+contig147248_202399,0.699379,protein metabolism
+contig147248_202399,0.699379,other biological processes
+contig147290,0.851928,cell organization and biogenesis
+contig147290,0.851928,other biological processes
+contig147290,0.851928,developmental processes
+contig147290,0.851928,stress response
+contig147290,0.851928,transport
+contig147395,0.938548,other biological processes
+contig147426,0.661051,developmental processes
+contig147426,0.661051,other biological processes
+contig147426,0.661051,other metabolic processes
+contig147426,0.661051,stress response
+contig147589,,
+contig147635_106719,1.00207,signal transduction
+contig147635_106719,1.00207,other biological processes
+contig147693_16393_177576_174637,1.13485,DNA metabolism
+contig147693_16393_177576_174637,1.13485,protein metabolism
+contig147693_16393_177576_174637,1.13485,other metabolic processes
+contig147721,0.683765,other metabolic processes
+contig147752_80244,0.471398,protein metabolism
+contig147752_80244,0.471398,cell organization and biogenesis
+contig147752_80244,0.471398,developmental processes
+contig147752_80244,0.471398,other metabolic processes
+contig147752_80244,0.471398,other biological processes
+contig147779,,
+contig147781,0.490537,transport
+contig147781,0.490537,cell organization and biogenesis
+contig147781,0.490537,cell-cell signaling
+contig147781,0.490537,developmental processes
+contig147781,0.490537,other biological processes
+contig147781,0.490537,signal transduction
+contig147787,0.814202,other metabolic processes
+contig147815,0.976031,developmental processes
+contig147815,0.976031,death
+contig147815,0.976031,other biological processes
+contig147815,0.976031,signal transduction
+contig147815,0.976031,stress response
+contig147815,0.976031,RNA metabolism
+contig147821,0.773685,protein metabolism
+contig147821,0.773685,other metabolic processes
+contig147822,0.320425,other metabolic processes
+contig147852,,
+contig147867,,
+contig147889,0.705051,other biological processes
+contig147894,,
+contig147939,1.0885,other metabolic processes
+contig147939,1.0885,cell-cell signaling
+contig147964,0.886158,transport
+contig147984,0.832593,other metabolic processes
+contig147986,0.749834,other metabolic processes
+contig148011,0.963638,protein metabolism
+contig148011,0.963638,cell organization and biogenesis
+contig148011,0.963638,cell-cell signaling
+contig148011,0.963638,developmental processes
+contig148011,0.963638,other biological processes
+contig148011,0.963638,signal transduction
+contig148011,0.963638,other metabolic processes
+contig148011,0.963638,death
+contig148011,0.963638,RNA metabolism
+contig148020,0.972523,cell adhesion
+contig148020,0.972523,developmental processes
+contig148020,0.972523,other biological processes
+contig148020,0.972523,cell organization and biogenesis
+contig148021,,
+contig148067,,
+contig148082,0.987155,signal transduction
+contig148082,0.987155,other biological processes
+contig148082,0.987155,transport
+contig148396,0.849096,transport
+contig148446,,
+contig148478,,
+contig148526,0.718361,developmental processes
+contig148526,0.718361,protein metabolism
+contig148526,0.718361,cell organization and biogenesis
+contig148526,0.718361,stress response
+contig148578_170429,1.11246,cell adhesion
+contig148578_170429,1.11246,cell cycle and proliferation
+contig148578_170429,1.11246,signal transduction
+contig148578_170429,1.11246,protein metabolism
+contig148578_170429,1.11246,other biological processes
+contig148718,0.733639,signal transduction
+contig148718,0.733639,developmental processes
+contig148718,0.733639,protein metabolism
+contig148718,0.733639,cell adhesion
+contig148718,0.733639,other biological processes
+contig148718,0.733639,cell organization and biogenesis
+contig148718,0.733639,other metabolic processes
+contig148718,0.733639,RNA metabolism
+contig148718,0.733639,stress response
+contig148819,0.558148,protein metabolism
+contig148819,0.558148,RNA metabolism
+contig148844,0.682758,stress response
+contig148854,,
+contig148864,,
+contig148902,,
+contig149293,0.484435,death
+contig149293,0.484435,signal transduction
+contig149293,0.484435,developmental processes
+contig149293,0.484435,cell organization and biogenesis
+contig149293,0.484435,other metabolic processes
+contig149293,0.484435,other biological processes
+contig149293,0.484435,cell cycle and proliferation
+contig149436,,
+contig149663_115749_168693_106597,1.05304,protein metabolism
+contig149663_115749_168693_106597,1.05304,signal transduction
+contig149663_115749_168693_106597,1.05304,other metabolic processes
+contig149835,0.782398,other metabolic processes
+contig149854,0.756314,other biological processes
+contig150050_182788,1.16417,protein metabolism
+contig150050_182788,1.16417,other metabolic processes
+contig150050_182788,1.16417,other biological processes
+contig150119,0.748642,protein metabolism
+contig150119,0.748642,other metabolic processes
+contig150312_171941_143476,1.73787,RNA metabolism
+contig150312_171941_143476,1.73787,other metabolic processes
+contig150330,1.04656,signal transduction
+contig150330,1.04656,other metabolic processes
+contig150330,1.04656,other biological processes
+contig150330,1.04656,protein metabolism
+contig150330,1.04656,stress response
+contig150350_600068_104725_115686_140729,1.34706,developmental processes
+contig150350_600068_104725_115686_140729,1.34706,cell adhesion
+contig150350_600068_104725_115686_140729,1.34706,cell cycle and proliferation
+contig150350_600068_104725_115686_140729,1.34706,other metabolic processes
+contig150350_600068_104725_115686_140729,1.34706,other biological processes
+contig150350_600068_104725_115686_140729,1.34706,signal transduction
+contig150387,0.99325,signal transduction
+contig150387,0.99325,protein metabolism
+contig150424,0.897559,protein metabolism
+contig150424,0.897559,other biological processes
+contig150424,0.897559,developmental processes
+contig150618,0.921617,cell adhesion
+contig150618,0.921617,developmental processes
+contig150618,0.921617,other biological processes
+contig150730,0.934324,RNA metabolism
+contig150762,,
+contig150860,,
+contig150904_59369,,
+contig150944,0.953659,other metabolic processes
+contig150972,0.895993,RNA metabolism
+contig150972,0.895993,developmental processes
+contig150972,0.895993,cell cycle and proliferation
+contig150972,0.895993,other biological processes
+contig150972,0.895993,cell adhesion
+contig150992,1.05455,other biological processes
+contig150992,1.05455,signal transduction
+contig151001,,
+contig151009,0.908646,cell adhesion
+contig151009,0.908646,signal transduction
+contig151009,0.908646,developmental processes
+contig151009,0.908646,cell organization and biogenesis
+contig151009,0.908646,cell cycle and proliferation
+contig151169,,
+contig151176_175734,0.82842,other metabolic processes
+contig151176_175734,0.82842,stress response
+contig151176_175734,0.82842,DNA metabolism
+contig151176_175734,0.82842,cell cycle and proliferation
+contig151176_175734,0.82842,developmental processes
+contig151176_175734,0.82842,other biological processes
+contig151210,,
+contig151254_131525,1.34722,other biological processes
+contig151254_131525,1.34722,developmental processes
+contig151254_131525,1.34722,other metabolic processes
+contig151254_131525,1.34722,transport
+contig151254_131525,1.34722,cell organization and biogenesis
+contig151254_131525,1.34722,stress response
+contig151254_131525,1.34722,signal transduction
+contig151254_131525,1.34722,death
+contig151254_131525,1.34722,cell-cell signaling
+contig151257,0.400369,developmental processes
+contig151257,0.400369,cell adhesion
+contig151257,0.400369,other biological processes
+contig151257,0.400369,cell cycle and proliferation
+contig151304,0.092308,other metabolic processes
+contig151369,,
+contig151370_147712,1.48316,transport
+contig151370_147712,1.48316,other biological processes
+contig151370_147712,1.48316,other metabolic processes
+contig151394,1.00389,transport
+contig151441,,
+contig151563,0.985431,other metabolic processes
+contig151589,0.695108,other metabolic processes
+contig151687,0.647776,other metabolic processes
+contig151868,0.60722,signal transduction
+contig151880,,
+contig152005_180015,0.690447,other biological processes
+contig152025,0.760425,signal transduction
+contig152086_121449,1.19048,RNA metabolism
+contig152086_121449,1.19048,other metabolic processes
+contig152086_121449,1.19048,death
+contig152086_121449,1.19048,other biological processes
+contig152086_121449,1.19048,developmental processes
+contig152098,1.22881,RNA metabolism
+contig152098,1.22881,stress response
+contig152098,1.22881,death
+contig152098,1.22881,cell cycle and proliferation
+contig152098,1.22881,protein metabolism
+contig152098,1.22881,cell organization and biogenesis
+contig152098,1.22881,other biological processes
+contig152098,1.22881,developmental processes
+contig152108,,
+contig152125_210541,0.614466,other biological processes
+contig152125_210541,0.614466,other metabolic processes
+contig152125_210541,0.614466,transport
+contig152125_210541,0.614466,cell cycle and proliferation
+contig152125_210541,0.614466,signal transduction
+contig152125_210541,0.614466,developmental processes
+contig152125_210541,0.614466,cell organization and biogenesis
+contig152163,0.901328,DNA metabolism
+contig152180,0.620944,protein metabolism
+contig152203,0.927778,other metabolic processes
+contig152203,0.927778,other biological processes
+contig152243,1.00082,DNA metabolism
+contig152478,0.76945,developmental processes
+contig152588,0.341001,cell organization and biogenesis
+contig152588,0.341001,transport
+contig152777_153218,0.239478,other metabolic processes
+contig152777_153218,0.239478,transport
+contig152837,,
+contig152884,,
+contig152963,,
+contig152997_143698_202181,1.88499,signal transduction
+contig152997_143698_202181,1.88499,other biological processes
+contig153057_113775,1.02927,protein metabolism
+contig153061_153536,1.50312,other metabolic processes
+contig153061_153536,1.50312,other biological processes
+contig153398,0.472477,signal transduction
+contig153398,0.472477,protein metabolism
+contig153398,0.472477,other metabolic processes
+contig153411,1.00805,developmental processes
+contig153411,1.00805,other biological processes
+contig153451,0.281421,developmental processes
+contig153451,0.281421,protein metabolism
+contig153451,0.281421,death
+contig153451,0.281421,stress response
+contig153451,0.281421,signal transduction
+contig153451,0.281421,cell organization and biogenesis
+contig153451,0.281421,other metabolic processes
+contig153451,0.281421,transport
+contig153451,0.281421,cell-cell signaling
+contig153451,0.281421,other biological processes
+contig153487,,
+contig153512,0.970227,RNA metabolism
+contig153533,0.762971,DNA metabolism
+contig153540_106871,0.774638,transport
+contig153551,0.623358,transport
+contig153551,0.623358,cell organization and biogenesis
+contig153551,0.623358,cell-cell signaling
+contig153551,0.623358,developmental processes
+contig153551,0.623358,other biological processes
+contig153551,0.623358,signal transduction
+contig153580,,
+contig153708,0.805384,other metabolic processes
+contig154098_216400_151636,,
+contig154257,,
+contig154277,1.02761,cell adhesion
+contig155851_69784_130543_130414,0.899189,RNA metabolism
+contig158643_83009,1.30146,transport
+contig158643_83009,1.30146,other biological processes
+contig160699_124129,,
+contig160729_165099,1.44238,signal transduction
+contig160729_165099,1.44238,other metabolic processes
+contig160820,0.540554,DNA metabolism
+contig160820,0.540554,protein metabolism
+contig160820,0.540554,stress response
+contig163512_152421_180625,,
+contig163628,,
+contig164124_75869,,
+contig164196_151076_15361,,
+contig165389_151529_18522_181937_190499,1.38819,other biological processes
+contig16687_106141,1.40882,RNA metabolism
+contig16687_106141,1.40882,cell organization and biogenesis
+contig16687_106141,1.40882,developmental processes
+contig16687_106141,1.40882,other metabolic processes
+contig16687_106141,1.40882,protein metabolism
+contig16687_106141,1.40882,other biological processes
+contig167097,0.977329,cell organization and biogenesis
+contig167097,0.977329,other biological processes
+contig168077,0.997084,RNA metabolism
+contig168077,0.997084,signal transduction
+contig168077,0.997084,developmental processes
+contig168175_163868,,
+contig168744_218437,0.761468,RNA metabolism
+contig168744_218437,0.761468,developmental processes
+contig168744_218437,0.761468,DNA metabolism
+contig168744_218437,0.761468,cell organization and biogenesis
+contig168744_218437,0.761468,death
+contig168744_218437,0.761468,other biological processes
+contig168869_128203_183656_119014,1.01078,developmental processes
+contig168869_128203_183656_119014,1.01078,RNA metabolism
+contig169136,,
+contig169207,0.614197,RNA metabolism
+contig169207,0.614197,signal transduction
+contig169207,0.614197,developmental processes
+contig169222,0.978949,transport
+contig169222,0.978949,stress response
+contig169222,0.978949,other biological processes
+contig169305_25559_207989,0.860993,protein metabolism
+contig169305_25559_207989,0.860993,signal transduction
+contig169305_25559_207989,0.860993,other metabolic processes
+contig169547,0.899839,signal transduction
+contig169547,0.899839,other metabolic processes
+contig169547,0.899839,other biological processes
+contig169547,0.899839,cell-cell signaling
+contig169552,0.965807,RNA metabolism
+contig169552,0.965807,death
+contig169892,,
+contig170019,,
+contig170228_212502,0.6686,RNA metabolism
+contig170228_212502,0.6686,other biological processes
+contig170277_177948,0.761227,developmental processes
+contig170277_177948,0.761227,signal transduction
+contig170277_177948,0.761227,other biological processes
+contig170341,,
+contig170347_172743,1.13481,signal transduction
+contig170478,,
+contig170871,,
+contig171048_211709,,
+contig171542,0.85886,transport
+contig171806,0.868575,transport
+contig171850,1.19557,RNA metabolism
+contig171850,1.19557,developmental processes
+contig171850,1.19557,signal transduction
+contig172456,0.931205,other metabolic processes
+contig172456,0.931205,cell cycle and proliferation
+contig172456,0.931205,transport
+contig172664_169314,0.971439,other metabolic processes
+contig173452,,
+contig174312_92668_146834,,
+contig174339,0.73485,RNA metabolism
+contig174339,0.73485,death
+contig174339,0.73485,developmental processes
+contig174844,,
+contig174933,0.506131,stress response
+contig174942_207975_212421_172070,1.46465,transport
+contig174942_207975_212421_172070,1.46465,cell adhesion
+contig175529,,
+contig175549,0.649934,cell adhesion
+contig176014,0.858686,death
+contig176014,0.858686,signal transduction
+contig176014,0.858686,developmental processes
+contig176071,,
+contig176289_120118_153740_72036_88343_162349,,
+contig176387,,
+contig176428,0.900452,protein metabolism
+contig176554,,
+contig176825,0.361116,developmental processes
+contig176825,0.361116,cell adhesion
+contig176825,0.361116,other biological processes
+contig176825,0.361116,cell cycle and proliferation
+contig176840_73113,1.01089,RNA metabolism
+contig177227_183374_183521,,
+contig177247,0.706399,cell adhesion
+contig177311_209973,0.753216,stress response
+contig177311_209973,0.753216,other metabolic processes
+contig177321_106959_163805,,
+contig177355,0.5167,death
+contig177775_113472,0.770472,transport
+contig177812,0.997837,cell adhesion
+contig177812,0.997837,developmental processes
+contig177812,0.997837,cell organization and biogenesis
+contig178292,0.9366,signal transduction
+contig178465_186930,0.929327,protein metabolism
+contig178805,,
+contig179428,,
+contig179752_152675,,
+contig180069_202390_155736,0.787741,other metabolic processes
+contig180146_147773,0.893319,other biological processes
+contig180146_147773,0.893319,signal transduction
+contig180146_147773,0.893319,stress response
+contig180146_147773,0.893319,death
+contig180146_147773,0.893319,protein metabolism
+contig180146_147773,0.893319,RNA metabolism
+contig180209,,
+contig180227,0.583533,cell adhesion
+contig180626,0.688334,developmental processes
+contig180626,0.688334,other biological processes
+contig180626,0.688334,cell adhesion
+contig180626,0.688334,cell organization and biogenesis
+contig180626,0.688334,cell-cell signaling
+contig180735,,
+contig180885_212540,,
+contig181073,,
+contig181809,0.68252,protein metabolism
+contig181848_203465,0.659622,signal transduction
+contig181848_203465,0.659622,stress response
+contig181848_203465,0.659622,protein metabolism
+contig181848_203465,0.659622,cell cycle and proliferation
+contig181848_203465,0.659622,other metabolic processes
+contig181848_203465,0.659622,other biological processes
+contig181848_203465,0.659622,death
+contig181886,,
+contig182161,,
+contig182344_209692_156646,1.15421,RNA metabolism
+contig182344_209692_156646,1.15421,developmental processes
+contig182344_209692_156646,1.15421,death
+contig182344_209692_156646,1.15421,signal transduction
+contig182344_209692_156646,1.15421,stress response
+contig182344_209692_156646,1.15421,protein metabolism
+contig182344_209692_156646,1.15421,cell-cell signaling
+contig182344_209692_156646,1.15421,cell organization and biogenesis
+contig182344_209692_156646,1.15421,cell cycle and proliferation
+contig182344_209692_156646,1.15421,other metabolic processes
+contig182344_209692_156646,1.15421,other biological processes
+contig182344_209692_156646,1.15421,cell adhesion
+contig182661,,
+contig182735,,
+contig182805,,
+contig182921,,
+contig183334,0.666022,DNA metabolism
+contig183349,0.177332,protein metabolism
+contig183349,0.177332,other metabolic processes
+contig183427,0.832951,other metabolic processes
+contig183476_177569_181896_214651,0.923322,cell adhesion
+contig183476_177569_181896_214651,0.923322,other biological processes
+contig183476_177569_181896_214651,0.923322,stress response
+contig183476_177569_181896_214651,0.923322,developmental processes
+contig183476_177569_181896_214651,0.923322,cell organization and biogenesis
+contig183476_177569_181896_214651,0.923322,cell cycle and proliferation
+contig183476_177569_181896_214651,0.923322,death
+contig183530,0.95018,cell adhesion
+contig183530,0.95018,signal transduction
+contig183530,0.95018,other biological processes
+contig183530,0.95018,developmental processes
+contig183530,0.95018,cell organization and biogenesis
+contig184161,,
+contig184253_153996_125963,0.691742,other metabolic processes
+contig184253_153996_125963,0.691742,other biological processes
+contig184743_176412,0.852513,other metabolic processes
+contig184743_176412,0.852513,stress response
+contig184743_176412,0.852513,DNA metabolism
+contig184743_176412,0.852513,cell cycle and proliferation
+contig184743_176412,0.852513,developmental processes
+contig184743_176412,0.852513,other biological processes
+contig185021_212691,1.64796,protein metabolism
+contig185021_212691,1.64796,stress response
+contig185035_132504,0.732396,other metabolic processes
+contig185261,1.13097,other metabolic processes
+contig185892,1.14547,stress response
+contig185892,1.14547,other metabolic processes
+contig186997_189048,1.05329,RNA metabolism
+contig186997_189048,1.05329,protein metabolism
+contig186997_189048,1.05329,developmental processes
+contig186997_189048,1.05329,other biological processes
+contig186997_189048,1.05329,signal transduction
+contig186997_189048,1.05329,other metabolic processes
+contig186997_189048,1.05329,cell cycle and proliferation
+contig186997_189048,1.05329,death
+contig186997_189048,1.05329,stress response
+contig186997_189048,1.05329,transport
+contig187488,0.612197,stress response
+contig187488,0.612197,developmental processes
+contig187488,0.612197,other biological processes
+contig188795,0.993772,other metabolic processes
+contig188795,0.993772,transport
+contig188795,0.993772,stress response
+contig189142,0.723349,other metabolic processes
+contig189881_190487_185006,0.972934,protein metabolism
+contig190695,0.576732,transport
+contig190695,0.576732,stress response
+contig190695,0.576732,other biological processes
+contig191389,,
+contig191672,,
+contig196008_74613_169873,1.09819,protein metabolism
+contig196008_74613_169873,1.09819,signal transduction
+contig196008_74613_169873,1.09819,other metabolic processes
+contig196008_74613_169873,1.09819,RNA metabolism
+contig196008_74613_169873,1.09819,stress response
+contig202169,,
+contig202444_149735_68940,1.13428,RNA metabolism
+contig202558,0.751951,developmental processes
+contig202558,0.751951,cell adhesion
+contig202558,0.751951,protein metabolism
+contig202558,0.751951,other metabolic processes
+contig202558,0.751951,other biological processes
+contig202580,0.857027,transport
+contig202580,0.857027,other metabolic processes
+contig202580,0.857027,cell-cell signaling
+contig203152,0.81067,protein metabolism
+contig203152,0.81067,other biological processes
+contig203152,0.81067,developmental processes
+contig203476_78150,1.19482,RNA metabolism
+contig203791,0.946657,transport
+contig203791,0.946657,signal transduction
+contig203903,,
+contig204059_107223,0.860965,transport
+contig204059_107223,0.860965,signal transduction
+contig204162,0.914357,protein metabolism
+contig204162,0.914357,other metabolic processes
+contig204384_69966,0.791,other metabolic processes
+contig204494,,
+contig204498_215999,,
+contig204570,,
+contig204720,,
+contig204757,0.31717,other biological processes
+contig204858,0.893619,signal transduction
+contig204858,0.893619,protein metabolism
+contig205150,,
+contig205447,,
+contig205500_82664,0.487715,other metabolic processes
+contig205500_82664,0.487715,transport
+contig205500_82664,0.487715,other biological processes
+contig20560_75497_77159_157449_153078_2686_1982_70929_195032_146807_138143,1.73791,developmental processes
+contig20560_75497_77159_157449_153078_2686_1982_70929_195032_146807_138143,1.73791,cell cycle and proliferation
+contig20560_75497_77159_157449_153078_2686_1982_70929_195032_146807_138143,1.73791,signal transduction
+contig20560_75497_77159_157449_153078_2686_1982_70929_195032_146807_138143,1.73791,stress response
+contig20560_75497_77159_157449_153078_2686_1982_70929_195032_146807_138143,1.73791,transport
+contig20560_75497_77159_157449_153078_2686_1982_70929_195032_146807_138143,1.73791,other biological processes
+contig205659_169896,,
+contig205729_117447,,
+contig205889,0.754858,RNA metabolism
+contig205962,0.516147,transport
+contig205962,0.516147,other biological processes
+contig206001,0.456332,RNA metabolism
+contig206001,0.456332,cell organization and biogenesis
+contig206001,0.456332,other metabolic processes
+contig207209,0.410299,RNA metabolism
+contig207209,0.410299,other metabolic processes
+contig207822_151512,0.985693,cell adhesion
+contig207914,0.670811,transport
+contig207914,0.670811,cell organization and biogenesis
+contig207933,0.29279,other biological processes
+contig207933,0.29279,stress response
+contig207933,0.29279,protein metabolism
+contig207933,0.29279,death
+contig207943,,
+contig208026,0.938422,other metabolic processes
+contig208333,,
+contig208870,0.808885,other biological processes
+contig208887_160928_119892,1.18594,transport
+contig209037,0.634569,protein metabolism
+contig209263,0.163309,RNA metabolism
+contig209263,0.163309,stress response
+contig209414,1.20804,RNA metabolism
+contig209414,1.20804,developmental processes
+contig209414,1.20804,protein metabolism
+contig209762,0.187965,cell cycle and proliferation
+contig209762,0.187965,DNA metabolism
+contig209762,0.187965,cell organization and biogenesis
+contig209762,0.187965,other biological processes
+contig209919,,
+contig210130_81208,,
+contig210176,1.08052,other metabolic processes
+contig210176,1.08052,signal transduction
+contig210176,1.08052,stress response
+contig210910,0.277656,signal transduction
+contig210910,0.277656,developmental processes
+contig210910,0.277656,other biological processes
+contig211162,,
+contig211207,0.829241,other biological processes
+contig211526_160551_158949,,
+contig211919_179573,0.958164,cell organization and biogenesis
+contig212180,1.0626,transport
+contig212180,1.0626,other biological processes
+contig212439,,
+contig213123,,
+contig214192,1.10422,signal transduction
+contig21534_18230_60132_170392_118690_141460_99833_108651_71134_138347,1.05373,other metabolic processes
+contig215871,,
+contig216115,,
+contig216267,1.24466,signal transduction
+contig216267,1.24466,other biological processes
+contig216267,1.24466,protein metabolism
+contig216502,,
+contig216658,0.711534,signal transduction
+contig217126,,
+contig217137,0.767361,RNA metabolism
+contig217137,0.767361,DNA metabolism
+contig217137,0.767361,stress response
+contig217137,0.767361,protein metabolism
+contig217137,0.767361,cell organization and biogenesis
+contig217137,0.767361,cell cycle and proliferation
+contig218659,0.805411,transport
+contig218790,,
+contig219036,0.759807,signal transduction
+contig22527_87711_98734_175004_111096_100122,1.30432,cell adhesion
+contig23030_82703,0.742405,RNA metabolism
+contig23030_82703,0.742405,cell organization and biogenesis
+contig23030_82703,0.742405,developmental processes
+contig23030_82703,0.742405,other metabolic processes
+contig23030_82703,0.742405,protein metabolism
+contig23030_82703,0.742405,other biological processes
+contig24655_189447_112899,1.41551,cell adhesion
+contig24655_189447_112899,1.41551,developmental processes
+contig24655_189447_112899,1.41551,other biological processes
+contig24655_189447_112899,1.41551,cell organization and biogenesis
+contig25115_185846_195739_54681,1.01356,cell organization and biogenesis
+contig25115_185846_195739_54681,1.01356,signal transduction
+contig25115_185846_195739_54681,1.01356,cell cycle and proliferation
+contig25115_185846_195739_54681,1.01356,other biological processes
+contig25439_207007_158989_78049,,
+contig25787,0.817316,other metabolic processes
+contig25787,0.817316,other biological processes
+contig26235_203593,1.01167,RNA metabolism
+contig26421_97721,,
+contig26490_75511_105608_209803,0.552218,protein metabolism
+contig26490_75511_105608_209803,0.552218,death
+contig4139_178421_174266,1.11804,developmental processes
+contig4139_178421_174266,1.11804,cell organization and biogenesis
+contig4139_178421_174266,1.11804,cell cycle and proliferation
+contig4139_178421_174266,1.11804,other biological processes
+contig4139_178421_174266,1.11804,signal transduction
+contig4139_178421_174266,1.11804,death
+contig44815_68504_129659_205001,1.26577,RNA metabolism
+contig44815_68504_129659_205001,1.26577,other biological processes
+contig51215,,
+contig51424,,
+contig55047,,
+contig5637_13719,0.927947,developmental processes
+contig56921,0.847954,DNA metabolism
+contig56921,0.847954,cell cycle and proliferation
+contig56921,0.847954,developmental processes
+contig56921,0.847954,stress response
+contig58472,1.09931,cell adhesion
+contig58472,1.09931,cell organization and biogenesis
+contig59025,0.932877,cell adhesion
+contig59163,,
+contig59640,0.350104,RNA metabolism
+contig59640,0.350104,stress response
+contig59640,0.350104,other biological processes
+contig59640,0.350104,other metabolic processes
+contig600046,,
+contig600050,0.758995,other biological processes
+contig600050,0.758995,other metabolic processes
+contig600067,0.831774,cell cycle and proliferation
+contig600067,0.831774,RNA metabolism
+contig600117,1.26046,stress response
+contig600117,1.26046,other metabolic processes
+contig600166_215284,,
+contig600230,,
+contig600231,,
+contig65005,0.963533,RNA metabolism
+contig65069,1.04106,RNA metabolism
+contig65069,1.04106,developmental processes
+contig65069,1.04106,cell organization and biogenesis
+contig65069,1.04106,cell adhesion
+contig65069,1.04106,signal transduction
+contig65069,1.04106,transport
+contig65069,1.04106,cell cycle and proliferation
+contig65069,1.04106,other biological processes
+contig65069,1.04106,protein metabolism
+contig65069,1.04106,cell-cell signaling
+contig65131,,
+contig6552_73732_158542,1.39422,RNA metabolism
+contig6552_73732_158542,1.39422,other biological processes
+contig6552_73732_158542,1.39422,developmental processes
+contig65606_193634,1.43263,other metabolic processes
+contig65606_193634,1.43263,transport
+contig65606_193634,1.43263,other biological processes
+contig65771,1.05082,transport
+contig65771,1.05082,other metabolic processes
+contig65771,1.05082,stress response
+contig65771,1.05082,other biological processes
+contig65983,0.970417,RNA metabolism
+contig65983,0.970417,developmental processes
+contig65983,0.970417,other biological processes
+contig65983,0.970417,signal transduction
+contig65983,0.970417,transport
+contig66224,0.934683,transport
+contig66659,1.12073,transport
+contig66659,1.12073,other biological processes
+contig66659,1.12073,signal transduction
+contig66659,1.12073,other metabolic processes
+contig66659,1.12073,cell organization and biogenesis
+contig66659,1.12073,cell-cell signaling
+contig66659,1.12073,developmental processes
+contig66661,0.872482,cell adhesion
+contig66661,0.872482,signal transduction
+contig66661,0.872482,developmental processes
+contig66661,0.872482,cell organization and biogenesis
+contig66661,0.872482,cell cycle and proliferation
+contig66895,,
+contig68090,0.487014,other biological processes
+contig68090,0.487014,other metabolic processes
+contig68345_167703_140211_178478_106978,1.11694,other metabolic processes
+contig68366,1.19741,signal transduction
+contig68366,1.19741,other metabolic processes
+contig68366,1.19741,other biological processes
+contig68366,1.19741,cell-cell signaling
+contig68383_180363_132010,0.374417,RNA metabolism
+contig68383_180363_132010,0.374417,developmental processes
+contig69044,0.922723,other biological processes
+contig69293,,
+contig69564_174821,0.861873,transport
+contig69564_174821,0.861873,cell organization and biogenesis
+contig69564_174821,0.861873,other biological processes
+contig70061_148962,,
+contig70329_204894_180464,1.21917,signal transduction
+contig70329_204894_180464,1.21917,other biological processes
+contig70641_96182,,
+contig71113,0.969442,cell organization and biogenesis
+contig71142,,
+contig71265_179230,0.622216,death
+contig71265_179230,0.622216,cell organization and biogenesis
+contig71477_78060,1.36501,stress response
+contig71834,0.850801,protein metabolism
+contig71834,0.850801,other biological processes
+contig71834,0.850801,developmental processes
+contig71967,0.867614,RNA metabolism
+contig71967,0.867614,developmental processes
+contig71967,0.867614,cell-cell signaling
+contig71967,0.867614,cell cycle and proliferation
+contig71967,0.867614,protein metabolism
+contig71967,0.867614,other biological processes
+contig71967,0.867614,signal transduction
+contig71967,0.867614,other metabolic processes
+contig71967,0.867614,cell organization and biogenesis
+contig71967,0.867614,death
+contig72119,0.773426,transport
+contig72119,0.773426,other biological processes
+contig72658,0.866511,developmental processes
+contig72788,0.879784,protein metabolism
+contig72992,,
+contig73407_16909,,
+contig73908,0.472907,RNA metabolism
+contig73908,0.472907,developmental processes
+contig73908,0.472907,cell cycle and proliferation
+contig73908,0.472907,protein metabolism
+contig73908,0.472907,death
+contig73908,0.472907,cell-cell signaling
+contig73908,0.472907,cell organization and biogenesis
+contig73908,0.472907,signal transduction
+contig73908,0.472907,other biological processes
+contig73908,0.472907,other metabolic processes
+contig73924,,
+contig74260,1.22412,death
+contig74260,1.22412,signal transduction
+contig74260,1.22412,other biological processes
+contig74363_90184,,
+contig74622,0.805378,other metabolic processes
+contig74709_19182,0.663286,protein metabolism
+contig74709_19182,0.663286,other metabolic processes
+contig74750,,
+contig74800_140085,,
+contig74942,,
+contig74965,0.827075,transport
+contig74965,0.827075,signal transduction
+contig7520_171270_93307,,
+contig75209,0.798742,RNA metabolism
+contig75209,0.798742,protein metabolism
+contig75209,0.798742,other metabolic processes
+contig75250,0.922883,transport
+contig75250,0.922883,cell organization and biogenesis
+contig75270_68656,,
+contig75594,0.94535,other metabolic processes
+contig75607_169164_74746,1.35738,other biological processes
+contig76115,0.673705,developmental processes
+contig76404,0.904112,RNA metabolism
+contig76404,0.904112,developmental processes
+contig76526,0.649755,RNA metabolism
+contig76526,0.649755,developmental processes
+contig76526,0.649755,other biological processes
+contig76526,0.649755,transport
+contig76526,0.649755,cell-cell signaling
+contig76620_96728,0.983838,other biological processes
+contig76620_96728,0.983838,signal transduction
+contig77013,,
+contig77121,0.917984,other metabolic processes
+contig77601_207123,0.701044,transport
+contig77601_207123,0.701044,developmental processes
+contig77601_207123,0.701044,other biological processes
+contig77727,0.876562,signal transduction
+contig77727,0.876562,other biological processes
+contig77755_70614_107573,0.823651,other biological processes
+contig77755_70614_107573,0.823651,transport
+contig77755_70614_107573,0.823651,stress response
+contig77844,0.668139,cell adhesion
+contig78105_108948_169460,1.21373,developmental processes
+contig78105_108948_169460,1.21373,cell adhesion
+contig78105_108948_169460,1.21373,other biological processes
+contig78105_108948_169460,1.21373,signal transduction
+contig78105_108948_169460,1.21373,cell organization and biogenesis
+contig78105_108948_169460,1.21373,cell-cell signaling
+contig78166,0.707433,transport
+contig78166,0.707433,developmental processes
+contig78166,0.707433,other biological processes
+contig78169,0.765839,cell adhesion
+contig78542,,
+contig78655_98713,1.0898,other biological processes
+contig78998,0.437363,cell cycle and proliferation
+contig78998,0.437363,cell organization and biogenesis
+contig78998,0.437363,other biological processes
+contig79087,0.877274,RNA metabolism
+contig79087,0.877274,other biological processes
+contig79161,,
+contig79495_132352,1.09373,other biological processes
+contig79581,1.14,RNA metabolism
+contig79581,1.14,cell cycle and proliferation
+contig79613_159385,,
+contig79838,0.682852,signal transduction
+contig79838,0.682852,stress response
+contig79838,0.682852,transport
+contig79838,0.682852,cell organization and biogenesis
+contig79838,0.682852,other biological processes
+contig79841_173655,1.10507,RNA metabolism
+contig79914,0.453962,other biological processes
+contig79914,0.453962,other metabolic processes
+contig80216,0.647116,other biological processes
+contig80216,0.647116,developmental processes
+contig80216,0.647116,cell adhesion
+contig80216,0.647116,cell organization and biogenesis
+contig80700,1.01969,developmental processes
+contig80700,1.01969,RNA metabolism
+contig80700,1.01969,cell cycle and proliferation
+contig80700,1.01969,other biological processes
+contig80872,,
+contig81073,,
+contig82471_178771_78224_152713,1.72003,other biological processes
+contig82634,0.154958,death
+contig82634,0.154958,signal transduction
+contig82634,0.154958,developmental processes
+contig82634,0.154958,cell organization and biogenesis
+contig82634,0.154958,other metabolic processes
+contig82634,0.154958,other biological processes
+contig82634,0.154958,cell cycle and proliferation
+contig82675,0.957099,developmental processes
+contig82675,0.957099,RNA metabolism
+contig82675,0.957099,other biological processes
+contig82716_77941,2.06208,signal transduction
+contig82818,0.699716,other metabolic processes
+contig83050,,
+contig8577_140623,0.248912,other biological processes
+contig8602_188720,7.57542,other metabolic processes
+contig8602_188720,7.57542,transport
+contig8602_188720,7.57542,developmental processes
+contig8602_188720,7.57542,cell organization and biogenesis
+contig87938,0.959869,developmental processes
+contig87938,0.959869,cell adhesion
+contig87938,0.959869,signal transduction
+contig87938,0.959869,other biological processes
+contig87938,0.959869,cell organization and biogenesis
+contig87938,0.959869,stress response
+contig91758,0.74181,developmental processes
+contig92386,0.702157,other biological processes
+contig92386,0.702157,developmental processes
+contig92386,0.702157,cell organization and biogenesis
+contig92386,0.702157,protein metabolism
+contig92386,0.702157,other metabolic processes
+contig92662,0.295825,protein metabolism
+contig92662,0.295825,RNA metabolism
+contig93670,1.03136,other biological processes
+contig93732,0.830275,other metabolic processes
+contig93732,0.830275,developmental processes
+contig93732,0.830275,other biological processes
+contig9516,0.899129,other metabolic processes
+contig96421_189251,,
+contig96499,,
+contig97794_175986_93895,0.797713,developmental processes
+contig97794_175986_93895,0.797713,RNA metabolism
+contig98199,0.724031,other biological processes
+contig98199,0.724031,cell organization and biogenesis
+contig98199,0.724031,death
+contig98199,0.724031,signal transduction
+contig98199,0.724031,other metabolic processes
+contig98199,0.724031,stress response
+contig98199,0.724031,protein metabolism
+contig98199,0.724031,RNA metabolism
+contig98618,0.660431,other metabolic processes
+contig98618,0.660431,other biological processes
+contig98984,0.76858,transport
+contig98984,0.76858,other metabolic processes
+contig98984,0.76858,stress response
+contig98984,0.76858,other biological processes
+contig99157,0.511279,transport
+contig99523,0.785016,cell adhesion
+contig99523,0.785016,cell cycle and proliferation
+contig99523,0.785016,signal transduction
+contig99523,0.785016,protein metabolism
+contig99523,0.785016,other biological processes
