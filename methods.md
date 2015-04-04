@@ -14,20 +14,28 @@ Organism | Transcriptome reference | Data link | # Contigs
 *Stylophora pistillata* | Karako-Lampert et al. (2014) | [URL](http://data.centrescientifique.mc/Data/454Isotigs.fas.zip) | 15,052
 
 
-**Differentially expressed gene datasets**
+_**Differentially expressed gene datasets**_
+
+In addition to analyzing whole transcriptomes we also examined corresponding differentially expressed gene sets. For xxx these gene sets were described in the manuscripts mentioned above (citations), and for xxxx sp xxx differentially expressed genes sets were reported in xxxxx, respectively. Table 2 summarizes these data.
+
+
+
+
+
+
 
 
 
 
 _**Annotation**_
 
-In order to maintain consistancy in comparing dataset all transcriptomes were annotated using Blastx (version 2.2.29) for comparison to the UniProt/Swiss-Prot protein database (version 2/17/2015). Parameters for blastx were as follows: maximum number of target sequences = 1; maximum number of high-scoring pairs = 1; E-value = 10<sup>-5</sup>; number of threads = 8. 
+In order to maintain consistency in comparing datasets all transcriptomes, and in come cases differentially expressed gene sets were annotated using Blastx (version 2.2.29) for comparison to the UniProt/Swiss-Prot protein database (version 2/17/2015). Parameters for blastx were as follows: maximum number of target sequences = 1; maximum number of high-scoring pairs = 1; E-value = 10<sup>-5</sup>; number of threads = 8. 
 
 SQLShare was used to join annotation results with associated GO terms (Gene Ontology database: http://www.geneontology.org) to categorize genes into parent categories and assign them a functional group based on the MGI GO Slim database (URL:http://www.informatics.jax.org). All code used for transcriptome annotation is available (URLURLURL).
 
 _**Predicted germline methylation**_
 
-Germline methylation levels were inferred based on the hypermutability of methylated cytosines, which tend towards conversion to thymines over evolutionary time. This results in a reduction in CpG dinucleotides, meaning that historically heavily methylated genomic regions are associated with reduced numbers of CpGs. We used an IPython notebook workflow as a pipeline for analysis of CpG O/E. CpG O/E 
+Germline methylation levels were inferred based on the hypermutability of methylated cytosines, which tend towards conversion to thymines over evolutionary time. This results in a reduction in CpG dinucleotides, meaning that historically heavily methylated genomic regions are associated with reduced numbers of CpGs. CpG O/E 
 was calculated as:
 
 CpG O/E = (number of CpG / number of C x number of G) x (l<sup>2</sup>/l-1)
