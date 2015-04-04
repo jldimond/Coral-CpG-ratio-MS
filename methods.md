@@ -2,7 +2,7 @@
 
 _**Transcriptome data sources**_
 
-Predicted germline methylation patterns in the transcriptomes of six scleractinian coral species were evaluated based on gene function. including *Acropora hyacinthus*, *A. millepora*, *A. palmata*, *Orbicella faveolata, *Stylophora pistillata*, and *Pocillopora damicornis*. Table 1 (in progress) describes the data sources used in the analyses. 
+Transcriptomes of six scleractinian coral species were evaluated based on gene function. including *Acropora hyacinthus*, *A. millepora*, *A. palmata*, *Orbicella faveolata, *Stylophora pistillata*, and *Pocillopora damicornis*. Table 1 (in progress) describes the data sources used in the analyses. 
 
 #####Table 1.Transcriptomes used in the study
 Organism | Transcriptome reference | Data link | # Contigs
@@ -13,6 +13,8 @@ Organism | Transcriptome reference | Data link | # Contigs
 *Pocillopora damicornis* | Vidal-Dupiol et al. (2013) | [URL](http://2ei.univ-perp.fr/telechargement/transcriptomes/blast2go_fasta_Pdamv2.zip) | 72,890
 *Stylophora pistillata* | Karako-Lampert et al. (2014) | [URL](http://data.centrescientifique.mc/Data/454Isotigs.fas.zip) | 15,052
 
+
+**Differentially expressed gene datasets**
 
 
 
