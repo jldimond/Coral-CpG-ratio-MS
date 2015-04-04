@@ -1,4 +1,4 @@
-#Methods
+
 
 _**Transcriptome data sources**_
 
@@ -14,7 +14,10 @@ Organism | Transcriptome reference | Data link | # Contigs
 *Stylophora pistillata* | Karako-Lampert et al. (2014) | [URL](http://data.centrescientifique.mc/Data/454Isotigs.fas.zip) | 15,052
 
 
-_**Transcriptome annotation**_
+
+
+
+_**Annotation**_
 
 In order to maintain consistancy in comparing dataset all transcriptomes were annotated using Blastx (version 2.2.29) for comparison to the UniProt/Swiss-Prot protein database (version 2/17/2015). Parameters for blastx were as follows: maximum number of target sequences = 1; maximum number of high-scoring pairs = 1; E-value = 10<sup>-5</sup>; number of threads = 8. 
 
