@@ -50,4 +50,5 @@ To permit analysis of these data based on GOslim terms, the data were joined wit
 
 Details of germline methylation prediction are provided in accompanying jupyter notebook (ref)
 
-
+**Statiscal Analysis**
+~~~~NEED means to determine if bimodal~~~~
