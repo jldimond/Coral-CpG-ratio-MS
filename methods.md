@@ -2,7 +2,7 @@
 
 _**Transcriptome data sources**_
 
-Transcriptomes of six scleractinian coral species were evaluated based on gene function. including *Acropora hyacinthus*, *A. millepora*, *A. palmata*, *Orbicella faveolata, *Stylophora pistillata*, and *Pocillopora damicornis*. Table 1 (in progress) describes the data sources used in the analyses. 
+Transcriptomes of six scleractinian coral species were evaluated to determine germlline methylation patterns in relation to gene function and activity. These transcriptomes including *Acropora hyacinthus*, *A. millepora*, *A. palmata*, *Orbicella faveolata, *Stylophora pistillata*, and *Pocillopora damicornis*. Table 1 (in progress) describes the data sources used in the analyses. 
 
 #####Table 1.Transcriptomes used in the study
 Organism | Transcriptome reference | Data link | # Contigs
@@ -16,7 +16,7 @@ Organism | Transcriptome reference | Data link | # Contigs
 
 _**Differentially expressed gene datasets**_
 
-In addition to analyzing whole transcriptomes we also examined corresponding differentially expressed gene sets. For xxx these gene sets were described in the manuscripts mentioned above (citations), and for xxxx sp xxx differentially expressed genes sets were reported in xxxxx, respectively. Table 2 summarizes these data.
+In addition to analyzing whole transcriptomes we also examined corresponding differentially expressed gene sets. For x spxx these gene sets were described in the manuscripts mentioned above (citations), and for xxxx sp xxx differentially expressed genes sets were reported in xxxxx, respectively. Table 2 summarizes these data.
 
 
 
@@ -29,12 +29,12 @@ In addition to analyzing whole transcriptomes we also examined corresponding dif
 
 _**Annotation**_
 
-In order to maintain consistency in comparing datasets all transcriptomes, and in come cases differentially expressed gene sets were annotated using Blastx (version 2.2.29) for comparison to the UniProt/Swiss-Prot protein database (version 2/17/2015). Parameters for blastx were as follows: maximum number of target sequences = 1; maximum number of high-scoring pairs = 1; E-value = 10<sup>-5</sup>; number of threads = 8. 
+In order to maintain consistency in comparing datasets, all transcriptomes, and in some cases differentially expressed gene sets, were compared to the UniProt/Swiss-Prot protein database (version 2/17/2015) using Blastx (version 2.2.29) using a evalue threshold E-value = 10<sup>-5</sup>. 
 
+Corresponding Gene Ontology Slim terms were ide
 SQLShare was used to join annotation results with associated GO terms (Gene Ontology database: http://www.geneontology.org) to categorize genes into parent categories and assign them a functional group based on the MGI GO Slim database (URL:http://www.informatics.jax.org). All code used for transcriptome annotation is available (URLURLURL).
 
-
-Details of annotation are provided in accompanying jupyter notebook (ref)
+Complete details of annotation are provided in accompanying jupyter notebook (ref)
 
 
 _**Predicted germline methylation**_
