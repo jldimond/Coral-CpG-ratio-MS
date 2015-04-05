@@ -1,7 +1,6 @@
 
 _**Predicted Gene Methylation**_    
 
+Whole trancriptome ....
 
-
-_**Transcriptome Annotation**_   
 
