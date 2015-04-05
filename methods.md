@@ -31,24 +31,25 @@ _**Annotation**_
 
 In order to maintain consistency in comparing datasets, all transcriptomes, and in some cases differentially expressed gene sets, were compared to the UniProt/Swiss-Prot protein database (version 2/17/2015) using Blastx (version 2.2.29) using a evalue threshold E-value = 10<sup>-5</sup>. 
 
-Corresponding Gene Ontology Slim terms were ide
-SQLShare was used to join annotation results with associated GO terms (Gene Ontology database: http://www.geneontology.org) to categorize genes into parent categories and assign them a functional group based on the MGI GO Slim database (URL:http://www.informatics.jax.org). All code used for transcriptome annotation is available (URLURLURL).
+Corresponding Gene Ontology Slim terms were identified by joining iwth <<<<>>> and <<<>>>>> using SQLShare (citation). 
 
 Complete details of annotation are provided in accompanying jupyter notebook (ref)
 
 
 _**Predicted germline methylation**_
 
-Germline methylation levels were inferred based on the hypermutability of methylated cytosines, which tend towards conversion to thymines over evolutionary time. This results in a reduction in CpG dinucleotides, meaning that historically heavily methylated genomic regions are associated with reduced numbers of CpGs. CpG O/E 
+Germline methylation levels were inferred based on the hypermutability of methylated cytosines, which tend towards conversion to thymines over evolutionary time. This results in a reduction in CpG dinucleotides, meaning that historically heavily methylated genomic regions are associated with reduced numbers of CpGs. Specifically, CpG O/E 
 was calculated as:
 
 CpG O/E = (number of CpG / number of C x number of G) x (l<sup>2</sup>/l-1)
 
 where l is the number of nucleotides in the contig.
 
-To permit analysis of these data based on GOslim terms, the data were joined with the GOslim annotation file described above based on common contig ID numbers. However, because the GOslim annotation file contained contigs that were duplicated if they fell into more than one GOslim bin, whole-transcriptome CpG O/E patterns were analyzed using the data generated prior to joining with GOslim annotation files.
+
+
 
 Details of germline methylation prediction are provided in accompanying jupyter notebook (ref)
 
-**Statiscal Analysis**
+**Statiscal Analysis**       
+Mean  CpG O/E values were calculated for each GOslim biological process???
 ~~~~NEED means to determine if bimodal~~~~
