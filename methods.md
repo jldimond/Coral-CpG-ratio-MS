@@ -48,8 +48,7 @@ sr320@washington.edu/SPID%20and%20GO%20Numbers) and
 [GO_to_GOslim](https://sqlshare.escience.washington.edu/sqlshare/#s=
 query/sr320%40washington.edu/GO_to_GOslim) using SQLShare (citation).
 
-Complete details of annotation are provided in accompanying jupyter notebook
-(https://github.com/jldimond/Coral-CpG-ratio-MS/tree/master/ipynb)
+Complete details of annotation are provided in accompanying [jupyter notebook](https://github.com/jldimond/Coral-CpG-ratio-MS/tree/master/ipynb).
 
 
 _**Predicted germline methylation**_
@@ -66,8 +65,7 @@ where l is the number of nucleotides in the contig.
 
 
 
-Details of germline methylation prediction are provided in accompanying jupyter notebook
-(https://github.com/jldimond/Coral-CpG-ratio-MS/tree/master/ipynb)
+Details of germline methylation prediction are provided in accompanying [jupyter notebook] (https://github.com/jldimond/Coral-CpG-ratio-MS/tree/master/ipynb).
 
 **Statiscal Analysis** 
 
