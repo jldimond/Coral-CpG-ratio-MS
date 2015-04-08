@@ -4,21 +4,18 @@ _**Transcriptome data sources**_
 
 Transcriptomes of six scleractinian coral species were evaluated to determine germline methylation
 patterns in relation to gene function and activity. These transcriptomes including *Acropora
-hyacinthus*, *A. millepora*, *A. palmata*, *Orbicella faveolata, *Stylophora pistillata*, and
+hyacinthus*, *A. millepora*, *A. palmata*, *Stylophora pistillata*, and
 *Pocillopora damicornis*. Table 1 (in progress) describes the data sources used in the analyses.
 
-#####Table 1. Transcriptomes used in this study Organism | Transcriptome reference | Data link | #
-#####Contigs --------- | ---------- | --------- | -------- *Acropora hyacinthus* | Barshis et al.
-#####(2013) | [URL](http://palumbi.stanford.edu/data/33496_Ahyacinthus_CoralContigs. fasta.zip) |
-#####33,496 *Acropora millepora* | Moya et al. (2012) |
-#####[URL](http://www.ncbi.nlm.nih.gov/nuccore?term=74409%5BBioProject%5D) | 52,963 *Acropora
-#####palmata* | Polato et al. (2011) |
-#####[URL](https://usegalaxy.org/datasets/cb51c4a06d7ae94e/display?to_ext= fasta) | 88,020
-#####*Pocillopora damicornis* | Vidal-Dupiol et al. (2013) |
-#####[URL](http://2ei.univ-perp.fr/telechargement/transcriptomes/ blast2go_fasta_Pdamv2.zip) |
-#####72,890 *Stylophora pistillata* | Karako-Lampert et al. (2014) |
-#####[URL](http://data.centrescientifique.mc/Data/454Isotigs.fas.zip) | 15,052
-#####
+Table 1. Transcriptomes used in this study 
+
+Organism | Transcriptome reference | Data link | # Contigs 
+--------- | ---------- | --------- | -------- 
+*Acropora hyacinthus* | Barshis et al. (2013) | [URL](http://palumbi.stanford.edu/data/33496_Ahyacinthus_CoralContigs.fasta.zip) | 33,496 
+*Acropora millepora* | Moya et al. (2012) | [URL](http://www.ncbi.nlm.nih.gov/nuccore?term=74409%5BBioProject%5D) | 52,963
+*Acropora palmata* | Polato et al. (2011) | [URL](https://usegalaxy.org/datasets/cb51c4a06d7ae94e/display?to_ext= fasta) | 88,020
+*Pocillopora damicornis* | Vidal-Dupiol et al. (2013) | [URL](http://2ei.univ-perp.fr/telechargement/transcriptomes/ blast2go_fasta_Pdamv2.zip) | 72,890 
+*Stylophora pistillata* | Karako-Lampert et al. (2014) | [URL](http://data.centrescientifique.mc/Data/454Isotigs.fas.zip) | 15,052
 
 
 _**Differentially expressed gene datasets**_
@@ -29,17 +26,13 @@ millepora* these gene sets are described in the manuscripts mentioned above (Bar
 Moya et al. 2012), and for *A. palmata* differentially expressed genes sets were reported in Polato
 et al. (2013). Table 2 summarizes these data.
 
-#####Table 2. Differentially expressed genes used in this study Organism | Environmental factor |
-#####Dataset reference | Data link | # Contigs --------- | ---------- | --------- | -------- |
-#####-------- *Acropora hyacinthus* | Thermal stress | Barshis et al. (2013) |
-#####[URL]((http://www.pnas.org/content/suppl/2013/01/02/1210224110.DCSupplemental/sd01.xlsx) | 484
-#####*Acropora millepora* | Ocean acidification | Moya et al. (2012) |
-#####[URL](http://onlinelibrary.wiley.com/store/10.1111/j.1365-294X.2012.05554.x/asset/supinfo/
-#####MEC_5554_sm_FigS1-S3_TableS1-S9.pdf?v=1&s=8986ebf969c7552ad857973fff80a0752f87a129) | 234
-#####*Acropora palmata* | Thermal stress | Polato et al. (2011) |
-#####[URL](http://datadryad.org/bitstream/handle/10255/dryad.39350/SuppTableS3_Final.xlsx?sequence=1
-#####) | 1,452
-#####
+Table 2. Differentially expressed genes used in this study 
+
+Organism | Environmental factor | Dataset reference | Data link | # Contigs 
+--------- | ---------- | --------- | -------- |-------- 
+*Acropora hyacinthus* | Thermal stress | Barshis et al. (2013) | [URL](http://www.pnas.org/content/suppl/2013/01/02/1210224110.DCSupplemental/sd01.xlsx) | 484
+*Acropora millepora* | Ocean acidification | Moya et al. (2012) | [URL](http://onlinelibrary.wiley.com/store/10.1111/j.1365-294X.2012.05554.x/asset/supinfo/MEC_5554_sm_FigS1-S3_TableS1-S9.pdf?v=1&s=8986ebf969c7552ad857973fff80a0752f87a129) | 234
+*Acropora palmata* | Thermal stress | Polato et al. (2013) | [URL](http://datadryad.org/bitstream/handle/10255/dryad.39350/SuppTableS3_Final.xlsx?sequence=1) | 1,452
 
 
 _**Annotation**_
