@@ -69,4 +69,4 @@ Details of germline methylation prediction are provided in accompanying [jupyter
 
 **Statiscal Analysis** 
 
-Transcriptome CpG O/E patterns were evaluated with a mixture model using the mixtools R package (I will add more details here soon). Mean CpG O/E for each GOslim term was evaluated with ANOVA followed by post-hoc tests.
+Transcriptome CpG O/E patterns were evaluated with a mixture model using the mixtools R package (I will add more details here soon). Mean CpG O/E for each GOslim term was evaluated with ANOVA followed by post-hoc tests. A Kolmogorov–Smirnov test was used to compare whole transcriptome and differentially expressed gene CpG O/E distributions (note: Mann-Whitney test may be more appropriate. See this blog for methods: http://thebiobucket.blogspot.com/2011/08/comparing-two-distributions.html#more. Also, see this page for methods regarding quantile plots and density curves in R: http://www.statmethods.net/graphs/density.html).
