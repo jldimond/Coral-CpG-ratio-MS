@@ -7,16 +7,96 @@ setwd("~/Documents/Projects/Coral-CpG-ratio-MS/analyses/Ahya")
 Ahya_cpg<-read.delim("ID_CpG", header=F)
 Ahya_cpg2<-na.omit(Ahya_cpg)
 
+setwd("~/Documents/Projects/Coral-CpG-ratio-MS/analyses/Amil")
+
+Amil_cpg<-read.delim("ID_CpG", header=F)
+Amil_cpg2<-na.omit(Amil_cpg)
+
+setwd("~/Documents/Projects/Coral-CpG-ratio-MS/analyses/Apalm")
+
+Apalm_cpg<-read.delim("ID_CpG", header=F)
+Apalm_cpg2<-na.omit(Apalm_cpg)
+
+setwd("~/Documents/Projects/Coral-CpG-ratio-MS/analyses/Pdam")
+
+Pdam_cpg<-read.delim("ID_CpG", header=F)
+Pdam_cpg2<-na.omit(Pdam_cpg)
+
+setwd("~/Documents/Projects/Coral-CpG-ratio-MS/analyses/Spist")
+
+Spist_cpg<-read.delim("ID_CpG", header=F)
+Spist_cpg2<-na.omit(Spist_cpg)
+
 #Fitting mixture model with mixtools normalmixEM
 
 library(mixtools)
-data <- Ahya_cpg2$V2
-data2 <- data[data <= 1.5] #Cutting off high values
-set.seed(101)
-mixmdl <- normalmixEM(data2)
-plot(mixmdl, which = 2)
-lines(density(data2), lty=2, lwd=2)
 
+par(mfrow = c(2, 3)) # 2 x 3 plots
+    
+data <- Ahya_cpg2$V2
+Ahya_data <- data[data <= 1.5] #Cutting off high values
+set.seed(101)
+Ahya_mixmdl <- normalmixEM(Ahya_data)
+plot(Ahya_mixmdl, which = 2, col2 = c("red", "blue"), xlab2 = "CpG O/E", main2 = " ")
+lines(density(Ahya_data), lty=2, lwd=2)
+
+data <- Amil_cpg2$V2
+Amil_data <- data[data <= 1.5] #Cutting off high values
+set.seed(101)
+Amil_mixmdl <- normalmixEM(Amil_data)
+plot(Amil_mixmdl, which = 2, col2 = c("red", "blue"), main2 = " ", ylab2 = " ", xlab2 = " ")
+lines(density(Amil_data), lty=2, lwd=2)
+
+data <- Apalm_cpg2$V2
+Apalm_data <- data[data <= 1.5] #Cutting off high values
+set.seed(101)
+Apalm_mixmdl <- normalmixEM(Apalm_data)
+plot(Apalm_mixmdl, which = 2, col2 = c("red", "blue"), main2 = " ", ylab2 = " ", xlab2 = " ")
+lines(density(Apalm_data), lty=2, lwd=2)
+
+data <- Pdam_cpg2$V2
+Pdam_data <- data[data <= 1.5] #Cutting off high values
+set.seed(101)
+Pdam_mixmdl <- normalmixEM(Pdam_data, mu = c(0.25, 0.8), lambda = c(0.25, 0.75))
+plot(Pdam_mixmdl, which = 2, col2 = c("red", "blue"), xlab2 = "CpG O/E", main2 = " ")
+lines(density(Pdam_data), lty=2, lwd=2)
+
+data <- Spist_cpg2$V2
+Spist_data <- data[data <= 1.5] #Cutting off high values
+set.seed(101)
+Spist_mixmdl <- normalmixEM(Spist_data)
+plot(Spist_mixmdl, which = 2, col2 = c("red", "blue"), ylab = " ", xlab2 = "CpG O/E", main2 = " ")
+lines(density(Spist_data), lty=2, lwd=2)
+
+
+
+
+##Plot density lines manually
+
+### Figure 1
+plot(hist(Spist_data,breaks=50),freq=FALSE,xlab="Precipitation (1/100 inch)",main="Precipitation in Snoqualmie Falls")
+lines(density(Spist_data),lty=2)
+
+
+# Two-component Gaussian mixture
+library(mixtools)
+spist.k2 <- normalmixEM(Spist_data,k=1,maxit=100,epsilon=0.01)
+
+# Function to add Gaussian mixture components, vertically scaled, to the
+# current plot
+# Presumes the mixture object has the structure used by mixtools
+plot.normal.components <- function(mixture,component.number,...) {
+  curve(mixture$lambda[component.number] *
+          dnorm(x,mean=mixture$mu[component.number],
+                sd=mixture$sigma[component.number]), add=TRUE, ...)
+}
+
+### Figure 2
+plot(hist(Spist_data,breaks=50),freq=FALSE, xlab="Precipitation (1/100 inch)",main="Precipitation in Snoqualmie Falls")
+lines(density(Spist_data),lty=2)
+sapply(1:2,plot.normal.components,mixture=spist.k2)
+
+    
 # Use mclust to compare models
 
 library(mclust)
