@@ -3,7 +3,7 @@
 setwd("~/Documents/Projects/Coral-CpG-ratio-MS/analyses/Ahya")
 
 
-#Read in CpG data with GOslim annotation
+#Read in CpG data 
 
 Ahya_cpg<- read.delim("ID_CpG", header=FALSE)
 Ahya_diff<- read.delim("Ahya_diff_cpg.tab", header = FALSE)
@@ -16,7 +16,7 @@ Ahya_dencpg_diff <- density(Ahya_diff$V2, na.rm=T)
 setwd("~/Documents/Projects/Coral-CpG-ratio-MS/analyses/Amil")
 
 
-#Read in CpG data with GOslim annotation
+#Read in CpG data 
 
 Amil_cpg<- read.delim("ID_CpG", header=FALSE)
 Amil_diff<- read.delim("Moya_OA_CpG", header = FALSE)
@@ -29,7 +29,7 @@ Amil_dencpg_diff <- density(Amil_diff$V2, na.rm=T)
 setwd("~/Documents/Projects/Coral-CpG-ratio-MS/analyses/Apalm")
 
 
-#Read in CpG data with GOslim annotation
+#Read in CpG data 
 
 Apalm_cpg<- read.delim("ID_CpG", header=FALSE)
 Apalm_diff<- read.delim("day1and2temp_CpG", header = FALSE)
@@ -58,3 +58,10 @@ plot(Apalm_dencpg, xlim=c(0,1.6), ylim=c(0,2), main= "Acropora palmata", font.ma
 lines(Apalm_dencpg_diff, col="#C11B1760", cex=1, lwd=2)
 polygon(Apalm_dencpg, col="#6C2DC760")
 polygon(Apalm_dencpg_diff,col="#C11B1760")
+
+
+##Stats
+
+ks.test(Ahya_cpg$V2,Ahya_diff$V2)
+ks.test(Amil_cpg$V2,Amil_diff$V2)
+ks.test(Apalm_cpg$V2,Apalm_diff$V2)

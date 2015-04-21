@@ -120,7 +120,7 @@ sapply(1:2,plot.normal.components,mixture=spist.k2)
 # Use mclust to compare models
 
 library(mclust)
-data2Mclust <- Mclust(data2, G = 1:2) 
+data2Mclust <- Mclust(Ahya_data, G = 1) 
 summary(data2Mclust)
 
 
