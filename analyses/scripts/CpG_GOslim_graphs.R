@@ -92,7 +92,7 @@ title(xlab="CpG O/E")
 names<-c("P. damicornis", "S. pistillata", "A. palmata", "P. astreoides", "A. millepora", "A. hyacinthus")
 revnames<-rev(names)
 revcolors<-rev(colors)
-legend(x = "bottomright", legend = revnames, fill = revcolors, border = 1, bty = "n", text.font = 3)
+legend(x = .76, y = 21, legend = revnames, fill = revcolors, border = 1, bty = "n", text.font = 3, cex =0.75)
 
 #Plot multiple barplots
 

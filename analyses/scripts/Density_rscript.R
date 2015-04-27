@@ -82,6 +82,7 @@ Past_mixmdl <- normalmixEM(Past_data)
 plot(Past_mixmdl, which = 2, col2 = c("red", "blue"), xlab2 = "CpG O/E", main2 = " ")
 lines(density(Past_data), lty=2, lwd=2)
 
+######
 
 ##Plot density lines manually (this needs work!)
 
@@ -116,28 +117,74 @@ plot(hist(Spist_data,breaks=50),freq=FALSE, xlab="Precipitation (1/100 inch)",ma
 lines(density(Spist_data),lty=2)
 sapply(1:2,plot.normal.components,mixture=spist.k2)
 
+#######
     
 # Use mclust to compare models
 
 library(mclust)
-data2Mclust <- Mclust(Ahya_data, G = 1) 
-summary(data2Mclust)
 
+#Ahya
+#One component Gaussian micture model
+Ahya_Mclust1 <- Mclust(Ahya_data, G = 1) 
+summary(Ahya_Mclust1)
+#log likelihood = -9246.993
 
+#Two component Gaussian micture model
+Ahya_Mclust2 <- Mclust(Ahya_data, G = 1:2) 
+summary(Ahya_Mclust2)
+#log likelihood = -8819.696
 
+#Amil
+#One component Gaussian micture model
+Amil_Mclust1 <- Mclust(Amil_data, G = 1) 
+summary(Amil_Mclust1)
+#log likelihood = -9002.966
 
+#Two component Gaussian micture model
+Amil_Mclust2 <- Mclust(Amil_data, G = 1:2) 
+summary(Amil_Mclust2)
+#log likelihood = -8030.064
 
-##OLD STUFF
+#Apalm
+#One component Gaussian micture model
+Apalm_Mclust1 <- Mclust(Apalm_data, G = 1) 
+summary(Apalm_Mclust1)
+#log likelihood = -18831.66
 
-#Create density 
-dencpg<-density(Ahya_cpg$Column2, na.rm=T)
-dencpg_diff <- density(Ahya_diff$Column2, na.rm=T)
+#Two component Gaussian micture model
+Apalm_Mclust2 <- Mclust(Apalm_data, G = 1:2) 
+summary(Apalm_Mclust2)
+#log likelihood = -16805.99
 
-#Plot
+#Pdam
+#One component Gaussian micture model
+Pdam_Mclust1 <- Mclust(Pdam_data, G = 1) 
+summary(Pdam_Mclust1)
+#log likelihood = 
 
-plot(dencpg, xlim=c(0,1.7), ylim=c(0,1.6), main=NULL, xlab="CpG ratio", cex=1, lwd=2, col="#6C2DC760")
-lines(dencpg_diff, col="#C11B1760", cex=1, lwd=2)
-polygon(dencpg, col="#6C2DC760")
-polygon(dencpg_diff,col="#C11B1760")
-legend(x="topleft", c("whole transcriptome", "thermal stress genes"), col = c("#6C2DC760","#C11B1760"), lwd=2, bty="n", x.intersp=0.5)
+#Two component Gaussian micture model
+Pdam_Mclust2 <- Mclust(Pdam_data, G = 1:2) 
+summary(Pdam_Mclust2)
+#log likelihood = 
 
+#Spist
+#One component Gaussian micture model
+Spist_Mclust1 <- Mclust(Spist_data, G = 1) 
+summary(Spist_Mclust1)
+#log likelihood = -3069.734
+
+#Two component Gaussian micture model
+Spist_Mclust2 <- Mclust(Spist_data, G = 1:2) 
+summary(Spist_Mclust2)
+#log likelihood = -2519.837
+
+#Past
+#One component Gaussian micture model
+Past_Mclust1 <- Mclust(Past_data, G = 1) 
+summary(Past_Mclust1)
+#log likelihood = -8397.715
+
+#Two component Gaussian micture model
+Past_Mclust2 <- Mclust(Past_data, G = 1:2) 
+summary(Past_Mclust2)
+#log likelihood = -7883.481

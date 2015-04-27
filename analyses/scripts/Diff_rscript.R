@@ -62,6 +62,8 @@ polygon(Apalm_dencpg_diff,col="#C11B1760")
 
 ##Stats
 
-ks.test(Ahya_cpg$V2,Ahya_diff$V2)
-ks.test(Amil_cpg$V2,Amil_diff$V2)
-ks.test(Apalm_cpg$V2,Apalm_diff$V2)
+
+ks.test(Ahya_cpg$V2,Ahya_diff$V2) #p-value < 2.2e-16
+ks.test(Amil_cpg$V2,Amil_diff$V2) #p-value = 0.03135
+ks.test(Apalm_cpg$V2,Apalm_diff$V2) #p-value = 1.118e-07
+
