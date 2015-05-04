@@ -40,14 +40,14 @@ library(mixtools)
 par(mfrow = c(2, 3)) # 2 x 3 plots
     
 data <- Ahya_cpg2$V2
-Ahya_data <- data[data <= 1.5] #Cutting off high values
+Ahya_data <- data[data >= 0.001 & data <= 1.5] #Cutting off high values
 set.seed(101)
 Ahya_mixmdl <- normalmixEM(Ahya_data)
 plot(Ahya_mixmdl, which = 2, col2 = c("red", "blue"), xlab2 = "CpG O/E", main2 = " ")
 lines(density(Ahya_data), lty=2, lwd=2)
 
 data <- Amil_cpg2$V2
-Amil_data <- data[data <= 1.5] #Cutting off high values
+Amil_data <- data[data >= 0.001 & data <= 1.5] #Cutting off high values
 set.seed(101)
 Amil_mixmdl <- normalmixEM(Amil_data)
 plot(Amil_mixmdl, which = 2, col2 = c("red", "blue"), main2 = " ", ylab2 = " ", xlab2 = "CpG O/E")
@@ -61,9 +61,9 @@ plot(Apalm_mixmdl, which = 2, col2 = c("red", "blue"), main2 = " ", ylab2 = " ",
 lines(density(Apalm_data), lty=2, lwd=2)
 
 data <- Pdam_cpg2$V2
-Pdam_data <- data[data <= 1.5] #Cutting off high values
+Pdam_data <- data[data >= 0.001 & data <= 1.5] #Cutting off high values
 set.seed(101)
-Pdam_mixmdl <- normalmixEM(Pdam_data, mu = c(0.2, 0.7), lambda = c(0.25, 0.75))
+Pdam_mixmdl <- normalmixEM(Pdam_data, mu = c(0.3, 0.75))
 plot(Pdam_mixmdl, which = 2, col2 = c("red", "blue"), xlab2 = "CpG O/E", main2 = " ")
 lines(density(Pdam_data), lty=2, lwd=2)
 
