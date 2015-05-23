@@ -59,14 +59,11 @@ SpistSE<-SpistSD/sqrt(SpistLength)
 
 setwd("~/Documents/Projects/Coral-CpG-ratio-MS/analyses/Past")
 
-Past<-read.delim("past_cpg_goslim_tab", skip = 1, header = FALSE)
+Past<-read.delim("Past_cpg_GOslim.tab", header=F)
 Past2<-na.omit(Past)
-Past3<-as.numeric(as.character((Past2$V2))) #this data needed some additional tweaking
-Past4<-as.data.frame(cbind(Past3,Past2$V4))
-Past5<-na.omit(Past4)
-PastMean<-tapply(Past5$Past3, Past5$V2, mean)
-PastSD<-tapply(Past5$Past3, Past5$V2, sd)
-PastLength<-tapply(Past5$Past3, Past5$V2, length)
+PastMean<-tapply(Past2$V2, Past2$V3, mean)
+PastSD<-tapply(Past2$V2, Past2$V3, sd)
+PastLength<-tapply(Past2$V2, Past2$V3, length)
 PastSE<-PastSD/sqrt(PastLength)
 PastMean<-PastMean[2:15]
 PastSE<-PastSE[2:15]
@@ -92,55 +89,60 @@ title(xlab="CpG O/E")
 names<-c("P. damicornis", "S. pistillata", "A. palmata", "P. astreoides", "A. millepora", "A. hyacinthus")
 revnames<-rev(names)
 revcolors<-rev(colors)
-legend(x = .76, y = 21, legend = revnames, fill = revcolors, border = 1, bty = "n", text.font = 3, cex =0.75)
+legend(x = .75, y = 28, legend = revnames, fill = revcolors, border = 1, bty = "n", text.font = 3, cex =0.75)
 
 #Plot multiple barplots
 
-par(mar=c(5,14,4,2))
+par(mar = c(5,13,2,1))
 par(mfrow = c(2, 3)) # 2 x 3 plots
 
-Ahya_plot<-GO7[order(GO7[,1],decreasing=FALSE),]
-Ahya_means<-Ahya_plot[,1]
-Ahya_se<-Ahya_plot[,7]
-Ahya_mp<-barplot(Ahya_plot[,1], plot=FALSE, beside=TRUE, horiz=TRUE, las=2, col=c(40,42,44,46,48,50))
-barplot(Ahya_plot[,1],xlim=c(0.5,0.9),beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Ahya_plot), col=0)
+Ahya_plot<-GO[order(GO[,6],decreasing=FALSE),]
+Ahya_means<-Ahya_plot[,6]
+Ahya_se<-Ahya_plot[,12]
+Ahya_mp<-barplot(Ahya_plot[,6], plot=FALSE, beside=TRUE, horiz=TRUE, las=2, col=c(40,42,44,46,48,50))
+barplot(Ahya_plot[,6],xlim=c(0.5,0.9), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Ahya_plot), col=0, cex.axis = 0.7, cex.lab = 0.7, cex = 0.7)
 segments(Ahya_means - Ahya_se, Ahya_mp, Ahya_means + Ahya_se, Ahya_mp)
+axis(side =1, cex.axis = 0.7)
 
-Amil_plot<-GO7[order(GO7[,2],decreasing=FALSE),]
-Amil_means<-Amil_plot[,2]
-Amil_se<-Amil_plot[,8]
-Amil_mp<-barplot(Amil_plot[,2], plot=FALSE, beside=TRUE, horiz=TRUE, las=2, col=c(40,42,44,46,48,50))
-barplot(Amil_plot[,2],xlim=c(0.5,0.9),beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Amil_plot), col=0)
+Amil_plot<-GO[order(GO[,5],decreasing=FALSE),]
+Amil_means<-Amil_plot[,5]
+Amil_se<-Amil_plot[,11]
+Amil_mp<-barplot(Amil_plot[,5], plot=FALSE, beside=TRUE, horiz=TRUE, las=2, col=c(40,42,44,46,48,50))
+barplot(Amil_plot[,5],xlim=c(0.5,0.9), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Amil_plot), col=0, cex.axis = 0.7, cex.lab = 0.7, cex = 0.7)
 segments(Amil_means - Amil_se, Amil_mp, Amil_means + Amil_se, Amil_mp)
+axis(side =1, cex.axis = 0.7)
 
-Apalm_plot<-GO7[order(GO7[,3],decreasing=FALSE),]
+Apalm_plot<-GO[order(GO[,3],decreasing=FALSE),]
 Apalm_means<-Apalm_plot[,3]
 Apalm_se<-Apalm_plot[,9]
 Apalm_mp<-barplot(Apalm_plot[,3], plot=FALSE, beside=TRUE, horiz=TRUE, las=2, col=c(40,42,44,46,48,50))
-barplot(Apalm_plot[,3],xlim=c(0.5,0.9),beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Apalm_plot), col=0)
+barplot(Apalm_plot[,3],xlim=c(0.5,0.9), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Apalm_plot), col=0, cex.axis = 0.7, cex.lab = 0.7, cex = 0.7)
 segments(Apalm_means - Apalm_se, Apalm_mp, Apalm_means + Apalm_se, Apalm_mp)
+axis(side =1, cex.axis = 0.7)
 
-Past_plot<-GO7[order(GO7[,4],decreasing=FALSE),]
+Past_plot<-GO[order(GO[,4],decreasing=FALSE),]
 Past_means<-Past_plot[,4]
 Past_se<-Past_plot[,10]
 Past_mp<-barplot(Past_plot[,4], plot=FALSE, beside=TRUE, horiz=TRUE, las=2, col=c(40,42,44,46,48,50))
-barplot(Past_plot[,4],xlim=c(0.5,0.9),beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Past_plot), col=0)
+barplot(Past_plot[,4],xlim=c(0.5,0.9), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Past_plot), col=0, cex.axis = 0.7, cex.lab = 0.7, cex = 0.7)
 segments(Past_means - Past_se, Past_mp, Past_means + Past_se, Past_mp)
+axis(side =1, cex.axis = 0.7)
 
-Pdam_plot<-GO7[order(GO7[,5],decreasing=FALSE),]
-Pdam_means<-Pdam_plot[,5]
-Pdam_se<-Pdam_plot[,11]
-Pdam_mp<-barplot(Pdam_plot[,5], plot=FALSE, beside=TRUE, horiz=TRUE, las=2, col=c(40,42,44,46,48,50))
-barplot(Pdam_plot[,5],xlim=c(0.5,0.9),beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Pdam_plot), col=0)
+Pdam_plot<-GO[order(GO[,1],decreasing=FALSE),]
+Pdam_means<-Pdam_plot[,1]
+Pdam_se<-Pdam_plot[,7]
+Pdam_mp<-barplot(Pdam_plot[,1], plot=FALSE, beside=TRUE, horiz=TRUE, las=2, col=c(40,42,44,46,48,50))
+barplot(Pdam_plot[,1],xlim=c(0.5,0.9), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Pdam_plot), col=0, xlab = "CpG O/E", cex.axis = 0.7, cex.lab = 0.7, cex = 0.7)
 segments(Pdam_means - Pdam_se, Pdam_mp, Pdam_means + Pdam_se, Pdam_mp)
+axis(side =1, cex.axis = 0.7)
 
-Spist_plot<-GO7[order(GO7[,6],decreasing=FALSE),]
-Spist_means<-Spist_plot[,6]
-Spist_se<-Spist_plot[,12]
-Spist_mp<-barplot(Spist_plot[,6], plot=FALSE, beside=TRUE, horiz=TRUE, las=2, col=c(40,42,44,46,48,50))
-barplot(Spist_plot[,6],xlim=c(0.5,0.9),beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Spist_plot), col=0)
+Spist_plot<-GO[order(GO[,2],decreasing=FALSE),]
+Spist_means<-Spist_plot[,2]
+Spist_se<-Spist_plot[,8]
+Spist_mp<-barplot(Spist_plot[,2], plot=FALSE, beside=TRUE, horiz=TRUE, las=2, col=c(40,42,44,46,48,50))
+barplot(Spist_plot[,2],xlim=c(0.5,0.9), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Spist_plot), col=0, cex.axis = 0.7, cex.lab = 0.7, cex = 0.7)
 segments(Spist_means - Spist_se, Spist_mp, Spist_means + Spist_se, Spist_mp)
-
+axis(side =1, cex.axis = 0.7)
 
 ######Stats
 

@@ -30,8 +30,7 @@ Spist_cpg2<-na.omit(Spist_cpg)
 setwd("~/Documents/Projects/Coral-CpG-ratio-MS/analyses/Past")
 
 Past_cpg<-read.delim("ID_CpG", header=F)
-Past_cpg2<-as.numeric(as.character(Past_cpg$V2))
-Past_cpg3<-na.omit(Past_cpg2)
+Past_cpg2<-na.omit(Past_cpg)
 
 #Fitting mixture model with mixtools normalmixEM
 
@@ -43,43 +42,42 @@ data <- Ahya_cpg2$V2
 Ahya_data <- data[data >= 0.001 & data <= 1.5] #Cutting off high values
 set.seed(101)
 Ahya_mixmdl <- normalmixEM(Ahya_data)
-plot(Ahya_mixmdl, which = 2, col2 = c("red", "blue"), xlab2 = "CpG O/E", main2 = " ")
+plot(Ahya_mixmdl, which = 2, col2 = c("red", "blue"), xlab2 = " ", main2 = "Acropora hyacinthus", font.main = 3)
 lines(density(Ahya_data), lty=2, lwd=2)
 
 data <- Amil_cpg2$V2
 Amil_data <- data[data >= 0.001 & data <= 1.5] #Cutting off high values
 set.seed(101)
 Amil_mixmdl <- normalmixEM(Amil_data)
-plot(Amil_mixmdl, which = 2, col2 = c("red", "blue"), main2 = " ", ylab2 = " ", xlab2 = "CpG O/E")
+plot(Amil_mixmdl, which = 2, col2 = c("red", "blue"), main2 = " ", xlab2 = " ")
 lines(density(Amil_data), lty=2, lwd=2)
 
 data <- Apalm_cpg2$V2
-Apalm_data <- data[data <= 1.5] #Cutting off high values
+Apalm_data <- data[data >= 0.001 & data <= 1.5] #Cutting off high values
 set.seed(101)
 Apalm_mixmdl <- normalmixEM(Apalm_data)
-plot(Apalm_mixmdl, which = 2, col2 = c("red", "blue"), main2 = " ", ylab2 = " ", xlab2 = "CpG O/E")
+plot(Apalm_mixmdl, which = 2, col2 = c("red", "blue"), main2 = " ", xlab2 = " ")
 lines(density(Apalm_data), lty=2, lwd=2)
 
 data <- Pdam_cpg2$V2
 Pdam_data <- data[data >= 0.001 & data <= 1.5] #Cutting off high values
-set.seed(101)
-Pdam_mixmdl <- normalmixEM(Pdam_data, mu = c(0.3, 0.75))
-plot(Pdam_mixmdl, which = 2, col2 = c("red", "blue"), xlab2 = "CpG O/E", main2 = " ")
+set.seed(100)
+Pdam_mixmdl <- normalmixEM(Pdam_data, mu = c(0.25, 0.75))
+plot(Pdam_mixmdl, which = 2, col2 = c("red", "blue"), xlab2 = " ", main2 = " ")
 lines(density(Pdam_data), lty=2, lwd=2)
 
 data <- Spist_cpg2$V2
-Spist_data <- data[data <= 1.5] #Cutting off high values
+Spist_data <- data[data >= 0.001 & data <= 1.5] #Cutting off high values
 set.seed(101)
 Spist_mixmdl <- normalmixEM(Spist_data)
 plot(Spist_mixmdl, which = 2, col2 = c("red", "blue"), ylab2 = " ", xlab2 = "CpG O/E", main2 = " ")
 lines(density(Spist_data), lty=2, lwd=2)
 
-data <- Past_cpg3
-Past_data <- data[data <= 1.5] #Cutting off high values
-Past_data2 <- as.numeric(Past_data)
+data <- Past_cpg2$V2
+Past_data <- data[data >= 0.001 & data <= 1.5] #Cutting off high values
 set.seed(101)
 Past_mixmdl <- normalmixEM(Past_data)
-plot(Past_mixmdl, which = 2, col2 = c("red", "blue"), xlab2 = "CpG O/E", main2 = " ")
+plot(Past_mixmdl, which = 2, col2 = c("red", "blue"), xlab2 = " ", main2 = " ")
 lines(density(Past_data), lty=2, lwd=2)
 
 ######
