@@ -5,6 +5,12 @@ _**Transcriptome data sources**_
 Transcriptomes of six scleractinian coral species were evaluated to determine germline methylation patterns in relation to gene function and activity. Species examined include *Acropora hyacinthus*, *A. millepora*, *A. palmata*, *Stylophora pistillata*, and *Pocillopora damicornis* (Table 1). 
 
 
+<!REMOVE URLS>>
+
+
+<!THERE ARE 5 LISTED BELOW, SIX IN RESULTS?????>>
+
+
 
 Table 1. Transcriptomes used in this study 
 
@@ -22,6 +28,10 @@ _**Differentially expressed gene datasets**_
 In addition to analyzing whole transcriptomes, we also examined genes differentially expressed in response to environmental stressors for the three Acropora species. For *A. hyacinthus* and *A. millepora* these gene sets are described in the manuscripts mentioned above (Barshis et al. 2013, Moya et al. 2012), and for *A. palmata* differentially expressed genes sets were reported in Polato
 et al. (2013). Table 2 summarizes these data.
 
+
+<!INDICATED TECHNOLOGY USED FOR DEGS ID>>
+
+
 Table 2. Differentially expressed genes used in this study 
 
 Organism | Environmental factor | Dataset reference | Data link | No. Contigs 
@@ -35,6 +45,11 @@ _**Annotation**_
 
 In order to maintain consistency in comparing datasets, all transcriptomes and  differentially expressed gene sets, were compared to the UniProt/Swiss-Prot protein database (version 2/17/2015) using Blastx (version 2.2.29) using an evalue threshold 10<sup>-5</sup>.
 
+
+
+<!URLS DO NOT WORK IN A MANUSCRIPT>>
+
+
 Corresponding Gene Ontology Slim terms were identified by joining with [SPID and GO
 Numbers](https://sqlshare.escience.washington.edu/sqlshare/#s=query/
 sr320@washington.edu/SPID%20and%20GO%20Numbers) and
@@ -46,9 +61,7 @@ Complete details of annotation are provided in accompanying [jupyter notebook](h
 
 _**Predicted germline methylation**_
 
-Germline methylation levels were inferred based on the hypermutability of methylated cytosines,
-which tend towards conversion to thymines over evolutionary time. This results in a reduction in CpG
-dinucleotides, meaning that historically heavily methylated genomic regions are associated with
+Germline methylation levels were inferred based on the hypermutability of methylated cytosines, which tend towards conversion to thymines over evolutionary time. This results in a reduction in CpG dinucleotides, meaning that historically heavily methylated genomic regions are associated with
 reduced numbers of CpGs. Specifically, CpG O/E was calculated as:
 
 CpG O/E = (number of CpG / number of C x number of G) x (l<sup>2</sup>/l-1)
@@ -58,7 +71,9 @@ where l is the number of nucleotides in the contig.
 
 
 
-Details of germline methylation prediction are provided in accompanying [jupyter notebook] (https://github.com/jldimond/Coral-CpG-ratio-MS/tree/master/ipynb).
+Details of germline methylation prediction are provided in accompanying [jupyter notebook](https://github.com/jldimond/Coral-CpG-ratio-MS/tree/master/ipynb).
+
+
 
 **Statiscal Analysis** 
 
