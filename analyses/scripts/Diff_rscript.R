@@ -24,7 +24,7 @@ Amil_diff<- read.delim("Moya_OA_CpG", header = FALSE)
 #Create density 
 Amil_dencpg<-density(Amil_cpg$V2[Amil_cpg$V2 >= 0.001 & Amil_cpg$V2 <= 1.5], na.rm=T)
 Amil_dencpg_diff <- density(Amil_diff$V2[Amil_diff$V2 >= 0.001 & Amil_diff$V2 <= 1.5], na.rm=T)
-
+/Users/jd/Documents/Projects/Coral-CpG-ratio-MS/analyses/Amil/Moya_OA_CpG
 
 setwd("~/Documents/Projects/Coral-CpG-ratio-MS/analyses/Apalm")
 
