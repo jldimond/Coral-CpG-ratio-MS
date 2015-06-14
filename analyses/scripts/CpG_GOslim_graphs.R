@@ -72,24 +72,6 @@ GO <- as.data.frame(cbind(PdamMean, SpistMean, ApalmMean, PastMean, AmilMean, Ah
 grand_mean<-rowMeans(GO[,1:6])
 GO2<-cbind(GO,grand_mean)
 
-##Plot single barplot ordered by grand mean
-
-GO3<-GO2[order(GO2[,13],decreasing=FALSE),]
-GO4<-t(GO3)
-par(mar=c(5,18,2,2))
-midpoints<-barplot(GO4[1:6,],xlim=c(0.5,0.8),plot=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, col=c(1,2,3,4,5,6))
-means<-GO4[1:6,]
-SE<-GO4[7:12]
-library(RColorBrewer)
-colors<-brewer.pal(6, "Set3")
-barplot(GO4[1:6,],xlim=c(0.5,0.9), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, col=colors)
-segments(means - SE, midpoints, means + SE, midpoints)
-axis(side =1)
-title(xlab="CpG O/E")
-names<-c("P. damicornis", "S. pistillata", "A. palmata", "P. astreoides", "A. millepora", "A. hyacinthus")
-revnames<-rev(names)
-revcolors<-rev(colors)
-legend(x = .75, y = 28, legend = revnames, fill = revcolors, border = 1, bty = "n", text.font = 3, cex =0.75)
 
 #Plot multiple barplots
 
@@ -100,7 +82,7 @@ Ahya_plot<-GO[order(GO[,6],decreasing=FALSE),]
 Ahya_means<-Ahya_plot[,6]
 Ahya_se<-Ahya_plot[,12]
 Ahya_mp<-barplot(Ahya_plot[,6], plot=FALSE, beside=TRUE, horiz=TRUE, las=2, col=c(40,42,44,46,48,50))
-barplot(Ahya_plot[,6],xlim=c(0.5,0.9), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Ahya_plot), col=0, cex.axis = 0.7, cex.lab = 0.7, cex = 0.7)
+barplot(Ahya_plot[,6],xlim=c(0.5,0.9), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Ahya_plot), col=0, cex.axis = 0.7, cex.lab = 0.7, cex = 0.7, main = "Acropora hyacinthus", font.main = 3, cex.main = 0.8)
 segments(Ahya_means - Ahya_se, Ahya_mp, Ahya_means + Ahya_se, Ahya_mp)
 axis(side =1, cex.axis = 0.7)
 
@@ -108,7 +90,7 @@ Amil_plot<-GO[order(GO[,5],decreasing=FALSE),]
 Amil_means<-Amil_plot[,5]
 Amil_se<-Amil_plot[,11]
 Amil_mp<-barplot(Amil_plot[,5], plot=FALSE, beside=TRUE, horiz=TRUE, las=2, col=c(40,42,44,46,48,50))
-barplot(Amil_plot[,5],xlim=c(0.5,0.9), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Amil_plot), col=0, cex.axis = 0.7, cex.lab = 0.7, cex = 0.7)
+barplot(Amil_plot[,5],xlim=c(0.5,0.9), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Amil_plot), col=0, cex.axis = 0.7, cex.lab = 0.7, cex = 0.7, main = "Acropora millepora", font.main = 3, cex.main = 0.8)
 segments(Amil_means - Amil_se, Amil_mp, Amil_means + Amil_se, Amil_mp)
 axis(side =1, cex.axis = 0.7)
 
@@ -116,31 +98,31 @@ Apalm_plot<-GO[order(GO[,3],decreasing=FALSE),]
 Apalm_means<-Apalm_plot[,3]
 Apalm_se<-Apalm_plot[,9]
 Apalm_mp<-barplot(Apalm_plot[,3], plot=FALSE, beside=TRUE, horiz=TRUE, las=2, col=c(40,42,44,46,48,50))
-barplot(Apalm_plot[,3],xlim=c(0.5,0.9), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Apalm_plot), col=0, cex.axis = 0.7, cex.lab = 0.7, cex = 0.7)
+barplot(Apalm_plot[,3],xlim=c(0.5,0.9), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Apalm_plot), col=0, cex.axis = 0.7, cex.lab = 0.7, cex = 0.7, main = "Acropora palmata", font.main = 3, cex.main = 0.8)
 segments(Apalm_means - Apalm_se, Apalm_mp, Apalm_means + Apalm_se, Apalm_mp)
-axis(side =1, cex.axis = 0.7)
-
-Past_plot<-GO[order(GO[,4],decreasing=FALSE),]
-Past_means<-Past_plot[,4]
-Past_se<-Past_plot[,10]
-Past_mp<-barplot(Past_plot[,4], plot=FALSE, beside=TRUE, horiz=TRUE, las=2, col=c(40,42,44,46,48,50))
-barplot(Past_plot[,4],xlim=c(0.5,0.9), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Past_plot), col=0, cex.axis = 0.7, cex.lab = 0.7, cex = 0.7)
-segments(Past_means - Past_se, Past_mp, Past_means + Past_se, Past_mp)
 axis(side =1, cex.axis = 0.7)
 
 Pdam_plot<-GO[order(GO[,1],decreasing=FALSE),]
 Pdam_means<-Pdam_plot[,1]
 Pdam_se<-Pdam_plot[,7]
 Pdam_mp<-barplot(Pdam_plot[,1], plot=FALSE, beside=TRUE, horiz=TRUE, las=2, col=c(40,42,44,46,48,50))
-barplot(Pdam_plot[,1],xlim=c(0.5,0.9), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Pdam_plot), col=0, xlab = "CpG O/E", cex.axis = 0.7, cex.lab = 0.7, cex = 0.7)
+barplot(Pdam_plot[,1],xlim=c(0.5,0.9), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Pdam_plot), col=0, xlab = "CpG O/E", cex.axis = 0.7, cex.lab = 0.7, cex = 0.7, main = "Pocillopora damicornis", font.main = 3, cex.main = 0.8)
 segments(Pdam_means - Pdam_se, Pdam_mp, Pdam_means + Pdam_se, Pdam_mp)
+axis(side =1, cex.axis = 0.7)
+
+Past_plot<-GO[order(GO[,4],decreasing=FALSE),]
+Past_means<-Past_plot[,4]
+Past_se<-Past_plot[,10]
+Past_mp<-barplot(Past_plot[,4], plot=FALSE, beside=TRUE, horiz=TRUE, las=2, col=c(40,42,44,46,48,50))
+barplot(Past_plot[,4],xlim=c(0.5,0.9), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Past_plot), col=0, cex.axis = 0.7, cex.lab = 0.7, cex = 0.7, main = "Porites astreoides", font.main = 3, cex.main = 0.8)
+segments(Past_means - Past_se, Past_mp, Past_means + Past_se, Past_mp)
 axis(side =1, cex.axis = 0.7)
 
 Spist_plot<-GO[order(GO[,2],decreasing=FALSE),]
 Spist_means<-Spist_plot[,2]
 Spist_se<-Spist_plot[,8]
 Spist_mp<-barplot(Spist_plot[,2], plot=FALSE, beside=TRUE, horiz=TRUE, las=2, col=c(40,42,44,46,48,50))
-barplot(Spist_plot[,2],xlim=c(0.5,0.9), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Spist_plot), col=0, cex.axis = 0.7, cex.lab = 0.7, cex = 0.7)
+barplot(Spist_plot[,2],xlim=c(0.5,0.9), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Spist_plot), col=0, cex.axis = 0.7, cex.lab = 0.7, cex = 0.7, main = "Stylophora pistillata", font.main = 3, cex.main = 0.8)
 segments(Spist_means - Spist_se, Spist_mp, Spist_means + Spist_se, Spist_mp)
 axis(side =1, cex.axis = 0.7)
 
@@ -230,4 +212,25 @@ Apalm_var<-tapply(Apalm2$V2, Apalm2$V3, var)
 Pdam_var<-tapply(Pdam2$V2, Pdam2$V3, var)
 Spist_var<-tapply(Spist2$V2, Spist2$V3, var)
 Past_var<-tapply(Past5$Past3, Past5$V2, var)
+
+
+
+##Plot single barplot ordered by grand mean
+
+GO3<-GO2[order(GO2[,13],decreasing=FALSE),]
+GO4<-t(GO3)
+par(mar=c(5,18,2,2))
+midpoints<-barplot(GO4[1:6,],xlim=c(0.5,0.8),plot=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, col=c(1,2,3,4,5,6))
+means<-GO4[1:6,]
+SE<-GO4[7:12]
+library(RColorBrewer)
+colors<-brewer.pal(6, "Set3")
+barplot(GO4[1:6,],xlim=c(0.5,0.9), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, col=colors)
+segments(means - SE, midpoints, means + SE, midpoints)
+axis(side =1)
+title(xlab="CpG O/E")
+names<-c("P. damicornis", "S. pistillata", "A. palmata", "P. astreoides", "A. millepora", "A. hyacinthus")
+revnames<-rev(names)
+revcolors<-rev(colors)
+legend(x = .75, y = 28, legend = revnames, fill = revcolors, border = 1, bty = "n", text.font = 3, cex =0.75)
 

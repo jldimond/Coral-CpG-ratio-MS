@@ -5,7 +5,7 @@ setwd("~/Documents/Projects/Coral-CpG-ratio-MS/analyses/Ahya")
 
 #Read in CpG data 
 
-Ahya_cpg<- read.delim("ID_CpG", header=FALSE)
+Ahya_cpg<- read.delim("Ahya_cpg_anno", header=FALSE)
 Ahya_diff<- read.delim("Ahya_diff_cpg.tab", header = FALSE)
 
 #Create density using threshold values
@@ -18,7 +18,7 @@ setwd("~/Documents/Projects/Coral-CpG-ratio-MS/analyses/Amil")
 
 #Read in CpG data 
 
-Amil_cpg<- read.delim("ID_CpG", header=FALSE)
+Amil_cpg<- read.delim("Amil_cpg_anno", header=FALSE)
 Amil_diff<- read.delim("Moya_OA_CpG", header = FALSE)
 
 #Create density 
@@ -31,7 +31,7 @@ setwd("~/Documents/Projects/Coral-CpG-ratio-MS/analyses/Apalm")
 
 #Read in CpG data 
 
-Apalm_cpg<- read.delim("ID_CpG", header=FALSE)
+Apalm_cpg<- read.delim("Apalm_cpg_anno", header=FALSE)
 Apalm_diff<- read.delim("day1and2temp_CpG", header = FALSE)
 
 #Create density 
@@ -66,7 +66,7 @@ par(xaxs="i", yaxs="i")
 
 plot(Ahya_dencpg, xlim=c(0,1.6), ylim=c(0,2), main= "Acropora hyacinthus", font.main = 3, xlab=" ", bty = "l", cex=1, lwd=2)
 lines(Ahya_dencpg_diff, cex=1, lwd=2, lty = 2)
-legend(x=0.1, y = 2.2, c("whole transcriptome", "env response genes"), xpd = TRUE, lwd=2, bty="n", cex = 0.9, lty = c(1, 2), x.intersp=0.5)
+legend(x=0.1, y = 2.1, c("whole transcriptome", "env response genes"), xpd = TRUE, lwd=2, bty="n", cex = 0.9, lty = c(1, 2), x.intersp=0.5)
 
 plot(Amil_dencpg, xlim=c(0,1.6), ylim=c(0,2), main= "Acropora millepora", font.main = 3, xlab="CpG O/E", ylab=" ", bty = "l", cex=1, lwd=2)
 lines(Amil_dencpg_diff, cex=1, lwd=2, lty = 2)
@@ -79,6 +79,6 @@ lines(Apalm_dencpg_diff, cex=1, lwd=2, lty = 2)
 
 
 ks.test(Ahya_cpg$V2,Ahya_diff$V2) #p-value < 2.2e-16
-ks.test(Amil_cpg$V2,Amil_diff$V2) #p-value = 0.03135
-ks.test(Apalm_cpg$V2,Apalm_diff$V2) #p-value = 1.118e-07
+ks.test(Amil_cpg$V2,Amil_diff$V2) #p-value = 0.005778
+ks.test(Apalm_cpg$V2,Apalm_diff$V2) #p-value = < 2.2e-16
 

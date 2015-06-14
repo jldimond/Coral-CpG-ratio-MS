@@ -4,81 +4,84 @@ setwd("~/Documents/Projects/Coral-CpG-ratio-MS/analyses/Ahya")
 
 #Read in CpG data and remove NA values
 
-Ahya_cpg<-read.delim("ID_CpG", header=F)
-Ahya_cpg2<-na.omit(Ahya_cpg)
+Ahya<-read.delim("Ahya_cpg_anno", header=F)
 
 setwd("~/Documents/Projects/Coral-CpG-ratio-MS/analyses/Amil")
 
-Amil_cpg<-read.delim("ID_CpG", header=F)
-Amil_cpg2<-na.omit(Amil_cpg)
+Amil<-read.delim("Amil_cpg_anno", header=F)
 
 setwd("~/Documents/Projects/Coral-CpG-ratio-MS/analyses/Apalm")
 
-Apalm_cpg<-read.delim("ID_CpG", header=F)
-Apalm_cpg2<-na.omit(Apalm_cpg)
+Apalm<-read.delim("Apalm_cpg_anno", header=F)
 
 setwd("~/Documents/Projects/Coral-CpG-ratio-MS/analyses/Pdam")
 
-Pdam_cpg<-read.delim("ID_CpG", header=F)
-Pdam_cpg2<-na.omit(Pdam_cpg)
+Pdam<-read.delim("Pdam_cpg_anno", header=F)
 
 setwd("~/Documents/Projects/Coral-CpG-ratio-MS/analyses/Spist")
 
-Spist_cpg<-read.delim("ID_CpG", header=F)
-Spist_cpg2<-na.omit(Spist_cpg)
+Spist<-read.delim("Spist_cpg_anno", header=F)
 
 setwd("~/Documents/Projects/Coral-CpG-ratio-MS/analyses/Past")
 
-Past_cpg<-read.delim("ID_CpG", header=F)
-Past_cpg2<-na.omit(Past_cpg)
+Past<-read.delim("Past_cpg_anno", header=F)
 
 #Fitting mixture model with mixtools normalmixEM
 
 library(mixtools)
 
 par(mfrow = c(2, 3)) # 2 x 3 plots
-    
-data <- Ahya_cpg2$V2
-Ahya_data <- data[data >= 0.001 & data <= 1.5] #Cutting off high values
-set.seed(101)
+
+data <- Ahya2$V2
+Ahya_data <- data[data >= 0.001 & data <= 1.5] #Cutting off high and low values
+set.seed(1)
 Ahya_mixmdl <- normalmixEM(Ahya_data)
 plot(Ahya_mixmdl, which = 2, col2 = c("red", "blue"), xlab2 = " ", main2 = "Acropora hyacinthus", font.main = 3)
 lines(density(Ahya_data), lty=2, lwd=2)
 
-data <- Amil_cpg2$V2
-Amil_data <- data[data >= 0.001 & data <= 1.5] #Cutting off high values
-set.seed(101)
+data <- Amil$V2
+Amil_data <- data[data >= 0.001 & data <= 1.5] #Cutting off high and low values
+set.seed(1)
 Amil_mixmdl <- normalmixEM(Amil_data)
-plot(Amil_mixmdl, which = 2, col2 = c("red", "blue"), main2 = " ", xlab2 = " ")
+plot(Amil_mixmdl, which = 2, col2 = c("red", "blue"), xlab2 = " ", main2 = "Acropora millepora", font.main = 3)
 lines(density(Amil_data), lty=2, lwd=2)
 
-data <- Apalm_cpg2$V2
-Apalm_data <- data[data >= 0.001 & data <= 1.5] #Cutting off high values
+data <- Apalm$V2
+Apalm_data <- data[data >= 0.001 & data <= 1.5] #Cutting off high and low values
 set.seed(101)
 Apalm_mixmdl <- normalmixEM(Apalm_data)
-plot(Apalm_mixmdl, which = 2, col2 = c("red", "blue"), main2 = " ", xlab2 = " ")
+plot(Apalm_mixmdl, which = 2, col2 = c("red", "blue"), xlab2 = " ", main2 = "Acropora palmata", font.main = 3)
 lines(density(Apalm_data), lty=2, lwd=2)
 
-data <- Pdam_cpg2$V2
-Pdam_data <- data[data >= 0.001 & data <= 1.5] #Cutting off high values
+data <- Pdam$V2
+Pdam_data <- data[data >= 0.001 & data <= 1.5] #Cutting off high and low values
 set.seed(100)
-Pdam_mixmdl <- normalmixEM(Pdam_data, mu = c(0.25, 0.75))
-plot(Pdam_mixmdl, which = 2, col2 = c("red", "blue"), xlab2 = " ", main2 = " ")
+Pdam_mixmdl <- normalmixEM(Pdam_data)
+plot(Pdam_mixmdl, which = 2, col2 = c("red", "blue"), xlab2 = " ", main2 = "Pocillopora damicornis", font.main = 3)
 lines(density(Pdam_data), lty=2, lwd=2)
 
-data <- Spist_cpg2$V2
-Spist_data <- data[data >= 0.001 & data <= 1.5] #Cutting off high values
-set.seed(101)
-Spist_mixmdl <- normalmixEM(Spist_data)
-plot(Spist_mixmdl, which = 2, col2 = c("red", "blue"), ylab2 = " ", xlab2 = "CpG O/E", main2 = " ")
-lines(density(Spist_data), lty=2, lwd=2)
-
-data <- Past_cpg2$V2
-Past_data <- data[data >= 0.001 & data <= 1.5] #Cutting off high values
+data <- Past$V2
+Past_data <- data[data >= 0.001 & data <= 1.5] #Cutting off high and low values
 set.seed(101)
 Past_mixmdl <- normalmixEM(Past_data)
-plot(Past_mixmdl, which = 2, col2 = c("red", "blue"), xlab2 = " ", main2 = " ")
+plot(Past_mixmdl, which = 2, col2 = c("red", "blue"), xlab2 = "CpG O/E", main2 = "Porites astreoides", font.main = 3)
 lines(density(Past_data), lty=2, lwd=2)
+
+data <- Spist$V2
+Spist_data <- data[data >= 0.001 & data <= 1.5] #Cutting off high and low values
+set.seed(101)
+Spist_mixmdl <- normalmixEM(Spist_data)
+plot(Spist_mixmdl, which = 2, col2 = c("red", "blue"), xlab2 = " ", main2 = "Stylophora pistillata", font.main = 3)
+lines(density(Spist_data), lty=2, lwd=2)
+
+#####
+
+Ahya_1comp <- fitdistr(Ahya_data, "normal")
+Amil_1comp <- fitdistr(Amil_data, "normal")
+Apalm_1comp <- fitdistr(Apalm_data, "normal")
+Pdam_1comp <- fitdistr(Pdam_data, "normal")
+Past_1comp <- fitdistr(Past_data, "normal")
+Spist_1comp <- fitdistr(Spist_data, "normal")
 
 ######
 
@@ -86,7 +89,7 @@ lines(density(Past_data), lty=2, lwd=2)
 
 par(mfrow = c(2, 3)) # 2 x 3 plots
 
-data <- Ahya_cpg2$V2
+data <- Ahya$V2
 Ahya_data <- data[data <= 1.5] #Cutting off high values
 set.seed(101)
 Ahya.k2 <- normalmixEM(Ahya_data)
@@ -158,23 +161,23 @@ summary(Apalm_Mclust2)
 #One component Gaussian micture model
 Pdam_Mclust1 <- Mclust(Pdam_data, G = 1) 
 summary(Pdam_Mclust1)
-#log likelihood = 
+#log likelihood = -16513
 
 #Two component Gaussian micture model
 Pdam_Mclust2 <- Mclust(Pdam_data, G = 1:2) 
 summary(Pdam_Mclust2)
-#log likelihood = 
+#log likelihood = -14248
 
 #Spist
 #One component Gaussian micture model
 Spist_Mclust1 <- Mclust(Spist_data, G = 1) 
 summary(Spist_Mclust1)
-#log likelihood = -3069.734
+#log likelihood = -2981.8
 
 #Two component Gaussian micture model
 Spist_Mclust2 <- Mclust(Spist_data, G = 1:2) 
 summary(Spist_Mclust2)
-#log likelihood = -2519.837
+#log likelihood = -2394.4
 
 #Past
 #One component Gaussian micture model
