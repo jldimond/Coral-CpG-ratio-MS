@@ -40,7 +40,7 @@ To further annotate genes with into functional categories,  corresponding Gene O
 
 _**Predicted germline methylation**_
 
-Germline methylation levels were inferred based on the hypermutability of methylated cytosines, which tend towards conversion to thymines over evolutionary time. This results in a reduction in CpG dinucleotides, meaning that historically heavily methylated genomic regions are associated with reduced numbers of CpGs. Thus, methylation patterns that have been inherited through the germline over evolutionary time can be estimated using the ratio of observed to expected CpG, known as CpG O/E:
+Germline methylation levels were inferred based on the hypermutability of methylated cytosines, which tend towards conversion to thymines over evolutionary time. This results in a reduction in CpG dinucleotides, meaning that heavily methylated genomic regions are associated with reduced numbers of CpGs. Thus, methylation patterns that have been inherited through the germline over evolutionary time can be estimated using the ratio of observed to expected CpG, known as CpG O/E:
 
 CpG O/E = (number of CpG / number of C x number of G) x (l<sup>2</sup>/l-1)
 
@@ -49,6 +49,7 @@ where l is the number of nucleotides in the contig.
 Full details of germline methylation prediction methods are provided in jupyter notebooks at https://github.com/jldimond/Coral-CpG-ratio-MS/tree/master/ipynb.
 
 
-**Statiscal Analysis** 
+**Statistcal Analyses** 
 
 Transcriptome CpG O/E patterns were fitted with the normalmixEM function in the mixtools package in the R statistical platform. Mixture models were evaluated against the null single component model by comparison of log likelihood statistics. For each GOSlim term, mean CpG O/E was evaluated with ANOVA followed by post-hoc tests. Whole transcriptome and differentially expressed gene CpG O/E distributions were compared with the Kolmogorov–Smirnov test.
+
