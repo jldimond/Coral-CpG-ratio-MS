@@ -2,7 +2,7 @@
 
 _**Transcriptome data sources**_
 
-The transcriptomes of six scleractinian coral species were evaluated to determine germline methylation patterns in relation to gene function and activity. Species examined included *Acropora hyacinthus*, *A. millepora*, *A. palmata*, *Pocillopora damicornis*, *Porites astreoides*, and *Stylophora pistillata* (Table 1).  In order to remove *Symbiodinium* sequences from these transcriptomes, they were compared to *Symbiodinium* clade A and B transcriptomes from Bayer et al. (2012) using Blastn (version 2.2.29). An evalue threshold of of 10<sup>-5</sup> was used for these queries, and all matched sequences were removed from further analyses. $$$SHOULD ALSO NORMALIZE FOR SIZE??$$
+The transcriptomes of six scleractinian coral species were evaluated to determine germline methylation patterns in relation to gene function and activity. Species examined included *Acropora hyacinthus*, *A. millepora*, *A. palmata*, *Pocillopora damicornis*, *Porites astreoides*, and *Stylophora pistillata* (Table 1).  In order to remove *Symbiodinium* sequences from these transcriptomes, they were compared to *Symbiodinium* clade A and B transcriptomes from Bayer et al. (2012) using Blastn (version 2.2.29). An evalue threshold of of 10<sup>-5</sup> was used for these queries, and all matched sequences were removed from further analyses. $$$SHOULD ALSO NORMALIZE FOR SIZE??$$, LINK TO NOTEBOOK$$
 
 
 Table 1. Transcriptomes used in this study 
@@ -20,11 +20,10 @@ Organism | Life history stage | Method | No. Contigs | Reference
 _**Differentially expressed gene datasets**_
 
 In addition to analyzing whole transcriptomes, we also examined genes differentially expressed in response to environmental stressors for the three acroporid species. For *A. hyacinthus* and *A. millepora* these gene sets were derived from the same studies that developed the reference transcriptomes (Barshis et al. 2013, Moya et al. 2012), and for *A. palmata* differentially expressed genes sets were reported in Polato
-et al. (2013). Table 2 summarizes these data.
+et al. (2013) (Table 2).
 
 
-
-Table 2. Differentially expressed genes used in this study 
+Table 2. Differentially expressed gene sets examined
 
 Organism | Life history stage | Method | No. Contigs | Environmental factor | Reference   
 --------- | ---------- | --------- | -------- |-------- | --------
@@ -36,7 +35,7 @@ Organism | Life history stage | Method | No. Contigs | Environmental factor | Re
 _**Annotation**_
 
 To maintain consistency in comparing datasets, all transcriptomes and  differentially expressed gene sets were compared to the UniProt/Swiss-Prot protein database (version 2/17/2015) using Blastx (version 2.2.29) with an evalue threshold of 10<sup>-5</sup>.
-To further annotate genes with broad functional categories, UniProt/Swiss-Prot IDs were joined with corresponding Gene Ontology Slim (GOSlim) terms using SQLShare (http://escience.washington.edu/sqlshare). Only GOslim biological process ('P') terms were included. This join process allowed an individual contig to fall into more than one GOslim bin, but did not allow it to occur in the same bin more than once. Complete details of annotation are provided in jupyter notebooks at https://github.com/jldimond/Coral-CpG-ratio-MS/tree/master/ipynb.
+To further annotate genes with into functional categories,  corresponding Gene Ontology Slim (GOSlim) biological process were identified.  Complete details of annotation are provided in jupyter notebooks at https://github.com/jldimond/Coral-CpG-ratio-MS/tree/master/ipynb.
 
 
 _**Predicted germline methylation**_
