@@ -69,64 +69,77 @@ PastMean<-PastMean[2:15]
 PastSE<-PastSE[2:15]
 
 GO <- as.data.frame(cbind(PdamMean, SpistMean, ApalmMean, PastMean, AmilMean, AhyaMean, PdamSE, SpistSE, ApalmSE, PastSE, AmilSE, AhyaSE))
-grand_mean<-rowMeans(GO[,1:6])
-GO2<-cbind(GO,grand_mean)
-
+GO2<- GO[order(row.names(GO),decreasing=FALSE),]
+GO3<- cbind(GO2, Pdam_asterisks[2:15], Spist_asterisks[1:14], Apalm_asterisks[2:15], Past_asterisks[2:15], Amil_asterisks[2:15], Ahya_asterisks[2:15])
 
 #Plot multiple barplots
 
 par(mar = c(5,13,2,1))
 par(mfrow = c(2, 3)) # 2 x 3 plots
 
-Ahya_plot<-GO[order(GO[,6],decreasing=FALSE),]
+Ahya_plot<-GO3[order(GO[,6],decreasing=FALSE),]
 Ahya_means<-Ahya_plot[,6]
 Ahya_se<-Ahya_plot[,12]
 Ahya_mp<-barplot(Ahya_plot[,6], plot=FALSE, beside=TRUE, horiz=TRUE, las=2, col=c(40,42,44,46,48,50))
-barplot(Ahya_plot[,6],xlim=c(0.5,0.9), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Ahya_plot), col=0, cex.axis = 0.7, cex.lab = 0.7, cex = 0.7, main = "Acropora hyacinthus", font.main = 3, cex.main = 0.8)
+barplot(Ahya_plot[,6],xlim=c(0.5,0.95), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Ahya_plot), col=0, cex.axis = 0.7, cex.lab = 0.7, cex = 0.7, main = "Acropora hyacinthus", font.main = 3, cex.main = 0.8)
 segments(Ahya_means - Ahya_se, Ahya_mp, Ahya_means + Ahya_se, Ahya_mp)
 axis(side =1, cex.axis = 0.7)
+end_segment <- Ahya_means + (Ahya_se + 0.02)
+text(x = end_segment, y = Ahya_mp, label = Ahya_plot[,18], cex = 0.8)
 
-Amil_plot<-GO[order(GO[,5],decreasing=FALSE),]
+Amil_plot<-GO3[order(GO[,5],decreasing=FALSE),]
 Amil_means<-Amil_plot[,5]
 Amil_se<-Amil_plot[,11]
 Amil_mp<-barplot(Amil_plot[,5], plot=FALSE, beside=TRUE, horiz=TRUE, las=2, col=c(40,42,44,46,48,50))
-barplot(Amil_plot[,5],xlim=c(0.5,0.9), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Amil_plot), col=0, cex.axis = 0.7, cex.lab = 0.7, cex = 0.7, main = "Acropora millepora", font.main = 3, cex.main = 0.8)
+barplot(Amil_plot[,5],xlim=c(0.5,0.95), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Amil_plot), col=0, cex.axis = 0.7, cex.lab = 0.7, cex = 0.7, main = "Acropora millepora", font.main = 3, cex.main = 0.8)
 segments(Amil_means - Amil_se, Amil_mp, Amil_means + Amil_se, Amil_mp)
 axis(side =1, cex.axis = 0.7)
+end_segment <- Amil_means + (Amil_se + 0.02)
+text(x = end_segment, y = Amil_mp, label = Amil_plot[,17], cex = 0.8)
 
-Apalm_plot<-GO[order(GO[,3],decreasing=FALSE),]
+Apalm_plot<-GO3[order(GO[,3],decreasing=FALSE),]
 Apalm_means<-Apalm_plot[,3]
 Apalm_se<-Apalm_plot[,9]
 Apalm_mp<-barplot(Apalm_plot[,3], plot=FALSE, beside=TRUE, horiz=TRUE, las=2, col=c(40,42,44,46,48,50))
-barplot(Apalm_plot[,3],xlim=c(0.5,0.9), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Apalm_plot), col=0, cex.axis = 0.7, cex.lab = 0.7, cex = 0.7, main = "Acropora palmata", font.main = 3, cex.main = 0.8)
+barplot(Apalm_plot[,3],xlim=c(0.5,0.95), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Apalm_plot), col=0, cex.axis = 0.7, cex.lab = 0.7, cex = 0.7, main = "Acropora palmata", font.main = 3, cex.main = 0.8)
 segments(Apalm_means - Apalm_se, Apalm_mp, Apalm_means + Apalm_se, Apalm_mp)
 axis(side =1, cex.axis = 0.7)
+end_segment <- Apalm_means + (Apalm_se + 0.02)
+text(x = end_segment, y = Apalm_mp, label = Apalm_plot[,15], cex = 0.8)
 
-Pdam_plot<-GO[order(GO[,1],decreasing=FALSE),]
+Pdam_plot<-GO3[order(GO[,1],decreasing=FALSE),]
 Pdam_means<-Pdam_plot[,1]
 Pdam_se<-Pdam_plot[,7]
 Pdam_mp<-barplot(Pdam_plot[,1], plot=FALSE, beside=TRUE, horiz=TRUE, las=2, col=c(40,42,44,46,48,50))
-barplot(Pdam_plot[,1],xlim=c(0.5,0.9), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Pdam_plot), col=0, xlab = "CpG O/E", cex.axis = 0.7, cex.lab = 0.7, cex = 0.7, main = "Pocillopora damicornis", font.main = 3, cex.main = 0.8)
+barplot(Pdam_plot[,1],xlim=c(0.5,0.95), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Pdam_plot), col=0, cex.axis = 0.7, cex.lab = 0.7, cex = 0.7, main = "Pocillopora damicornis", font.main = 3, cex.main = 0.8)
 segments(Pdam_means - Pdam_se, Pdam_mp, Pdam_means + Pdam_se, Pdam_mp)
 axis(side =1, cex.axis = 0.7)
+end_segment <- Pdam_means + (Pdam_se + 0.02)
+text(x = end_segment, y = Pdam_mp, label = Pdam_plot[,13], cex = 0.8)
 
-Past_plot<-GO[order(GO[,4],decreasing=FALSE),]
+Past_plot<-GO3[order(GO[,4],decreasing=FALSE),]
 Past_means<-Past_plot[,4]
 Past_se<-Past_plot[,10]
 Past_mp<-barplot(Past_plot[,4], plot=FALSE, beside=TRUE, horiz=TRUE, las=2, col=c(40,42,44,46,48,50))
-barplot(Past_plot[,4],xlim=c(0.5,0.9), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Past_plot), col=0, cex.axis = 0.7, cex.lab = 0.7, cex = 0.7, main = "Porites astreoides", font.main = 3, cex.main = 0.8)
+barplot(Past_plot[,4],xlim=c(0.5,0.95), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Past_plot), col=0, xlab = "CpG O/E", cex.axis = 0.7, cex.lab = 0.7, cex = 0.7, main = "Porites astreoides", font.main = 3, cex.main = 0.8)
 segments(Past_means - Past_se, Past_mp, Past_means + Past_se, Past_mp)
 axis(side =1, cex.axis = 0.7)
+end_segment <- Past_means + (Past_se + 0.02)
+text(x = end_segment, y = Past_mp, label = Past_plot[,16], cex = 0.8)
 
-Spist_plot<-GO[order(GO[,2],decreasing=FALSE),]
+Spist_plot<-GO3[order(GO[,2],decreasing=FALSE),]
 Spist_means<-Spist_plot[,2]
 Spist_se<-Spist_plot[,8]
 Spist_mp<-barplot(Spist_plot[,2], plot=FALSE, beside=TRUE, horiz=TRUE, las=2, col=c(40,42,44,46,48,50))
-barplot(Spist_plot[,2],xlim=c(0.5,0.9), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Spist_plot), col=0, cex.axis = 0.7, cex.lab = 0.7, cex = 0.7, main = "Stylophora pistillata", font.main = 3, cex.main = 0.8)
+barplot(Spist_plot[,2],xlim=c(0.5,0.95), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Spist_plot), col=0, cex.axis = 0.7, cex.lab = 0.7, cex = 0.7, main = "Stylophora pistillata", font.main = 3, cex.main = 0.8)
 segments(Spist_means - Spist_se, Spist_mp, Spist_means + Spist_se, Spist_mp)
 axis(side =1, cex.axis = 0.7)
+end_segment <- Spist_means + (Spist_se + 0.02)
+text(x = end_segment, y = Spist_mp, label = Spist_plot[,14], cex = 0.8)
+
 
 ######Stats
+
 
 #Levene's test of homogeneity of variances
 library(car)
@@ -233,4 +246,90 @@ names<-c("P. damicornis", "S. pistillata", "A. palmata", "P. astreoides", "A. mi
 revnames<-rev(names)
 revcolors<-rev(colors)
 legend(x = .75, y = 28, legend = revnames, fill = revcolors, border = 1, bty = "n", text.font = 3, cex =0.75)
+
+
+#####
+#Classify data as high- or low- CpG O/E based on intersection of components
+#in mixture model, then apply Fisher exacts test.
+
+Ahya_class <- ifelse(Ahya2$V2 > Ahya_intersect[2] ,"high" ,"low")
+Ahya_cpg_class <- cbind(Ahya2, Ahya_class)
+Ahya_cpg_class2 <- subset(Ahya_cpg_class, select=c("V3", "Ahya_class"))
+Ahya_class_table <- table(Ahya_cpg_class2)
+Ahya_class_sum <- table(Ahya_class)
+Ahya_table_matrix <- as.matrix(Ahya_class_table[1:15,1:2])
+Ahya_high <- rep(c(Ahya_class_sum[1]), 15)
+Ahya_low <- rep(c(Ahya_class_sum[2]), 15)
+Ahya_all <- cbind(Ahya_table_matrix, Ahya_high, Ahya_low)
+Ahya_fisher <- as.vector(apply(Ahya_all,1, function(x) fisher.test(matrix(x,nr=2))$p.value))
+
+Amil_class <- ifelse(Amil2$V2 > Amil_intersect[2] ,"high" ,"low")
+Amil_cpg_class <- cbind(Amil2, Amil_class)
+Amil_cpg_class2 <- subset(Amil_cpg_class, select=c("V3", "Amil_class"))
+Amil_class_table <- table(Amil_cpg_class2)
+Amil_class_sum <- table(Amil_class)
+Amil_table_matrix <- as.matrix(Amil_class_table[1:15,1:2])
+Amil_high <- rep(c(Amil_class_sum[1]), 15)
+Amil_low <- rep(c(Amil_class_sum[2]), 15)
+Amil_all <- cbind(Amil_table_matrix, Amil_high, Amil_low)
+Amil_fisher <- as.vector(apply(Amil_all,1, function(x) fisher.test(matrix(x,nr=2))$p.value))
+
+Apalm_class <- ifelse(Apalm2$V2 > Apalm_intersect[2] ,"high" ,"low")
+Apalm_cpg_class <- cbind(Apalm2, Apalm_class)
+Apalm_cpg_class2 <- subset(Apalm_cpg_class, select=c("V3", "Apalm_class"))
+Apalm_class_table <- table(Apalm_cpg_class2)
+Apalm_class_sum <- table(Apalm_class)
+Apalm_table_matrix <- as.matrix(Apalm_class_table[1:15,1:2])
+Apalm_high <- rep(c(Apalm_class_sum[1]), 15)
+Apalm_low <- rep(c(Apalm_class_sum[2]), 15)
+Apalm_all <- cbind(Apalm_table_matrix, Apalm_high, Apalm_low)
+Apalm_fisher <- as.vector(apply(Apalm_all,1, function(x) fisher.test(matrix(x,nr=2))$p.value))
+
+Pdam_class <- ifelse(Pdam2$V2 > Pdam_intersect[2] ,"high" ,"low")
+Pdam_cpg_class <- cbind(Pdam2, Pdam_class)
+Pdam_cpg_class2 <- subset(Pdam_cpg_class, select=c("V3", "Pdam_class"))
+Pdam_class_table <- table(Pdam_cpg_class2)
+Pdam_class_sum <- table(Pdam_class)
+Pdam_table_matrix <- as.matrix(Pdam_class_table[1:15,1:2])
+Pdam_high <- rep(c(Pdam_class_sum[1]), 15)
+Pdam_low <- rep(c(Pdam_class_sum[2]), 15)
+Pdam_all <- cbind(Pdam_table_matrix, Pdam_high, Pdam_low)
+Pdam_fisher <- as.vector(apply(Pdam_all,1, function(x) fisher.test(matrix(x,nr=2))$p.value))
+
+Past_class <- ifelse(Past2$V2 > Past_intersect[2] ,"high" ,"low")
+Past_cpg_class <- cbind(Past2, Past_class)
+Past_cpg_class2 <- subset(Past_cpg_class, select=c("V3", "Past_class"))
+Past_class_table <- table(Past_cpg_class2)
+Past_class_sum <- table(Past_class)
+Past_table_matrix <- as.matrix(Past_class_table[1:15,1:2])
+Past_high <- rep(c(Past_class_sum[1]), 15)
+Past_low <- rep(c(Past_class_sum[2]), 15)
+Past_all <- cbind(Past_table_matrix, Past_high, Past_low)
+Past_fisher <- as.vector(apply(Past_all,1, function(x) fisher.test(matrix(x,nr=2))$p.value))
+
+Spist_class <- ifelse(Spist2$V2 > Spist_intersect[2] ,"high" ,"low")
+Spist_cpg_class <- cbind(Spist2, Spist_class)
+Spist_cpg_class2 <- subset(Spist_cpg_class, select=c("V3", "Spist_class"))
+Spist_class_table <- table(Spist_cpg_class2)
+Spist_class_sum <- table(Spist_class)
+Spist_table_matrix <- as.matrix(Spist_class_table[1:14,1:2])
+Spist_high <- rep(c(Spist_class_sum[1]), 14)
+Spist_low <- rep(c(Spist_class_sum[2]), 14)
+Spist_all <- cbind(Spist_table_matrix, Spist_high, Spist_low)
+Spist_fisher <- as.vector(apply(Spist_all,1, function(x) fisher.test(matrix(x,nr=2))$p.value))
+
+
+# Create vector of asterisks according to p-value
+
+Spist_asterisks = rep(0, length(Spist_fisher))
+for (i in 1:length(Spist_fisher)) {
+  if (Spist_fisher[i] <= 0.001) {
+    Spist_asterisks[i] = "***"}
+  else if (Spist_fisher[i] >= 0.001 & Spist_fisher[i] <= 0.01) {
+    Spist_asterisks[i] = "**"}
+  else if (Spist_fisher[i] >= 0.01 & Spist_fisher[i] <= 0.05) {
+    Spist_asterisks[i] = "*"}
+  else if (Spist_fisher[i] >= 0.05) {  
+    Spist_asterisks[i] = " "}
+}
 

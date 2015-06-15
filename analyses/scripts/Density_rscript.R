@@ -74,7 +74,25 @@ Spist_mixmdl <- normalmixEM(Spist_data)
 plot(Spist_mixmdl, which = 2, col2 = c("red", "blue"), xlab2 = " ", main2 = "Stylophora pistillata", font.main = 3)
 lines(density(Spist_data), lty=2, lwd=2)
 
-#####
+##### Finds intersection point of two component model
+
+intersect <- function(m1, s1, m2, s2, prop1, prop2){
+  
+  B <- (m1/s1^2 - m2/s2^2)
+  A <- 0.5*(1/s2^2 - 1/s1^2)
+  C <- 0.5*(m2^2/s2^2 - m1^2/s1^2) - log((s1/s2)*(prop2/prop1))
+  
+  (-B + c(1,-1)*sqrt(B^2 - 4*A*C))/(2*A)
+}
+
+Ahya_intersect <- intersect(0.30, 0.11, 0.75, 0.26, 0.14, 0.86)
+Amil_intersect <- intersect(0.38, 0.11, 0.74, 0.20, 0.17, 0.83)
+Apalm_intersect <- intersect(0.35, 0.12, 0.73, 0.22, 0.27, 0.73)
+Pdam_intersect <- intersect(0.24, 0.10, 0.69, 0.25, 0.22, 0.78)
+Past_intersect <- intersect(0.34, 0.12, 0.73, 0.23, 0.26, 0.74)
+Spist_intersect <- intersect(0.33,0.11, 0.72, 0.23, 0.28, 0.72)
+
+##### Tests fit of single component model
 
 Ahya_1comp <- fitdistr(Ahya_data, "normal")
 Amil_1comp <- fitdistr(Amil_data, "normal")
@@ -82,110 +100,3 @@ Apalm_1comp <- fitdistr(Apalm_data, "normal")
 Pdam_1comp <- fitdistr(Pdam_data, "normal")
 Past_1comp <- fitdistr(Past_data, "normal")
 Spist_1comp <- fitdistr(Spist_data, "normal")
-
-######
-
-##Plot density lines manually (this needs work!)
-
-par(mfrow = c(2, 3)) # 2 x 3 plots
-
-data <- Ahya$V2
-Ahya_data <- data[data <= 1.5] #Cutting off high values
-set.seed(101)
-Ahya.k2 <- normalmixEM(Ahya_data)
-plot(hist(Ahya_data,breaks=20),freq=FALSE, xlab=" ", ylab="Density", ylim = c(0,1.4), main = " ")
-lines(density(Ahya_data),lty=2)
-sapply(1:2,plot.normal.components,mixture=Ahya.k2)
-
-
-# Two-component Gaussian mixture
-
-library(mixtools)
-
-spist.k2 <- normalmixEM(Spist_data,k=1,maxit=100,epsilon=0.01)
-
-# Function to add Gaussian mixture components, vertically scaled, to the
-# current plot
-# Presumes the mixture object has the structure used by mixtools
-plot.normal.components <- function(mixture,component.number,...) {
-  curve(mixture$lambda[component.number] *
-          dnorm(x,mean=mixture$mu[component.number],
-                sd=mixture$sigma[component.number]), add=TRUE, col = "blue"(component.number[1]), "red"(component.number[2])...)
-}
-
-### Figure 2
-plot(hist(Spist_data,breaks=50),freq=FALSE, xlab="Precipitation (1/100 inch)",main="Precipitation in Snoqualmie Falls")
-lines(density(Spist_data),lty=2)
-sapply(1:2,plot.normal.components,mixture=spist.k2)
-
-#######
-    
-# Use mclust to compare models
-
-library(mclust)
-
-#Ahya
-#One component Gaussian micture model
-Ahya_Mclust1 <- Mclust(Ahya_data, G = 1) 
-summary(Ahya_Mclust1)
-#log likelihood = -9246.993
-
-#Two component Gaussian micture model
-Ahya_Mclust2 <- Mclust(Ahya_data, G = 1:2) 
-summary(Ahya_Mclust2)
-#log likelihood = -8819.696
-
-#Amil
-#One component Gaussian micture model
-Amil_Mclust1 <- Mclust(Amil_data, G = 1) 
-summary(Amil_Mclust1)
-#log likelihood = -9002.966
-
-#Two component Gaussian micture model
-Amil_Mclust2 <- Mclust(Amil_data, G = 1:2) 
-summary(Amil_Mclust2)
-#log likelihood = -8030.064
-
-#Apalm
-#One component Gaussian micture model
-Apalm_Mclust1 <- Mclust(Apalm_data, G = 1) 
-summary(Apalm_Mclust1)
-#log likelihood = -18831.66
-
-#Two component Gaussian micture model
-Apalm_Mclust2 <- Mclust(Apalm_data, G = 1:2) 
-summary(Apalm_Mclust2)
-#log likelihood = -16805.99
-
-#Pdam
-#One component Gaussian micture model
-Pdam_Mclust1 <- Mclust(Pdam_data, G = 1) 
-summary(Pdam_Mclust1)
-#log likelihood = -16513
-
-#Two component Gaussian micture model
-Pdam_Mclust2 <- Mclust(Pdam_data, G = 1:2) 
-summary(Pdam_Mclust2)
-#log likelihood = -14248
-
-#Spist
-#One component Gaussian micture model
-Spist_Mclust1 <- Mclust(Spist_data, G = 1) 
-summary(Spist_Mclust1)
-#log likelihood = -2981.8
-
-#Two component Gaussian micture model
-Spist_Mclust2 <- Mclust(Spist_data, G = 1:2) 
-summary(Spist_Mclust2)
-#log likelihood = -2394.4
-
-#Past
-#One component Gaussian micture model
-Past_Mclust1 <- Mclust(Past_data, G = 1) 
-summary(Past_Mclust1)
-#log likelihood = -8397.715
-
-#Two component Gaussian micture model
-Past_Mclust2 <- Mclust(Past_data, G = 1:2) 
-summary(Past_Mclust2)
-#log likelihood = -7883.481
