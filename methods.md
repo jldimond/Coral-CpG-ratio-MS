@@ -2,7 +2,7 @@
 
 _**Transcriptome data sources**_
 
-Because gene bodies are the primary target of CpG methylation in invertebrates, including cnidarians (Zemach et al. 2010), we evaluated the transcriptomes of six scleractinian coral species to determine germline methylation patterns in relation to gene function and activity. Species examined included *Acropora hyacinthus*, *A. millepora*, *A. palmata*, *Pocillopora damicornis*, *Porites astreoides*, and *Stylophora pistillata* (Table 1). These transcriptomes reflect a range of life history stages. Some transcriptomes were developed from life history stages that had not yet been infected with symbiotic dinoflagellates (*Symbiodinium* spp.), while others used bioinformatic techniques to filter out putative *Symbiodinium* sequences. However, two of the transcriptomes (*P. damicornis* and *S. pistillata*) were developed from adult corals and did not remove putative symbiont sequences. We therefore applied a filtering step to these transcriptomes by comparing them to *Symbiodinium* clade A and B transcriptomes from Bayer et al. (2012) using Blastn (version 2.2.29). An evalue threshold of of 10<sup>-5</sup> was used for these queries, and all matched sequences were removed from further analyses.
+The transcriptomes of six scleractinian coral species were evaluated to determine germline methylation patterns in relation to gene function and activity. Species examined included *Acropora hyacinthus*, *A. millepora*, *A. palmata*, *Pocillopora damicornis*, *Porites astreoides*, and *Stylophora pistillata* (Table 1).  In order to remove *Symbiodinium* sequences from these transcriptomes, they were compared to *Symbiodinium* clade A and B transcriptomes from Bayer et al. (2012) using Blastn (version 2.2.29). An evalue threshold of of 10<sup>-5</sup> was used for these queries, and all matched sequences were removed from further analyses. $$$SHOULD ALSO NORMALIZE FOR SIZE??$$, LINK TO NOTEBOOK$$
 
 
 Table 1. Transcriptomes used in this study 
@@ -19,11 +19,15 @@ Organism | Life history stage | Method | No. Contigs | Reference
 
 _**Differentially expressed gene datasets**_
 
+<<<<<<< HEAD
 In addition to analyzing whole transcriptomes, we also examined genes differentially expressed in response to environmental stressors for the three acroporid species. For *A. hyacinthus* and *A. millepora* these gene sets were derived from the same studies that developed the reference transcriptomes (Barshis et al. 2013, Moya et al. 2012), and for *A. palmata* differentially expressed genes sets were reported in a companion study by Polato et al. (2013). Table 2 summarizes these data.
+=======
+In addition to analyzing whole transcriptomes, we also examined genes differentially expressed in response to environmental stressors for the three acroporid species. For *A. hyacinthus* and *A. millepora* these gene sets were derived from the same studies that developed the reference transcriptomes (Barshis et al. 2013, Moya et al. 2012), and for *A. palmata* differentially expressed genes sets were reported in Polato
+et al. (2013) (Table 2).
+>>>>>>> origin/master
 
 
-
-Table 2. Differentially expressed genes used in this study 
+Table 2. Differentially expressed gene sets examined
 
 Organism | Life history stage | Method | No. Contigs | Environmental factor | Reference   
 --------- | ---------- | --------- | -------- |-------- | --------
@@ -35,12 +39,12 @@ Organism | Life history stage | Method | No. Contigs | Environmental factor | Re
 _**Annotation**_
 
 To maintain consistency in comparing datasets, all transcriptomes and  differentially expressed gene sets were compared to the UniProt/Swiss-Prot protein database (version 2/17/2015) using Blastx (version 2.2.29) with an evalue threshold of 10<sup>-5</sup>.
-To further annotate genes with broad functional categories, UniProt/Swiss-Prot IDs were joined with corresponding Gene Ontology Slim (GOSlim) terms using SQLShare (http://escience.washington.edu/sqlshare). Only GOslim biological process ('P') terms were included. This join process allowed an individual contig to fall into more than one GOslim bin, but did not allow it to occur in the same bin more than once. Complete details of annotation are provided in jupyter notebooks at https://github.com/jldimond/Coral-CpG-ratio-MS/tree/master/ipynb.
+To further annotate genes with into functional categories,  corresponding Gene Ontology Slim (GOSlim) biological process were identified.  Complete details of annotation are provided in jupyter notebooks at https://github.com/jldimond/Coral-CpG-ratio-MS/tree/master/ipynb.
 
 
 _**Predicted germline methylation**_
 
-Germline methylation levels were inferred based on the hypermutability of methylated cytosines, which tend towards conversion to thymines over evolutionary time. This results in a reduction in CpG dinucleotides, meaning that historically heavily methylated genomic regions are associated with reduced numbers of CpGs. Thus, methylation patterns that have been inherited through the germline over evolutionary time can be estimated using the ratio of observed to expected CpG, known as CpG O/E:
+Germline methylation levels were inferred based on the hypermutability of methylated cytosines, which tend towards conversion to thymines over evolutionary time. This results in a reduction in CpG dinucleotides, meaning that heavily methylated genomic regions are associated with reduced numbers of CpGs. Thus, methylation patterns that have been inherited through the germline over evolutionary time can be estimated using the ratio of observed to expected CpG, known as CpG O/E:
 
 CpG O/E = (number of CpG / number of C x number of G) x (l<sup>2</sup>/l-1)
 
@@ -49,6 +53,11 @@ where l is the number of nucleotides in the contig.
 Only annotated sequences were used for calculation of CpG O/E to maximize the likelihood that sequences were oriented in the 5' to 3' direction. For subsequent analyses, we set minimum and maximum limits for CpG O/E at 0.001 and 1.5, respectively. Full details of germline methylation prediction methods are provided in jupyter notebooks at https://github.com/jldimond/Coral-CpG-ratio-MS/tree/master/ipynb.
 
 
-**Statiscal Analysis** 
+**Statistcal Analyses** 
 
+<<<<<<< HEAD
 Transcriptome CpG O/E patterns were fitted with the normalmixEM function in the mixtools package in the R statistical platform. Mixture models were evaluated against the null single component model by comparison of log-likelihood statistics. High- and low-CpG O/E components were delineated in mixture models using the intersection point of component density curves. For each GOSlim term, enrichment in the high and low CpG O/E components identified in mixture models was evaluated with Fisher's exact test. Whole transcriptome and differentially expressed gene CpG O/E distributions were compared with the Kolmogorov–Smirnov test.
+=======
+Transcriptome CpG O/E patterns were fitted with the normalmixEM function in the mixtools package in the R statistical platform. Mixture models were evaluated against the null single component model by comparison of log likelihood statistics. For each GOSlim term, mean CpG O/E was evaluated with ANOVA followed by post-hoc tests. Whole transcriptome and differentially expressed gene CpG O/E distributions were compared with the Kolmogorov–Smirnov test.
+
+>>>>>>> origin/master
