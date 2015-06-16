@@ -3,7 +3,7 @@
 
 _**Annotation**_ 
 
-For *P. damicornis* and *S. pistillata*, 2892 and 138 putative *Symbiodinium* sequences were removed from the transcriptomes, respectively. Queries of the coral transcriptomes against the UniProt/Swiss-Prot database resulted in annotation of 26% to 47% of the contigs in each transcriptome (Table 3). Subsequent annotation with GOslim biological processes terms further reduced the numbers of annotated contigs. However, many contigs fell into more than one GOslim category, resulting in multiple annotations for some contigs.
+For *P. damicornis* and *S. pistillata* transcriptomes, 2892 and 138 putative *Symbiodinium* sequences were removed from the transcriptomes, respectively. Comparisons of the six coral transcriptomes to the UniProt/Swiss-Prot database resulted in annotation of 26% to 47% of the contigs in each transcriptome (Table 3).  REFERENCE NOTEBOOKS
 
 
 Table 3. Transcriptome annotation results. 
