@@ -69,7 +69,7 @@ PastMean<-PastMean[2:15]
 PastSE<-PastSE[2:15]
 
 #Classify data as high- or low- CpG O/E based on intersection of components
-#in mixture model, then apply Fisher exacts test.
+#in mixture model, then apply Fisher's exact test.
 #Intersection point file derived from another script (CpG_Density.R)
 
 Ahya_class <- ifelse(Ahya2$V2 > Ahya_intersect[2] ,"high" ,"low")

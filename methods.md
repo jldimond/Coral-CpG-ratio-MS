@@ -40,7 +40,7 @@ To further annotate genes with into functional categories,  corresponding Gene O
 
 _**Predicted germline methylation**_
 
-Germline methylation levels were inferred based on the hypermutability of methylated cytosines, which tend towards conversion to thymines over evolutionary time. This results in a reduction in CpG dinucleotides, meaning that heavily methylated genomic regions are associated with reduced numbers of CpGs. Thus, methylation patterns that have been inherited through the germline over evolutionary time can be estimated using the ratio of observed to expected CpG, known as CpG O/E:
+Germline methylation levels were inferred based on the hypermutability of methylated cytosines, which tend towards conversion to thymines over evolutionary time. This results in a reduction in CpG dinucleotides, meaning that heavily methylated genomic regions are associated with reduced numbers of CpGs. Thus, methylation patterns that have been inherited through the germline over evolutionary time can be estimated using the ratio of observed to expected CpG, known as CpG O/E. Germline DNA methylation estimated by analysis of CpG O/E is highly correlated with methylation enrichment quantified via methods such as bisulphite sequencing (Suzuki et al. 2007, Sarda et al. 2012, Gavery and Roberts 2013). CpG O/E was defined as:
 
 CpG O/E = (number of CpG / number of C x number of G) x (l<sup>2</sup>/l-1)
 

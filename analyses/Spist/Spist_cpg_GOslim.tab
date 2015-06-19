@@ -170,7 +170,6 @@ Spi_isotig00163 	 0.563061 	 other biological processes
 Spi_isotig00163 	 0.563061 	 stress response  
 Spi_isotig00163 	 0.563061 	 transport   
 Spi_isotig00164 	 0.611841 	 developmental processes  
-Spi_isotig00175 	 0.828386 	 other metabolic processes 
 Spi_isotig00185 	 0.694329 	 cell organization and biogenesis
 Spi_isotig00185 	 0.694329 	 other metabolic processes 
 Spi_isotig00185 	 0.694329 	 stress response  
@@ -312,11 +311,6 @@ Spi_isotig00438 	 0.734796 	 stress response
 Spi_isotig00439 	 0.571659 	 other metabolic processes 
 Spi_isotig00440 	 0.564162 	 other metabolic processes 
 Spi_isotig00443 	 0.451585 	 other metabolic processes 
-Spi_isotig00457 	 0.806432 	 other metabolic processes 
-Spi_isotig00457 	 0.806432 	 transport   
-Spi_isotig00459 	 0.813598 	 other metabolic processes 
-Spi_isotig00459 	 0.813598 	 transport   
-Spi_isotig00462 	 0.738764 	 transport   
 Spi_isotig00471 	 0.20849 	 RNA metabolism  
 Spi_isotig00473 	 0.344527 	 cell organization and biogenesis
 Spi_isotig00474 	 0.382766 	 cell organization and biogenesis
@@ -327,30 +321,6 @@ Spi_isotig00488 	 0.501001 	 signal transduction
 Spi_isotig00488 	 0.501001 	 transport   
 Spi_isotig00489 	 0.489132 	 signal transduction  
 Spi_isotig00489 	 0.489132 	 transport   
-Spi_isotig00492 	 0.578614 	 cell cycle and proliferation
-Spi_isotig00492 	 0.578614 	 cell organization and biogenesis
-Spi_isotig00492 	 0.578614 	 developmental processes  
-Spi_isotig00492 	 0.578614 	 other biological processes 
-Spi_isotig00492 	 0.578614 	 other metabolic processes 
-Spi_isotig00493 	 0.558638 	 cell organization and biogenesis
-Spi_isotig00493 	 0.558638 	 other biological processes 
-Spi_isotig00493 	 0.558638 	 other metabolic processes 
-Spi_isotig00494 	 0.559432 	 cell organization and biogenesis
-Spi_isotig00494 	 0.559432 	 other biological processes 
-Spi_isotig00494 	 0.559432 	 other metabolic processes 
-Spi_isotig00495 	 0.539135 	 cell organization and biogenesis
-Spi_isotig00495 	 0.539135 	 other biological processes 
-Spi_isotig00496 	 0.540211 	 cell organization and biogenesis
-Spi_isotig00496 	 0.540211 	 other biological processes 
-Spi_isotig00496 	 0.540211 	 other metabolic processes 
-Spi_isotig00497 	 0.567586 	 cell organization and biogenesis
-Spi_isotig00497 	 0.567586 	 other biological processes 
-Spi_isotig00497 	 0.567586 	 other metabolic processes 
-Spi_isotig00499 	 0.548361 	 cell organization and biogenesis
-Spi_isotig00499 	 0.548361 	 other biological processes 
-Spi_isotig00499 	 0.548361 	 other metabolic processes 
-Spi_isotig00500 	 0.529615 	 cell organization and biogenesis
-Spi_isotig00500 	 0.529615 	 other biological processes 
 Spi_isotig00501 	 0.643076 	 RNA metabolism  
 Spi_isotig00501 	 0.643076 	 signal transduction  
 Spi_isotig00502 	 0.659022 	 other metabolic processes 
@@ -1490,7 +1460,6 @@ Spi_isotig02136 	 0.294231 	 other metabolic processes
 Spi_isotig02141 	 1.06553 	 other biological processes 
 Spi_isotig02141 	 1.06553 	 other metabolic processes 
 Spi_isotig02143 	 0.282674 	 other biological processes 
-Spi_isotig02146 	 0.933371 	 protein metabolism  
 Spi_isotig02158 	 0.445589 	 RNA metabolism  
 Spi_isotig02159 	 0.444446 	 other biological processes 
 Spi_isotig02159 	 0.444446 	 RNA metabolism  
@@ -1972,7 +1941,6 @@ Spi_isotig02463 	 0.169847 	 DNA metabolism
 Spi_isotig02463 	 0.169847 	 other metabolic processes 
 Spi_isotig02464 	 0.200893 	 DNA metabolism  
 Spi_isotig02464 	 0.200893 	 other metabolic processes 
-Spi_isotig02465 	 0.488271 	 protein metabolism  
 Spi_isotig02467 	 0.177511 	 other biological processes 
 Spi_isotig02467 	 0.177511 	 other metabolic processes 
 Spi_isotig02468 	 0.159692 	 other metabolic processes 
@@ -2403,8 +2371,6 @@ Spi_isotig02798 	 0.752275 	 other biological processes
 Spi_isotig02799 	 0.619959 	 other biological processes 
 Spi_isotig02800 	 0.272271 	 other biological processes 
 Spi_isotig02804 	 0.373853 	 protein metabolism  
-Spi_isotig02806 	 0.847122 	 other metabolic processes 
-Spi_isotig02806 	 0.847122 	 transport   
 Spi_isotig02809 	 1.05704 	 signal transduction  
 Spi_isotig02810 	 0.98306 	 signal transduction  
 Spi_isotig02813 	 0.178034 	 developmental processes  
@@ -2754,8 +2720,6 @@ Spi_isotig03264 	 0.35993 	 protein metabolism
 Spi_isotig03264 	 0.35993 	 RNA metabolism  
 Spi_isotig03265 	 0.378077 	 other biological processes 
 Spi_isotig03265 	 0.378077 	 protein metabolism  
-Spi_isotig03279 	 0.631894 	 protein metabolism  
-Spi_isotig03280 	 0.675707 	 protein metabolism  
 Spi_isotig03285 	 0.87118 	 transport   
 Spi_isotig03293 	 0.302064 	 protein metabolism  
 Spi_isotig03294 	 0.421153 	 cell organization and biogenesis
@@ -3309,8 +3273,6 @@ Spi_isotig04504 	 0.453819 	 protein metabolism
 Spi_isotig04509 	 0.404155 	 other metabolic processes 
 Spi_isotig04510 	 0.485012 	 other metabolic processes 
 Spi_isotig04520 	 0.65635 	 protein metabolism  
-Spi_isotig04526 	 0.778454 	 other metabolic processes 
-Spi_isotig04526 	 0.778454 	 transport   
 Spi_isotig04531 	 0.468161 	 protein metabolism  
 Spi_isotig04533 	 0.122559 	 other biological processes 
 Spi_isotig04533 	 0.122559 	 transport   
@@ -3349,8 +3311,6 @@ Spi_isotig04650 	 0.677543 	 developmental processes
 Spi_isotig04650 	 0.677543 	 signal transduction  
 Spi_isotig04653 	 0.284052 	 other metabolic processes 
 Spi_isotig04654 	 0.676842 	 stress response  
-Spi_isotig04655 	 0.859212 	 other metabolic processes 
-Spi_isotig04655 	 0.859212 	 protein metabolism  
 Spi_isotig04657 	 0.610298 	 DNA metabolism  
 Spi_isotig04658 	 0.304861 	 developmental processes  
 Spi_isotig04658 	 0.304861 	 other biological processes 
@@ -4088,7 +4048,6 @@ Spi_isotig05007 	 0.467032 	 transport
 Spi_isotig05009 	 0.390996 	 protein metabolism  
 Spi_isotig05009 	 0.390996 	 stress response  
 Spi_isotig05010 	 0.209638 	 cell organization and biogenesis
-Spi_isotig05012 	 0.680964 	 protein metabolism  
 Spi_isotig05014 	 1.04617 	 developmental processes  
 Spi_isotig05014 	 1.04617 	 other biological processes 
 Spi_isotig05014 	 1.04617 	 RNA metabolism  
@@ -4388,8 +4347,6 @@ Spi_isotig05181 	 0.474957 	 cell organization and biogenesis
 Spi_isotig05181 	 0.474957 	 developmental processes  
 Spi_isotig05181 	 0.474957 	 other biological processes 
 Spi_isotig05181 	 0.474957 	 transport   
-Spi_isotig05183 	 0.252516 	 signal transduction  
-Spi_isotig05183 	 0.252516 	 transport   
 Spi_isotig05184 	 0.40024 	 other biological processes 
 Spi_isotig05185 	 0.500502 	 cell organization and biogenesis
 Spi_isotig05185 	 0.500502 	 developmental processes  
@@ -5208,8 +5165,6 @@ Spi_isotig05655 	 0.421359 	 cell-cell signaling
 Spi_isotig05655 	 0.421359 	 transport   
 Spi_isotig05656 	 0.564151 	 protein metabolism  
 Spi_isotig05659 	 0.308866 	 other biological processes 
-Spi_isotig05663 	 0.465793 	 other metabolic processes 
-Spi_isotig05663 	 0.465793 	 transport   
 Spi_isotig05664 	 0.527348 	 cell organization and biogenesis
 Spi_isotig05664 	 0.527348 	 developmental processes  
 Spi_isotig05664 	 0.527348 	 RNA metabolism  
@@ -5348,9 +5303,6 @@ Spi_isotig05746 	 0.315559 	 signal transduction
 Spi_isotig05749 	 0.294296 	 cell cycle and proliferation
 Spi_isotig05749 	 0.294296 	 cell organization and biogenesis
 Spi_isotig05749 	 0.294296 	 other biological processes 
-Spi_isotig05751 	 0.772596 	 cell organization and biogenesis
-Spi_isotig05751 	 0.772596 	 other biological processes 
-Spi_isotig05751 	 0.772596 	 other metabolic processes 
 Spi_isotig05754 	 0.471165 	 cell organization and biogenesis
 Spi_isotig05754 	 0.471165 	 other metabolic processes 
 Spi_isotig05755 	 0.409661 	 other metabolic processes 
@@ -6453,8 +6405,6 @@ Spi_isotig06535 	 0.235182 	 other metabolic processes
 Spi_isotig06537 	 0.24156 	 cell cycle and proliferation
 Spi_isotig06537 	 0.24156 	 cell organization and biogenesis
 Spi_isotig06537 	 0.24156 	 other metabolic processes 
-Spi_isotig06539 	 0.0535665 	 other metabolic processes 
-Spi_isotig06539 	 0.0535665 	 transport   
 Spi_isotig06540 	 0.786319 	 developmental processes  
 Spi_isotig06540 	 0.786319 	 protein metabolism  
 Spi_isotig06541 	 0.958959 	 protein metabolism  
@@ -6542,7 +6492,6 @@ Spi_isotig06618 	 0.231068 	 protein metabolism
 Spi_isotig06618 	 0.231068 	 RNA metabolism  
 Spi_isotig06618 	 0.231068 	 signal transduction  
 Spi_isotig06620 	 0.748617 	 transport   
-Spi_isotig06621 	 0.447592 	 protein metabolism  
 Spi_isotig06622 	 1.27095 	 cell organization and biogenesis
 Spi_isotig06622 	 1.27095 	 other biological processes 
 Spi_isotig06622 	 1.27095 	 other metabolic processes 
@@ -7198,7 +7147,6 @@ Spi_isotig07177 	 0.342725 	 other metabolic processes
 Spi_isotig07177 	 0.342725 	 signal transduction  
 Spi_isotig07178 	 0.935388 	 developmental processes  
 Spi_isotig07178 	 0.935388 	 RNA metabolism  
-Spi_isotig07179 	 0.74149 	 protein metabolism  
 Spi_isotig07181 	 0.508157 	 cell organization and biogenesis
 Spi_isotig07181 	 0.508157 	 other biological processes 
 Spi_isotig07181 	 0.508157 	 other metabolic processes 
@@ -8313,14 +8261,6 @@ Spi_isotig08188 	 0.442392 	 signal transduction
 Spi_isotig08189 	 1.05419 	 signal transduction  
 Spi_isotig08195 	 0.938397 	 other metabolic processes 
 Spi_isotig08195 	 0.938397 	 protein metabolism  
-Spi_isotig08196 	 0.980114 	 cell organization and biogenesis
-Spi_isotig08196 	 0.980114 	 death   
-Spi_isotig08196 	 0.980114 	 developmental processes  
-Spi_isotig08196 	 0.980114 	 DNA metabolism  
-Spi_isotig08196 	 0.980114 	 other biological processes 
-Spi_isotig08196 	 0.980114 	 other metabolic processes 
-Spi_isotig08196 	 0.980114 	 RNA metabolism  
-Spi_isotig08196 	 0.980114 	 stress response  
 Spi_isotig08197 	 0.810861 	 other biological processes 
 Spi_isotig08197 	 0.810861 	 signal transduction  
 Spi_isotig08198 	 0.524215 	 cell cycle and proliferation
@@ -8464,8 +8404,6 @@ Spi_isotig08318 	 1.16486 	 signal transduction
 Spi_isotig08318 	 1.16486 	 transport   
 Spi_isotig08319 	 0.766909 	 protein metabolism  
 Spi_isotig08322 	 0.732638 	 other metabolic processes 
-Spi_isotig08323 	 0.749425 	 other biological processes 
-Spi_isotig08323 	 0.749425 	 other metabolic processes 
 Spi_isotig08326 	 0.368457 	 death   
 Spi_isotig08326 	 0.368457 	 RNA metabolism  
 Spi_isotig08326 	 0.368457 	 signal transduction  
@@ -8488,8 +8426,6 @@ Spi_isotig08337 	 0.828215 	 cell organization and biogenesis
 Spi_isotig08337 	 0.828215 	 developmental processes  
 Spi_isotig08337 	 0.828215 	 other biological processes 
 Spi_isotig08337 	 0.828215 	 signal transduction  
-Spi_isotig08339 	 0.140999 	 other metabolic processes 
-Spi_isotig08339 	 0.140999 	 transport   
 Spi_isotig08340 	 0.250306 	 transport   
 Spi_isotig08342 	 0.772453 	 cell adhesion  
 Spi_isotig08342 	 0.772453 	 cell cycle and proliferation
@@ -8607,8 +8543,6 @@ Spi_isotig08433 	 0.710377 	 cell organization and biogenesis
 Spi_isotig08433 	 0.710377 	 other biological processes 
 Spi_isotig08433 	 0.710377 	 protein metabolism  
 Spi_isotig08433 	 0.710377 	 RNA metabolism  
-Spi_isotig08434 	 0.195986 	 other metabolic processes 
-Spi_isotig08434 	 0.195986 	 transport   
 Spi_isotig08437 	 0.458771 	 other biological processes 
 Spi_isotig08437 	 0.458771 	 RNA metabolism  
 Spi_isotig08440 	 0.455404 	 other metabolic processes 
@@ -8840,9 +8774,6 @@ Spi_isotig08659 	 0.543456 	 signal transduction
 Spi_isotig08660 	 0.88299 	 other metabolic processes 
 Spi_isotig08661 	 0.722531 	 RNA metabolism  
 Spi_isotig08662 	 0.574306 	 transport   
-Spi_isotig08663 	 0.775813 	 developmental processes  
-Spi_isotig08663 	 0.775813 	 other biological processes 
-Spi_isotig08663 	 0.775813 	 other metabolic processes 
 Spi_isotig08666 	 0.839492 	 death   
 Spi_isotig08666 	 0.839492 	 other metabolic processes 
 Spi_isotig08666 	 0.839492 	 protein metabolism  
@@ -9313,8 +9244,6 @@ Spi_isotig09083 	 0.547475 	 DNA metabolism
 Spi_isotig09083 	 0.547475 	 other metabolic processes 
 Spi_isotig09085 	 0.696729 	 developmental processes  
 Spi_isotig09085 	 0.696729 	 signal transduction  
-Spi_isotig09087 	 0.886977 	 other metabolic processes 
-Spi_isotig09087 	 0.886977 	 transport   
 Spi_isotig09090 	 0.76434 	 protein metabolism  
 Spi_isotig09092 	 0.251201 	 cell cycle and proliferation
 Spi_isotig09092 	 0.251201 	 other biological processes 
@@ -9579,7 +9508,6 @@ Spi_isotig09345 	 0.625863 	 transport
 Spi_isotig09346 	 0.213469 	 other biological processes 
 Spi_isotig09348 	 1.19994 	 developmental processes  
 Spi_isotig09348 	 1.19994 	 RNA metabolism  
-Spi_isotig09352 	 1.06776 	 other biological processes 
 Spi_isotig09355 	 0.246106 	 other metabolic processes 
 Spi_isotig09355 	 0.246106 	 RNA metabolism  
 Spi_isotig09359 	 0.391584 	 cell cycle and proliferation
@@ -9669,7 +9597,6 @@ Spi_isotig09480 	 0.177564 	 other biological processes
 Spi_isotig09480 	 0.177564 	 stress response  
 Spi_isotig09480 	 0.177564 	 transport   
 Spi_isotig09481 	 0.908375 	 cell adhesion  
-Spi_isotig09493 	 0.856085 	 protein metabolism  
 Spi_isotig09495 	 0.497585 	 DNA metabolism  
 Spi_isotig09495 	 0.497585 	 other metabolic processes 
 Spi_isotig09495 	 0.497585 	 stress response  
@@ -9835,10 +9762,8 @@ Spi_isotig09608 	 0.595376 	 cell cycle and proliferation
 Spi_isotig09608 	 0.595376 	 DNA metabolism  
 Spi_isotig09608 	 0.595376 	 other biological processes 
 Spi_isotig09608 	 0.595376 	 stress response  
-Spi_isotig09609 	 0.744508 	 other metabolic processes 
 Spi_isotig09611 	 0.195434 	 other biological processes 
 Spi_isotig09611 	 0.195434 	 protein metabolism  
-Spi_isotig09615 	 0.297078 	 other metabolic processes 
 Spi_isotig09617 	 0.399862 	 protein metabolism  
 Spi_isotig09617 	 0.399862 	 RNA metabolism  
 Spi_isotig09618 	 0.496555 	 other biological processes 
@@ -10158,7 +10083,6 @@ Spi_isotig09971 	 1.35422 	 other metabolic processes
 Spi_isotig09973 	 0.320045 	 protein metabolism  
 Spi_isotig09979 	 0.719372 	 death   
 Spi_isotig09979 	 0.719372 	 other metabolic processes 
-Spi_isotig09980 	 0.617507 	 other metabolic processes 
 Spi_isotig09982 	 0.438151 	 developmental processes  
 Spi_isotig09983 	 0.883834 	 DNA metabolism  
 Spi_isotig09984 	 0.720001 	 other metabolic processes 
@@ -10527,8 +10451,6 @@ Spi_isotig10414 	 0.494226 	 RNA metabolism
 Spi_isotig10415 	 0.555537 	 transport   
 Spi_isotig10421 	 0.247283 	 DNA metabolism  
 Spi_isotig10421 	 0.247283 	 transport   
-Spi_isotig10423 	 0.797588 	 other metabolic processes 
-Spi_isotig10423 	 0.797588 	 protein metabolism  
 Spi_isotig10424 	 0.916439 	 other metabolic processes 
 Spi_isotig10425 	 0.722988 	 other metabolic processes 
 Spi_isotig10426 	 0.425132 	 protein metabolism  
@@ -10812,7 +10734,6 @@ Spi_isotig10749 	 0.576912 	 cell organization and biogenesis
 Spi_isotig10749 	 0.576912 	 transport   
 Spi_isotig10751 	 0.923329 	 RNA metabolism  
 Spi_isotig10753 	 1.3 	 protein metabolism  
-Spi_isotig10754 	 0.631585 	 other metabolic processes 
 Spi_isotig10758 	 0.245359 	 cell cycle and proliferation
 Spi_isotig10758 	 0.245359 	 cell organization and biogenesis
 Spi_isotig10758 	 0.245359 	 other biological processes 
@@ -10873,7 +10794,6 @@ Spi_isotig10821 	 0.421168 	 RNA metabolism
 Spi_isotig10821 	 0.421168 	 stress response  
 Spi_isotig10821 	 0.421168 	 transport   
 Spi_isotig10826 	 0.682301 	 other metabolic processes 
-Spi_isotig10829 	 0.607824 	 transport   
 Spi_isotig10834 	 0.830937 	 other metabolic processes 
 Spi_isotig10835 	 0.224283 	 death   
 Spi_isotig10836 	 0.616221 	 other biological processes 
@@ -11484,7 +11404,6 @@ Spi_isotig11474 	 0.692373 	 other metabolic processes
 Spi_isotig11478 	 0.597324 	 cell organization and biogenesis
 Spi_isotig11482 	 1.11532 	 other biological processes 
 Spi_isotig11482 	 1.11532 	 stress response  
-Spi_isotig11483 	 0.864425 	 other metabolic processes 
 Spi_isotig11484 	 1.06661 	 other biological processes 
 Spi_isotig11485 	 0.617782 	 other biological processes 
 Spi_isotig11491 	 0.991669 	 cell organization and biogenesis
@@ -11982,8 +11901,6 @@ Spi_isotig12058 	 0.771847 	 RNA metabolism
 Spi_isotig12060 	 0.77403 	 developmental processes  
 Spi_isotig12060 	 0.77403 	 other biological processes 
 Spi_isotig12060 	 0.77403 	 other metabolic processes 
-Spi_isotig12063 	 0.821595 	 other metabolic processes 
-Spi_isotig12063 	 0.821595 	 stress response  
 Spi_isotig12066 	 0.830526 	 other biological processes 
 Spi_isotig12067 	 0.818038 	 developmental processes  
 Spi_isotig12067 	 0.818038 	 signal transduction  
@@ -12143,9 +12060,6 @@ Spi_isotig12279 	 0.74732 	 other biological processes
 Spi_isotig12279 	 0.74732 	 other metabolic processes 
 Spi_isotig12279 	 0.74732 	 RNA metabolism  
 Spi_isotig12279 	 0.74732 	 signal transduction  
-Spi_isotig12286 	 0.402567 	 cell organization and biogenesis
-Spi_isotig12286 	 0.402567 	 other biological processes 
-Spi_isotig12286 	 0.402567 	 other metabolic processes 
 Spi_isotig12290 	 0.110273 	 cell cycle and proliferation
 Spi_isotig12290 	 0.110273 	 cell organization and biogenesis
 Spi_isotig12290 	 0.110273 	 other biological processes 
@@ -12226,7 +12140,6 @@ Spi_isotig12386 	 0.832893 	 developmental processes
 Spi_isotig12386 	 0.832893 	 other metabolic processes 
 Spi_isotig12387 	 1.08908 	 developmental processes  
 Spi_isotig12387 	 1.08908 	 other biological processes 
-Spi_isotig12388 	 0.805844 	 other metabolic processes 
 Spi_isotig12390 	 0.649267 	 transport   
 Spi_isotig12397 	 0.85735 	 cell organization and biogenesis
 Spi_isotig12397 	 0.85735 	 RNA metabolism  
@@ -12350,7 +12263,6 @@ Spi_isotig12562 	 0.765915 	 stress response
 Spi_isotig12567 	 0.882673 	 cell organization and biogenesis
 Spi_isotig12567 	 0.882673 	 other metabolic processes 
 Spi_isotig12567 	 0.882673 	 RNA metabolism  
-Spi_isotig12572 	 0.710447 	 other metabolic processes 
 Spi_isotig12575 	 0.557468 	 other biological processes 
 Spi_isotig12575 	 0.557468 	 other metabolic processes 
 Spi_isotig12577 	 0.97673 	 transport   
@@ -12771,8 +12683,6 @@ Spi_isotig13180 	 0.640539 	 other biological processes
 Spi_isotig13180 	 0.640539 	 RNA metabolism  
 Spi_isotig13187 	 0.170401 	 other biological processes 
 Spi_isotig13187 	 0.170401 	 protein metabolism  
-Spi_isotig13190 	 0.54904 	 protein metabolism  
-Spi_isotig13190 	 0.54904 	 RNA metabolism  
 Spi_isotig13192 	 0.722555 	 cell organization and biogenesis
 Spi_isotig13192 	 0.722555 	 other biological processes 
 Spi_isotig13192 	 0.722555 	 other metabolic processes 
@@ -12977,9 +12887,6 @@ Spi_isotig13467 	 0.607334 	 developmental processes
 Spi_isotig13468 	 0.409776 	 death   
 Spi_isotig13474 	 0.824327 	 RNA metabolism  
 Spi_isotig13475 	 0.501678 	 other metabolic processes 
-Spi_isotig13477 	 0.351283 	 cell organization and biogenesis
-Spi_isotig13477 	 0.351283 	 other biological processes 
-Spi_isotig13477 	 0.351283 	 other metabolic processes 
 Spi_isotig13484 	 0.192369 	 death   
 Spi_isotig13484 	 0.192369 	 other metabolic processes 
 Spi_isotig13487 	 1.28949 	 protein metabolism  
@@ -13054,8 +12961,6 @@ Spi_isotig13604 	 0.811398 	 protein metabolism
 Spi_isotig13604 	 0.811398 	 RNA metabolism  
 Spi_isotig13605 	 0.219562 	 other biological processes 
 Spi_isotig13605 	 0.219562 	 signal transduction  
-Spi_isotig13606 	 0.748443 	 other biological processes 
-Spi_isotig13606 	 0.748443 	 transport   
 Spi_isotig13611 	 0.308489 	 cell organization and biogenesis
 Spi_isotig13611 	 0.308489 	 transport   
 Spi_isotig13612 	 0.835069 	 protein metabolism  
@@ -13135,11 +13040,6 @@ Spi_isotig13744 	 0.197157 	 protein metabolism
 Spi_isotig13746 	 1.09946 	 cell-cell signaling  
 Spi_isotig13746 	 1.09946 	 cell organization and biogenesis
 Spi_isotig13746 	 1.09946 	 transport   
-Spi_isotig13747 	 0.304698 	 cell cycle and proliferation
-Spi_isotig13747 	 0.304698 	 cell organization and biogenesis
-Spi_isotig13747 	 0.304698 	 developmental processes  
-Spi_isotig13747 	 0.304698 	 other biological processes 
-Spi_isotig13747 	 0.304698 	 other metabolic processes 
 Spi_isotig13750 	 0.738053 	 other metabolic processes 
 Spi_isotig13754 	 0.429794 	 cell-cell signaling  
 Spi_isotig13754 	 0.429794 	 other biological processes 
@@ -13176,7 +13076,6 @@ Spi_isotig13823 	 1.38462 	 cell adhesion
 Spi_isotig13823 	 1.38462 	 cell organization and biogenesis
 Spi_isotig13823 	 1.38462 	 developmental processes  
 Spi_isotig13823 	 1.38462 	 signal transduction  
-Spi_isotig13825 	 0.826348 	 other metabolic processes 
 Spi_isotig13827 	 0.838687 	 RNA metabolism  
 Spi_isotig13827 	 0.838687 	 signal transduction  
 Spi_isotig13827 	 0.838687 	 stress response  
@@ -13327,7 +13226,6 @@ Spi_isotig14062 	 0.838731 	 developmental processes
 Spi_isotig14062 	 0.838731 	 other biological processes 
 Spi_isotig14062 	 0.838731 	 signal transduction  
 Spi_isotig14065 	 0.290082 	 protein metabolism  
-Spi_isotig14066 	 0.700365 	 other metabolic processes 
 Spi_isotig14071 	 0.543504 	 cell adhesion  
 Spi_isotig14071 	 0.543504 	 cell organization and biogenesis
 Spi_isotig14071 	 0.543504 	 developmental processes  
@@ -13580,10 +13478,7 @@ Spi_isotig14555 	 0.574458 	 protein metabolism
 Spi_isotig14562 	 1.17784 	 other biological processes 
 Spi_isotig14566 	 0.51939 	 cell adhesion  
 Spi_isotig14566 	 0.51939 	 signal transduction  
-Spi_isotig14570 	 0.835633 	 other metabolic processes 
 Spi_isotig14574 	 0.34043 	 other metabolic processes 
-Spi_isotig14575 	 0.826834 	 other metabolic processes 
-Spi_isotig14575 	 0.826834 	 transport   
 Spi_isotig14584 	 0.870171 	 cell organization and biogenesis
 Spi_isotig14587 	 0.542416 	 protein metabolism  
 Spi_isotig14602 	 0.569456 	 protein metabolism  
@@ -13609,7 +13504,6 @@ Spi_isotig14637 	 0.208749 	 other biological processes
 Spi_isotig14642 	 0.136671 	 other biological processes 
 Spi_isotig14642 	 0.136671 	 other metabolic processes 
 Spi_isotig14643 	 0.71569 	 protein metabolism  
-Spi_isotig14651 	 0.717746 	 other metabolic processes 
 Spi_isotig14653 	 0.925005 	 developmental processes  
 Spi_isotig14653 	 0.925005 	 RNA metabolism  
 Spi_isotig14654 	 0.450398 	 RNA metabolism  
@@ -13681,8 +13575,6 @@ Spi_isotig14791 	 0.972228 	 RNA metabolism
 Spi_isotig14792 	 1.33506 	 other biological processes 
 Spi_isotig14792 	 1.33506 	 other metabolic processes 
 Spi_isotig14792 	 1.33506 	 protein metabolism  
-Spi_isotig14824 	 0.849104 	 other metabolic processes 
-Spi_isotig14824 	 0.849104 	 transport   
 Spi_isotig14831 	 1.00872 	 cell organization and biogenesis
 Spi_isotig14831 	 1.00872 	 developmental processes  
 Spi_isotig14831 	 1.00872 	 protein metabolism  
@@ -13732,9 +13624,6 @@ Spi_isotig14970 	 0.269739 	 other metabolic processes
 Spi_isotig14970 	 0.269739 	 RNA metabolism  
 Spi_isotig14970 	 0.269739 	 stress response  
 Spi_isotig14981 	 0.202625 	 signal transduction  
-Spi_isotig14984 	 0.768301 	 cell organization and biogenesis
-Spi_isotig14984 	 0.768301 	 other biological processes 
-Spi_isotig14984 	 0.768301 	 other metabolic processes 
 Spi_isotig14993 	 0.663237 	 death   
 Spi_isotig14993 	 0.663237 	 other biological processes 
 Spi_isotig14993 	 0.663237 	 stress response  
