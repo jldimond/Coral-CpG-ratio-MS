@@ -2,7 +2,7 @@
 
 _**Transcriptome data sources**_
 
-The transcriptomes of six scleractinian coral species were evaluated to determine germline methylation patterns in relation to gene function and activity. Species examined included *Acropora hyacinthus*, *A. millepora*, *A. palmata*, *Pocillopora damicornis*, *Porites astreoides*, and *Stylophora pistillata* (Table 1).  In order to remove *Symbiodinium* sequences from these transcriptomes, they were compared to *Symbiodinium* clade A and B transcriptomes from Bayer et al. (2012) using Blastn (version 2.2.29). An evalue threshold of of 10<sup>-5</sup> was used for these queries, and all matched sequences were removed from further analyses. $$$SHOULD ALSO NORMALIZE FOR SIZE??$$, LINK TO NOTEBOOK$$
+The transcriptomes of six scleractinian coral species were evaluated to determine germline methylation patterns in relation to gene function and activity. Species examined included *Acropora hyacinthus*, *A. millepora*, *A. palmata*, *Pocillopora damicornis*, *Porites astreoides*, and *Stylophora pistillata* (Table 1).  These transcriptomes reflect a range of life history stages. Some transcriptomes were developed from life history stages that had not yet been infected with symbiotic dinoflagellates (*Symbiodinium* spp.), while others used bioinformatic techniques to filter out putative *Symbiodinium* sequences. However, two of the transcriptomes (*P. damicornis* and *S. pistillata*) were developed from adult corals and did not remove putative symbiont sequences. We therefore applied a filtering step to these transcriptomes by comparing them to *Symbiodinium* clade A and B transcriptomes from Bayer et al. (2012) using Blastn (version 2.2.29). An evalue threshold of of 10<sup>-5</sup> was used for these queries, and all matched sequences were removed from further analyses. Notebooks detailing these procedures can be found at https://github.com/jldimond/Coral-CpG-ratio-MS/tree/master/ipynb.
 
 
 Table 1. Transcriptomes used in this study 
@@ -40,7 +40,7 @@ To further annotate genes with into functional categories,  corresponding Gene O
 
 _**Predicted germline methylation**_
 
-Germline methylation levels were inferred based on the hypermutability of methylated cytosines, which tend towards conversion to thymines over evolutionary time. This results in a reduction in CpG dinucleotides, meaning that heavily methylated genomic regions are associated with reduced numbers of CpGs. Thus, methylation patterns that have been inherited through the germline over evolutionary time can be estimated using the ratio of observed to expected CpG, known as CpG O/E. Germline DNA methylation estimated by analysis of CpG O/E is highly correlated with methylation enrichment quantified via methods such as bisulphite sequencing (Suzuki et al. 2007, Sarda et al. 2012, Gavery and Roberts 2013). CpG O/E was defined as:
+Germline methylation levels were inferred based on the hypermutability of methylated cytosines, which tend towards conversion to thymines over evolutionary time. This results in a reduction in CpG dinucleotides, meaning that heavily methylated genomic regions are associated with reduced numbers of CpGs. Thus, methylation patterns that have been inherited through the germline over evolutionary time can be estimated using the ratio of observed to expected CpG, known as CpG O/E. Germline DNA methylation estimated by analysis of CpG O/E is highly correlated with direct assays of methylation (Suzuki et al. 2007, Sarda et al. 2012, Gavery and Roberts 2013). CpG O/E was defined as:
 
 CpG O/E = (number of CpG / number of C x number of G) x (l<sup>2</sup>/l-1)
 
@@ -49,12 +49,7 @@ where l is the number of nucleotides in the contig.
 Only annotated sequences were used for calculation of CpG O/E to maximize the likelihood that sequences were oriented in the 5' to 3' direction. For subsequent analyses, we set minimum and maximum limits for CpG O/E at 0.001 and 1.5, respectively. Full details of germline methylation prediction methods are provided in jupyter notebooks at https://github.com/jldimond/Coral-CpG-ratio-MS/tree/master/ipynb.
 
 
-**Statistcal Analyses** 
+**Statistical Analyses** 
 
 Transcriptome CpG O/E patterns were fitted with the normalmixEM function in the mixtools package in the R statistical platform. Mixture models were evaluated against the null single component model by comparison of log-likelihood statistics. High- and low-CpG O/E components were delineated in mixture models using the intersection point of component density curves. For each GOSlim term, enrichment in the high and low CpG O/E components identified in mixture models was evaluated with Fisher's exact test. Whole transcriptome and differentially expressed gene CpG O/E distributions were compared with the Kolmogorov–Smirnov test.
-
-or/////
-
-Transcriptome CpG O/E patterns were fitted with the normalmixEM function in the mixtools package in the R statistical platform. Mixture models were evaluated against the null single component model by comparison of log likelihood statistics. For each GOSlim term, mean CpG O/E was evaluated with ANOVA followed by post-hoc tests. Whole transcriptome and differentially expressed gene CpG O/E distributions were compared with the Kolmogorov–Smirnov test.
-
 
