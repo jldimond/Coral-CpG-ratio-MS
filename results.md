@@ -25,6 +25,7 @@ Whole transcriptome patterns of predicted germline DNA methylation were similar 
 #####Figure 1. Transcriptome-wide CpG O/E in the six coral species. The component curves of two-component mixture models are superimposed over histograms and density curves.
 
 ![Figure 1](./figures/Fig1.pdf?raw=true) 
+[embed]./figures/Fig1.pdf[/embed]
 
 
 Table 4. Results of mixture model analyses of CpG O/E in the six coral transcriptomes. Model statistics are reported for a 2-component mixture model, which provided better fit than a single component model. 
