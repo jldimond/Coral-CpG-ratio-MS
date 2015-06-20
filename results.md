@@ -22,6 +22,10 @@ _**Predicted Gene Methylation**_
 
 Whole transcriptome patterns of predicted germline DNA methylation were similar for all coral species, suggesting bimodal distributions of CpG O/E with relatively large high-CpG O/E components (Figure 1). This was confirmed by mixture model analyses indicating that a 2-component Gaussian model provided better fit than a single-component model in all cases (Table 4). While there was some variability in models between species, all models were characterized by a low-CpG O/E component with a mean of 0.24 to 0.38 and weighted at 14-28% of the distribution. Conversely, high-CpG O/E components had means of 0.69 to 0.75 and weights of 72-86%.
 
+#####Figure 1. Transcriptome-wide CpG O/E in the six coral species. The component curves of two-component mixture models are superimposed over histograms and density curves.
+
+![Figure 1](./figures/Fig1.pdf?raw=true) 
+
 
 Table 4. Results of mixture model analyses of CpG O/E in the six coral transcriptomes. Model statistics are reported for a 2-component mixture model, which provided better fit than a single component model. 
 
@@ -37,6 +41,14 @@ Organism | lambda | mu | sigma | log-likelihood (k = 1) | log-likelihood (k = 2)
  
 When CpG O/E was evaluated according to gene function, we observed consistent patterns among species in relation to broad classes of biological processes. For all six species, the top four biological processes with the highest mean CpG O/E were cell-cell signalling, cell adhesion, signal transduction, and developmental processes (Figure 2). In contrast, DNA metabolism, protein metabolism, transport, and other biological processes were consistently among the lowest categories in terms of CpG O/E. These relatively high and low ranked biological processes were also more likely to be significantly enriched in the high and low CpG O/E components identified in the mixture model.
 
+#####Figure 2. Patterns of CpG O/E in relation to gene function in the six coral species (mean +/- SE).
+
+![Figure 2](./figures/Fig2.pdf?raw=true) 
+
 In *Acropora hyacinthus*, *A. millepora*, and *A. palmata*, genes expressed differentially in response to environmental stress showed distinct CpG O/E distributions from those of the whole transcriptomes (Figure 3, upper panel). In all cases, mean CpG O/E of differentially expressed genes (DEGs) was higher than that of the whole transcriptome. This was especially true for DEGs in response to thermal stress in *A. hyacinthus* and *A. palmata* (both p < 0.001), but CpG O/E distributions of OA DEGs and the whole transcriptome of *A. millepora* were also significantly different (p = 0.005). 
+
+#####Figure 3. Comparison of transcriptome-wide and differentially expressed gene (DEG) CpG O/E in the acroporid corals. Upper panel: density curves of whole transcriptomes and DEGs. Lower panel: relative expression of different gene classes in DEGs as a percentage of whole transcriptome.
+
+![Figure 3](./figures/Fig3.pdf?raw=true) 
 
 We also evaluated the contribution of different biological processes (GOslim terms) to DEG profiles by comparing their abundances in DEGs relative to whole transcriptomes (Figure 3, lower panel). In *A. hyacinthus*, DEGs were overrepresented by biological processes associated with the high-CpG O/E components identified in the mixture model, and underrepresented by biological processes associated with the low CpG O/E component. In *A. millepora*, DEGs were characterized by a striking increase in transport processes, which were not significantly enriched in either the high or low CpG O/E components of the mixture model. To a lesser extent, cell adhesion and developmental processes were overrepresented in DEGs, and these processes were enriched in the high CpG O/E component. Biological processes underrepresented in DEGs tended to be associated with the low CpG O/E component. Finally, in *A. palmata*, a mixture of processes enriched in both the high and low CpG O/E components were overrepresented in the DEGs. Processes underrepresented in DEGs were largely associated with the low CpG O/E component.
