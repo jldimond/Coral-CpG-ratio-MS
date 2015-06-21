@@ -24,8 +24,7 @@ Whole transcriptome patterns of predicted germline DNA methylation were similar 
 
 #####Figure 1. Transcriptome-wide CpG O/E in the six coral species. The component curves of two-component mixture models are superimposed over histograms and density curves.
 
-![Figure 1](./figures/Fig1.pdf?raw=true) 
-[embed]https://github.com/jldimond/Coral-CpG-ratio-MS/blob/master/figures/Fig1.pdf[/embed]
+![Figure 1](./figures/Fig1.png?raw=true) 
 
 
 Table 4. Results of mixture model analyses of CpG O/E in the six coral transcriptomes. Model statistics are reported for a 2-component mixture model, which provided better fit than a single component model. 
@@ -44,12 +43,12 @@ When CpG O/E was evaluated according to gene function, we observed consistent pa
 
 #####Figure 2. Patterns of CpG O/E in relation to gene function in the six coral species (mean +/- SE).
 
-![Figure 2](./figures/Fig2.pdf?raw=true) 
+![Figure 2](./figures/Fig2.png?raw=true) 
 
 In *Acropora hyacinthus*, *A. millepora*, and *A. palmata*, genes expressed differentially in response to environmental stress showed distinct CpG O/E distributions from those of the whole transcriptomes (Figure 3, upper panel). In all cases, mean CpG O/E of differentially expressed genes (DEGs) was higher than that of the whole transcriptome. This was especially true for DEGs in response to thermal stress in *A. hyacinthus* and *A. palmata* (both p < 0.001), but CpG O/E distributions of OA DEGs and the whole transcriptome of *A. millepora* were also significantly different (p = 0.005). 
 
 #####Figure 3. Comparison of transcriptome-wide and differentially expressed gene (DEG) CpG O/E in the acroporid corals. Upper panel: density curves of whole transcriptomes and DEGs. Lower panel: relative expression of different gene classes in DEGs as a percentage of whole transcriptome.
 
-![Figure 3](./figures/Fig3.pdf?raw=true) 
+![Figure 3](./figures/Fig3.png?raw=true) 
 
 We also evaluated the contribution of different biological processes (GOslim terms) to DEG profiles by comparing their abundances in DEGs relative to whole transcriptomes (Figure 3, lower panel). In *A. hyacinthus*, DEGs were overrepresented by biological processes associated with the high-CpG O/E components identified in the mixture model, and underrepresented by biological processes associated with the low CpG O/E component. In *A. millepora*, DEGs were characterized by a striking increase in transport processes, which were not significantly enriched in either the high or low CpG O/E components of the mixture model. To a lesser extent, cell adhesion and developmental processes were overrepresented in DEGs, and these processes were enriched in the high CpG O/E component. Biological processes underrepresented in DEGs tended to be associated with the low CpG O/E component. Finally, in *A. palmata*, a mixture of processes enriched in both the high and low CpG O/E components were overrepresented in the DEGs. Processes underrepresented in DEGs were largely associated with the low CpG O/E component.

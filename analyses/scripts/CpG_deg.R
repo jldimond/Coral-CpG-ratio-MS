@@ -25,13 +25,11 @@ setwd("~/Documents/Projects/Coral-CpG-ratio-MS/analyses/Amil")
 Amil_cpg<- read.delim("Amil_cpg_anno", header=FALSE)
 Amil_diff<- read.delim("Amil_diff_cpg_anno", header = FALSE)
 Amil_diff_goslim<- na.omit(read.delim("Amil_diff_cpg_GOslim", header = FALSE))
-Amil2<-subset(Amil_diff_goslim, V2 >= 0.001 & V2 <= 1.5)
-AmilMean<-tapply(Amil2$V2, Amil2$V3, mean)
-AmilSD<-tapply(Amil2$V2, Amil2$V3, sd)
-AmilLength<-tapply(Amil2$V2, Amil2$V3, length)
-AmilSE<-AmilSD/sqrt(AmilLength)
-AmilMean<-AmilMean[2:15]
-AmilSE<-AmilSE[2:15]
+AmilLength <- tapply(Amil_goslim$V2, Amil_goslim$V3, length)
+AmilProp <- AmilLength / sum(AmilLength[2:15])
+AmilDiffLength <- tapply(Amil_diff_goslim$V2, Amil_diff_goslim$V3, length)
+AmilDiffProp <- AmilDiffLength / sum(AmilDiffLength[2:15])
+AmilDiffDiff <- (AmilDiffProp[2:15] - AmilProp[2:15]) * 100
 
 #Create density using threshold values
 Amil_dencpg<-density(Amil_cpg$V2[Amil_cpg$V2 >= 0.001 & Amil_cpg$V2 <= 1.5], na.rm=T)
@@ -44,13 +42,11 @@ setwd("~/Documents/Projects/Coral-CpG-ratio-MS/analyses/Apalm")
 Apalm_cpg<- read.delim("Apalm_cpg_anno", header=FALSE)
 Apalm_diff<- read.delim("Apalm_diff_cpg_anno", header = FALSE)
 Apalm_diff_goslim<- na.omit(read.delim("Apalm_diff_cpg_GOslim", header = FALSE))
-Apalm2<-subset(Apalm_diff_goslim, V2 >= 0.001 & V2 <= 1.5)
-ApalmMean<-tapply(Apalm2$V2, Apalm2$V3, mean)
-ApalmSD<-tapply(Apalm2$V2, Apalm2$V3, sd)
-ApalmLength<-tapply(Apalm2$V2, Apalm2$V3, length)
-ApalmSE<-ApalmSD/sqrt(ApalmLength)
-ApalmMean<-ApalmMean[2:15]
-ApalmSE<-ApalmSE[2:15]
+ApalmLength <- tapply(Apalm_goslim$V2, Apalm_goslim$V3, length)
+ApalmProp <- ApalmLength / sum(ApalmLength[2:15])
+ApalmDiffLength <- tapply(Apalm_diff_goslim$V2, Apalm_diff_goslim$V3, length)
+ApalmDiffProp <- ApalmDiffLength / sum(ApalmDiffLength[2:15])
+ApalmDiffDiff <- (ApalmDiffProp[2:15] - ApalmProp[2:15]) * 100
 
 #Create density using threshold values
 Apalm_dencpg<-density(Apalm_cpg$V2[Apalm_cpg$V2 >= 0.001 & Apalm_cpg$V2 <= 1.5], na.rm=T)
@@ -59,18 +55,35 @@ Apalm_dencpg_diff <- density(Apalm_diff$V2[Apalm_diff$V2 >= 0.001 & Apalm_diff$V
 
 # Plot of density curves
 
-par(mfrow = c(1,3)) # 1 x 3 plots
+par(mfrow = c(2,3)) # 2 x 3 plots
 par(xaxs="i", yaxs="i") 
 
-plot(Ahya_dencpg, xlim=c(0,1.6), ylim=c(0,2.1), main= "Acropora hyacinthus", font.main = 3, xlab=" ", bty = "l", cex=1, lwd=2)
-lines(Ahya_dencpg_diff, cex=1, lwd=2, lty = 2)
-legend(x=0.1, y = 2.1, c("whole transcriptome", "env response genes"), xpd = TRUE, lwd=2, bty="n", cex = 0.9, lty = c(1, 2), x.intersp=0.5)
+plot(Ahya_dencpg, xlim=c(0,1.6), ylim=c(0,2.1), main= "Acropora hyacinthus", font.main = 3, xlab=" ", bty = "l", cex=0.9, lwd=2, col = "#998ec3")
+lines(Ahya_dencpg_diff, cex=1, lwd=2, lty = 1, col = "#e66101")
+legend(x=0.1, y = 2.2, c("whole transcriptome", "environmental response genes"), xpd = TRUE, lwd=2, bty="n", cex = 0.9, lty = 1, x.intersp=0.5, col = c("#998ec3", "#e66101"))
 
-plot(Amil_dencpg, xlim=c(0,1.6), ylim=c(0,2.1), main= "Acropora millepora", font.main = 3, xlab="CpG O/E", ylab=" ", bty = "l", cex=1, lwd=2)
-lines(Amil_dencpg_diff, cex=1, lwd=2, lty = 2)
+plot(Amil_dencpg, xlim=c(0,1.6), ylim=c(0,2.1), main= "Acropora millepora", font.main = 3, xlab="CpG O/E", ylab=" ", bty = "l", cex=0.9, lwd=2, col = "#998ec3")
+lines(Amil_dencpg_diff, cex=0.9, lwd=2, lty = 1, col = "#e66101")
 
-plot(Apalm_dencpg, xlim=c(0,1.6), ylim=c(0,2.1), main= "Acropora palmata", font.main = 3, xlab=" ", ylab=" ", bty = "l", cex=1, lwd=2)
-lines(Apalm_dencpg_diff, cex=1, lwd=2, lty = 2)
+plot(Apalm_dencpg, xlim=c(0,1.6), ylim=c(0,2.1), main= "Acropora palmata", font.main = 3, xlab=" ", ylab=" ", bty = "l", cex=0.9, lwd=2, col = "#998ec3")
+lines(Apalm_dencpg_diff, cex=0.9, lwd=2, lty = 1, col = "#e66101")
+
+
+#Lower panel plotting % difference barplot
+
+par(mar = c(5,12,2,1))
+Ahya_plot <- sort(AhyaDiffDiff, decreasing=FALSE)
+barplot(Ahya_plot, xlim = c(-3, 3), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Ahya_plot), col = "#e66101", cex.axis = 0.7, cex.lab = 0.9, cex = 0.7)
+axis(side =1, cex.axis = 0.9)
+
+Amil_plot <- sort(AmilDiffDiff, decreasing=FALSE)
+barplot(Amil_plot, xlim = c(-15, 15), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Amil_plot), col = "#e66101", xlab="% difference", cex.axis = 0.7, cex.lab = 0.9, cex = 0.7)
+axis(side =1, cex.axis = 0.9)
+
+Apalm_plot <- sort(ApalmDiffDiff, decreasing=FALSE)
+barplot(Apalm_plot, xlim = c(-2, 2), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Apalm_plot), col = "#e66101", cex.axis = 0.7, cex.lab = 0.9, cex = 0.7)
+axis(side =1, cex.axis = 0.9)
+
 
 ###########Stats 
 #- Kolmogorov-Smirnov test
