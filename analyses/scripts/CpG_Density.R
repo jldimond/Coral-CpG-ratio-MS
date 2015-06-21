@@ -35,7 +35,7 @@ par(mfrow = c(2, 3)) # 2 x 3 plots
 data <- Ahya$V2
 Ahya_data <- data[data >= 0.001 & data <= 1.5] #Cutting off high and low values
 set.seed(1)
-Ahya_mixmdl <- normalmixEM(Ahya_data, k = 3)
+Ahya_mixmdl <- normalmixEM(Ahya_data, k = 2)
 plot(Ahya_mixmdl, which = 2, col2 = c("red", "blue"), xlab2 = " ", main2 = "Acropora hyacinthus", font.main = 3)
 lines(density(Ahya_data), lty=2, lwd=2)
 
