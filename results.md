@@ -21,7 +21,7 @@ _**Predicted Gene Methylation**_
 
 Whole transcriptome patterns of predicted germline DNA methylation were similar for all coral species, suggesting bimodal distributions of CpG O/E with relatively large high-CpG O/E components (Figure 1). This was confirmed by mixture model analyses indicating that a 2-component Gaussian model provided better fit than a single-component model in all cases (Table 4). While there was some variability in models between species, all models were characterized by a low-CpG O/E component with a mean of 0.24 to 0.38 and weighted at 14-28% of the distribution. Conversely, high-CpG O/E components had means of 0.69 to 0.75 and weights of 72-86%.
 
-#####Figure 1. Transcriptome-wide CpG O/E in the six coral species. The component curves of two-component mixture models are superimposed over histograms and density curves.
+#####Figure 1. Transcriptome-wide CpG O/E in the six coral species. The component density curves of two-component mixture models are superimposed over histograms and density curves.
 
 ![Figure 1](./figures/Fig1.png?raw=true) 
 
