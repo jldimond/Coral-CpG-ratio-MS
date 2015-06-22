@@ -1,18 +1,27 @@
 # Germline DNA methylation in six species of reef corals: patterns and potential roles in response to environmental change
 
+---
+
 This respository includes files used to develop a manuscript on DNA methylation patterns in six species of reef corals, including analysis of genes differentially expressed in response to environmental change. The repository is tied to an [Authorea manuscript](https://www.authorea.com/users/16716/articles/18248/_show_article).
 
+---
 
 **Directory structure**      
 
 `analyses/` - Includes subdirectories for each coral species analyzed, which include output from analyses performed in jupyter (formerly IPython) notebooks. Also includes a `scripts/` directory where R scripts used for graphics and statistical analyses are housed, as well as scripts called on from jupyter notebooks. Coral species subdirectories include:
 
   `analyses/Ahya` - *Acropora hyacinthus* 
+  
   `analyses/Amil` - *Acropora millepora* 
+  
   `analyses/Apalm` - *Acropora palmata* 
+  
   `analyses/Past` - *Porites astreoides* 
+  
   `analyses/Pdam` - *Pocillopora damicornis* 
+  
   `analyses/Spist` - *Stylophora pistillata* 
+  
 
 `bibliography/` - Houses a .bib file used in Authorea.
 
