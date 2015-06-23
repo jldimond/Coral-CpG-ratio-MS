@@ -35,25 +35,25 @@ This respository includes files used to develop a manuscript on DNA methylation 
 
 The following files are components of the manuscript itself. The [Authorea interface](https://www.authorea.com/users/16716/articles/18248/_show_article) combines these files for better readability.
 
-abstract.md
+`abstract.md`
 
-discussion.md 
+`discussion.md` 
 
-header.tex 
+`header.tex` 
 
-introduction.md 
+`introduction.md` 
 
-layout.md 	
+`layout.md` 	
 
-methods.md 
+`methods.md` 
 
-outline.md 	
+`outline.md` 	
 
-preamble.tex 	
+`preamble.tex` 	
 
-results.md 
+`results.md` 
 
-title.tex
+`title.tex`
 
 ---
 
