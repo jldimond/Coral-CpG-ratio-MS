@@ -2,8 +2,7 @@
 
 _**Annotation**_ 
 
-For *P. damicornis* and *S. pistillata* transcriptomes, 2892 and 138 putative *Symbiodinium* sequences were removed from the transcriptomes, respectively. Comparisons of the six coral transcriptomes to the UniProt/Swiss-Prot database resulted in annotation of 26% to 47% of the contigs in each transcriptome (Table 3). Notebooks detailing the procedures generating these results can be found at https://github.com/jldimond/Coral-CpG-ratio-MS/tree/master/ipynb.
-
+For *P. damicornis* and *S. pistillata* transcriptomes, 2892 and 138 putative *Symbiodinium* sequences were removed from the transcriptomes, respectively. Comparisons of the six coral transcriptomes to the UniProt/Swiss-Prot database resulted in annotation of 26% to 47% of the contigs in each transcriptome (Table 3). 
 
 Table 3. Transcriptome annotation results. 
 
@@ -15,6 +14,7 @@ Organism | No. Contigs | Contigs Annotated (UniProt/Swiss-Prot)| Contigs Annotat
 *Pocillopora damicornis* | 72,890 | 19,133 | 16,150
 *Porites astreoides* | 30,740 | 13,788 | 23,847
 *Stylophora pistillata* | 15,052 | 7,061 | 5,812
+
 
 
 _**Predicted Gene Methylation**_    
@@ -44,10 +44,10 @@ When CpG O/E was evaluated according to gene function, we observed consistent pa
 
 ![Figure 2](./figures/Fig2.png?raw=true) 
 
-In *Acropora hyacinthus*, *A. millepora*, and *A. palmata*, genes expressed differentially in response to environmental stress showed distinct CpG O/E distributions from those of the whole transcriptomes (Figure 3, upper panel). In all cases, mean CpG O/E of differentially expressed genes (DEGs) was higher than that of the whole transcriptome. This was especially true for DEGs in response to thermal stress in *A. hyacinthus* and *A. palmata* (both p < 0.001), but CpG O/E distributions of OA DEGs and the whole transcriptome of *A. millepora* were also significantly different (p = 0.005). 
+In *Acropora hyacinthus*, *A. millepora*, and *A. palmata*, genes expressed differentially in response to environmental stress showed distinct CpG O/E distributions from those of the whole transcriptomes (Figure 3, upper panel). In all cases, mean CpG O/E of differentially expressed genes (differentially expressed genes) was higher than that of the whole transcriptome. This was especially true for differentially expressed genes in response to thermal stress in *A. hyacinthus* and *A. palmata* (both p < 0.001), but CpG O/E distributions of ocean acidification differentially expressed genes and the whole transcriptome of *A. millepora* were also significantly different (p = 0.005). 
 
-#####Figure 3. Comparison of transcriptome-wide and differentially expressed gene (DEG) CpG O/E in the acroporid corals. Upper panel: density curves of whole transcriptomes and DEGs. Lower panel: relative expression of different gene classes in DEGs as a percentage of whole transcriptome.
+#####Figure 3. Comparison of transcriptome-wide and differentially expressed gene CpG O/E in the acroporid corals. Upper panel: density curves of whole transcriptomes and differentially expressed genes. Lower panel: relative expression of different gene classes in differentially expressed genes as a percentage of whole transcriptome.
 
 ![Figure 3](./figures/Fig3.png?raw=true) 
 
-We also evaluated the contribution of different biological processes (GOslim terms) to DEG profiles by comparing their abundances in DEGs relative to whole transcriptomes (Figure 3, lower panel). In *A. hyacinthus*, DEGs were overrepresented by biological processes associated with the high-CpG O/E components identified in the mixture model, and underrepresented by biological processes associated with the low CpG O/E component. In *A. millepora*, DEGs were characterized by a striking increase in transport processes, which were not significantly enriched in either the high or low CpG O/E components of the mixture model. To a lesser extent, cell adhesion and developmental processes were overrepresented in DEGs, and these processes were enriched in the high CpG O/E component. Biological processes underrepresented in DEGs tended to be associated with the low CpG O/E component. Finally, in *A. palmata*, a mixture of processes enriched in both the high and low CpG O/E components were overrepresented in the DEGs. Processes underrepresented in DEGs were largely associated with the low CpG O/E component.
+We also evaluated the contribution of different biological processes (GOslim terms) to differentially expressed gene profiles by comparing their abundances in differentially expressed genes relative to whole transcriptomes (Figure 3, lower panel). In *A. hyacinthus*, differentially expressed genes were overrepresented by biological processes associated with the high-CpG O/E components identified in the mixture model, and underrepresented by biological processes associated with the low CpG O/E component. In *A. millepora*, differentially expressed genes were characterized by a striking increase in transport processes, which were not significantly enriched in either the high or low CpG O/E components of the mixture model. To a lesser extent, cell adhesion and developmental processes were overrepresented in differentially expressed genes, and these processes were enriched in the high CpG O/E component. Biological processes underrepresented in differentially expressed genes tended to be associated with the low CpG O/E component. Finally, in *A. palmata*, a mixture of processes enriched in both the high and low CpG O/E components were overrepresented in the differentially expressed genes. Processes underrepresented in differentially expressed genes were largely associated with the low CpG O/E component.
