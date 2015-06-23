@@ -13,7 +13,7 @@ Organism | No. Contigs | Contigs Annotated (UniProt/Swiss-Prot)| Contigs Annotat
 *Acropora millepora* | 52,963 | 21,026 | 17,274
 *Acropora palmata* | 88,020 | 35,303 | 29,450
 *Pocillopora damicornis* | 72,890 | 19,133 | 16,150
-*Porites astreoides* | 30,740 | 13,788 | 
+*Porites astreoides* | 30,740 | 13,788 | 23,847
 *Stylophora pistillata* | 15,052 | 7,061 | 5,812
 
 
