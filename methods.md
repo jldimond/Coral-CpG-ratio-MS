@@ -19,7 +19,7 @@ $$ Illumina is Company - 454 is platform, several types of Illumina platforms.
 
 _**Differentially expressed gene datasets**_
 
-In addition to analyzing whole transcriptomes, we also examined genes differentially expressed in response to environmental stressors for the three acroporid species. For *A. hyacinthus* and *A. millepora* these gene sets were derived from the same studies that developed the reference transcriptomes (\cite{23297204}, \cite{22490231}), and for *A. palmata* differentially expressed genes sets were reported in \cite{23331636} (Table 2).
+In addition to analyzing whole transcriptomes, we also examined genes differentially expressed in response to environmental stressors for the three acroporid species. For *A. hyacinthus* and *A. millepora* these gene sets were derived from the same studies that developed the reference transcriptomes (\cite{23297204}, \cite{22490231}), and for *A. palmata* differentially expressed genes sets were reported in \cite{23331636}\cite{3bab7e5d-24ff-4f00-ba49-02735c7d2b25} (Table 2).
 
 
 Table 2. Differentially expressed gene sets examined
@@ -28,7 +28,7 @@ Organism | Life history stage | Method | No. Contigs | Environmental factor | Re
 --------- | ---------- | --------- | -------- |-------- | --------
 *Acropora hyacinthus* | Adult | sequencing | 484 | Thermal stress | Barshis et al. (2013)\cite{23297204} 
 *Acropora millepora* | Juvenile | sequencing | 234 | Ocean acidification | Moya et al. (2012)\cite{22490231} 
-*Acropora palmata* | Larval | microarray | 2002 | Thermal stress | Polato et al. (2013)\cite{23331636} 
+*Acropora palmata* | Larval | microarray | 2002 | Thermal stress | Polato et al. (2013)\cite{23331636}\cite{3bab7e5d-24ff-4f00-ba49-02735c7d2b25} 
 
 
 _**Annotation**_
@@ -56,4 +56,5 @@ For subsequent analyses, we set minimum and maximum limits for CpG O/E at 0.001 
 Transcriptome CpG O/E patterns were fitted with the normalmixEM function in the mixtools package in the R statistical platform. Mixture models were evaluated against the null single component model by comparison of log-likelihood statistics. High- and low-CpG O/E components were delineated in mixture models using the intersection point of component density curves. For each GOSlim term, enrichment in the high and low CpG O/E components identified in mixture models was evaluated with Fisher's exact test. Whole transcriptome and differentially expressed gene CpG O/E distributions were compared with the Kolmogorov–Smirnov test. Details and specific code uesed are available  (https://github.com/jldimond/Coral-CpG-ratio-MS/).
 
 
+    
     
