@@ -34,7 +34,7 @@ Organism | Life history stage | Method | No. Contigs | Environmental factor | Re
 _**Annotation**_
 
 To maintain consistency in comparing datasets, all transcriptomes and  differentially expressed gene sets were compared to the UniProt/Swiss-Prot protein database (version 2/17/2015) using Blastx (version 2.2.29) with an evalue threshold of 10<sup>-5</sup>.
-To further annotate genes with into functional categories,  corresponding Gene Ontology Slim (GOSlim) biological process were identified.  Details of annotation are provided in jupyter notebooks in accompanying repository (https://github.com/jldimond/Coral-CpG-ratio-MS).
+To further annotate genes with functional categories,  corresponding Gene Ontology Slim (GOSlim) biological process were identified.  Details of annotation are provided in jupyter notebooks in accompanying repository (https://github.com/jldimond/Coral-CpG-ratio-MS).
 
 _**Predicted germline methylation**_
 
@@ -58,3 +58,4 @@ Transcriptome CpG O/E patterns were fitted with the normalmixEM function in the 
 
     
     
+  
