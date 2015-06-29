@@ -11,3 +11,4 @@ Evaluation of epigenetic processes therefore represents a logical next step in u
 Coral gene expression studies continue to expand, providing rich datasets to further probe the relationship between DNA methylation and gene function. In this study, we performed a comprehensive evaluation of germline methylation patterns in reef corals by examining the transcriptomes of six scleractinian coral species. Germline methylation levels in these data were inferred based on the hypermutability of methylated cytosines, which leads to a reduction in CpG dinucleotides over evolutionary time \cite{2352943}. These data were then matched with gene ontology information, permitting evaluation of methylation patterns associated with broad categories of biological processes. Lastly, in three of the six species, we evaluated CpG O/E patterns in genes involved in response to thermal stress and ocean acidification. 
     
     
+  
