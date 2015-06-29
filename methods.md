@@ -44,18 +44,15 @@ CpG O/E = (number of CpG / number of C x number of G) x (l<sup>2</sup>/l-1)
 
 where l is the number of nucleotides in the contig.
 
-Only annotated sequences were used for calculation of CpG O/E to maximize the likelihood that sequences were oriented in the 5' to 3' direction. 
-
-$$ Annotation does not ensure orientation.
-
-For subsequent analyses, we set minimum and maximum limits for CpG O/E at 0.001 and 1.5, respectively. $$(why?) Details of germline methylation prediction methods are provided in jupyter notebooks (https://github.com/jldimond/Coral-CpG-ratio-MS/)
+Only annotated sequences were used for calculation of CpG O/E to increase the likelihood that sequences were oriented in the 5' to 3' direction. For subsequent analyses, we set minimum and maximum limits for CpG O/E at 0.001 and 1.5, respectively, to exclude outliers. Details of germline methylation prediction methods are provided in jupyter notebooks (https://github.com/jldimond/Coral-CpG-ratio-MS/)
 
 
 **Statistical Analyses** 
 
-Transcriptome CpG O/E patterns were fitted with the normalmixEM function in the mixtools package in the R statistical platform. Mixture models were evaluated against the null single component model by comparison of log-likelihood statistics. High- and low-CpG O/E components were delineated in mixture models using the intersection point of component density curves. For each GOSlim term, enrichment in the high and low CpG O/E components identified in mixture models was evaluated with Fisher's exact test. Whole transcriptome and differentially expressed gene CpG O/E distributions were compared with the Kolmogorov–Smirnov test. Details and specific code uesed are available  (https://github.com/jldimond/Coral-CpG-ratio-MS/).
+Transcriptome CpG O/E patterns were fitted with the normalmixEM function in the mixtools package in the R statistical platform. Mixture models were evaluated against the null single component model by comparison of log-likelihood statistics. High and low CpG O/E components were delineated in mixture models using the intersection point of component density curves. For each GOSlim term, enrichment in the high and low CpG O/E components identified in mixture models was evaluated with Fisher's exact test. Whole transcriptome and differentially expressed gene CpG O/E distributions were compared with the Kolmogorov–Smirnov test. Details and specific code used are available  (https://github.com/jldimond/Coral-CpG-ratio-MS/).
 
 
     
     
+  
   
