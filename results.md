@@ -36,7 +36,8 @@ Organism | lambda | mu | sigma | log-likelihood (k = 1) | log-likelihood (k = 2)
 *Pocillopora damicornis* | 0.22, 0.78 | 0.24, 0.69 | 0.10, 0.25 | -3324 | -2464
 *Porites astreoides* | 0.26, 0.74 | 0.34, 0.73 | 0.12, 0.23 | -1450 | -1115
 *Stylophora pistillata* | 0.28, 0.72 | 0.33, 0.72 | 0.11, 0.23 | -660 | -413
- 
+
+
  
 When CpG O/E was evaluated according to gene function, we observed consistent patterns among species in relation to broad classes of biological processes. For all six species, the top four biological processes with the highest mean CpG O/E were cell-cell signalling, cell adhesion, signal transduction, and developmental processes (Figure 2). Low-ranked biological processes with the lowest mean CpG O/E were more variable between species. However, DNA metabolism was consistently ranked lowest, while protein metabolism and other metabolic processes were also typically among the lowest categories in terms of CpG O/E. Relatively high and low ranked biological processes were also more likely to be significantly enriched in the high and low CpG O/E components identified in the mixture model.
 
@@ -52,4 +53,5 @@ In *Acropora hyacinthus*, *A. millepora*, and *A. palmata*, genes expressed diff
 
 We also evaluated the contribution of different biological processes (GOslim terms) to differentially expressed gene profiles by comparing their abundances in differentially expressed genes relative to whole transcriptomes (Figure 3, lower panel). In *A. hyacinthus*, differentially expressed genes were overrepresented by biological processes associated with the high-CpG O/E components identified in the mixture model, and underrepresented by biological processes associated with the low CpG O/E component. In *A. millepora*, differentially expressed genes were characterized by a striking increase in transport processes, which were not significantly enriched in either the high or low CpG O/E components of the mixture model. To a lesser extent, cell adhesion and developmental processes were overrepresented in differentially expressed genes, and these processes were enriched in the high CpG O/E component. Biological processes underrepresented in differentially expressed genes tended to be associated with the low CpG O/E component. Finally, in *A. palmata*, a mixture of processes enriched in both the high and low CpG O/E components were overrepresented in the differentially expressed genes. Processes underrepresented in differentially expressed genes were largely associated with the low CpG O/E component.
 
+  
   
