@@ -37,6 +37,12 @@ The following files are components of the manuscript itself. The [Authorea inter
 
 `abstract.md`
 
+`acknowledgements.md`
+
+`author_contributions.md`
+	
+`data_accessibility.md`
+
 `discussion.md` 
 
 `header.tex` 
