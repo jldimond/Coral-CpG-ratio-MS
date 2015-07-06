@@ -58,31 +58,31 @@ Apalm_dencpg_diff <- density(Apalm_diff$V2[Apalm_diff$V2 >= 0.001 & Apalm_diff$V
 par(mfrow = c(2,3)) # 2 x 3 plots
 par(xaxs="i", yaxs="i") 
 
-plot(Ahya_dencpg, xlim=c(0,1.6), ylim=c(0,2.1), main= "Acropora hyacinthus", font.main = 3, xlab=" ", bty = "l", cex=0.9, lwd=2, col = "#998ec3")
-lines(Ahya_dencpg_diff, cex=1, lwd=2, lty = 1, col = "#e66101")
-legend(x=0.1, y = 2.2, c("whole transcriptome", "environmental response genes"), xpd = TRUE, lwd=2, bty="n", cex = 0.9, lty = 1, x.intersp=0.5, col = c("#998ec3", "#e66101"))
+plot(Ahya_dencpg, xlim=c(0,1.6), ylim=c(0,2.1), main= "Acropora hyacinthus", font.main = 3, xlab=" ", bty = "l", cex=1, lwd=3)
+lines(Ahya_dencpg_diff, cex=1, lwd=3, lty = 2)
+legend(x=0.1, y = 2.2, c("whole transcriptome", "environmental response genes"), xpd = TRUE, lwd=3, bty="n", cex = 1, lty = c(1,2), x.intersp=0.5, seg.len=3)
 
-plot(Amil_dencpg, xlim=c(0,1.6), ylim=c(0,2.1), main= "Acropora millepora", font.main = 3, xlab="CpG O/E", ylab=" ", bty = "l", cex=0.9, lwd=2, col = "#998ec3")
-lines(Amil_dencpg_diff, cex=0.9, lwd=2, lty = 1, col = "#e66101")
+plot(Amil_dencpg, xlim=c(0,1.6), ylim=c(0,2.1), main= "Acropora millepora", font.main = 3, xlab="CpG O/E", ylab=" ", bty = "l", cex=1, lwd=3)
+lines(Amil_dencpg_diff, cex=1, lwd=3, lty = 2)
 
-plot(Apalm_dencpg, xlim=c(0,1.6), ylim=c(0,2.1), main= "Acropora palmata", font.main = 3, xlab=" ", ylab=" ", bty = "l", cex=0.9, lwd=2, col = "#998ec3")
-lines(Apalm_dencpg_diff, cex=0.9, lwd=2, lty = 1, col = "#e66101")
+plot(Apalm_dencpg, xlim=c(0,1.6), ylim=c(0,2.1), main= "Acropora palmata", font.main = 3, xlab=" ", ylab=" ", bty = "l", cex=1, lwd=3)
+lines(Apalm_dencpg_diff, cex=1, lwd=3, lty = 2)
 
 
-#Lower panel plotting % difference barplot
+#Lower panel plotting & difference barplot
 
-par(mar = c(5,12,2,1))
+par(mar = c(5,19,2,1))
 Ahya_plot <- sort(AhyaDiffDiff, decreasing=FALSE)
-barplot(Ahya_plot, xlim = c(-3, 3), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Ahya_plot), col = "#e66101", cex.axis = 0.7, cex.lab = 0.9, cex = 0.7)
-axis(side =1, cex.axis = 0.9)
+barplot(Ahya_plot, xlim = c(-3, 3), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Ahya_plot), col = 0, cex.axis = 1, cex.lab = 1, cex = 1, font = 2)
+axis(side =1, cex.axis = 1)
 
 Amil_plot <- sort(AmilDiffDiff, decreasing=FALSE)
-barplot(Amil_plot, xlim = c(-15, 15), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Amil_plot), col = "#e66101", xlab="% difference", cex.axis = 0.7, cex.lab = 0.9, cex = 0.7)
-axis(side =1, cex.axis = 0.9)
+barplot(Amil_plot, xlim = c(-15, 15), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Amil_plot), col = 0, xlab="% difference", cex.axis = 1, cex.lab = 1, cex = 1, font = 2)
+axis(side =1, cex.axis = 1)
 
 Apalm_plot <- sort(ApalmDiffDiff, decreasing=FALSE)
-barplot(Apalm_plot, xlim = c(-2, 2), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Apalm_plot), col = "#e66101", cex.axis = 0.7, cex.lab = 0.9, cex = 0.7)
-axis(side =1, cex.axis = 0.9)
+barplot(Apalm_plot, xlim = c(-2, 2), axes=FALSE, beside=TRUE, xpd=F, horiz=TRUE, las=2, names.arg=row.names(Apalm_plot), col = 0, cex.axis = 1, cex.lab = 1, cex = 1, font = 2)
+axis(side =1, cex.axis = 1)
 
 
 ###########Stats 

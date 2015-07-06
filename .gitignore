@@ -26,3 +26,15 @@ analyses/Apalm/Apalm_cpg_anno
 analyses/Past/.RData
 
 analyses/Past/Past_blastx_uniprot.sql.tab.sorted
+
+*.docx
+
+MS-files/Coral-CpG-ratio-MS-figures.pdf
+
+MS-files/Coral-CpG-ratio-MS-tables.pdf
+
+MS-files/Coral-CpG-ratio-MS-tables.rtf
+
+MS-files/Coral-CpG-ratio-MS.pdf
+
+MS-files/Dimond&Roberts_MS.pdf
