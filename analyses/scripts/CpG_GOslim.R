@@ -394,4 +394,34 @@ revnames<-rev(names)
 revcolors<-rev(colors)
 legend(x = .75, y = 28, legend = revnames, fill = revcolors, border = 1, bty = "n", text.font = 3, cex =0.75)
 
+##Plot heatmap order by grand mean
+
+GO5 <- GO[,1:6]
+means <- rowMeans(GO5)
+GO6 <- cbind(GO5, means)
+GO7 <- GO6[order(GO6[,7],decreasing=TRUE),]
+GOmatrix <- data.matrix(GO7)
+GO_heatmap <- heatmap(GOmatrix[,1:6], Rowv=NA, Colv=NA, col = cm.colors(255), scale="column", margins=c(5,10))
+library(RColorBrewer)
+cols <- colorRampPalette(brewer.pal(8,"Blues"))(length(GOmatrix))
+GO_heatmap <- heatmap(GOmatrix[,1:6], Rowv=NA, Colv=NA, col = cols, scale="column", margins=c(10,10))
+#nice but no legend. levelplot() function provides legend
+library(lattice)
+legend <- levelplot(GOmatrix[,1:6], col.regions=cols)
+plot(legend)
+# ok but we'll try heatmap.2() in gplots package
+library(gplots)
+lmat = rbind(c(0,3),c(0,4),c(2,1))
+lwid = c(1.5,11)
+lhei = c(1.5,1,4)
+GOmatrix2 <- GOmatrix[, c("AhyaMean", "AmilMean", "ApalmMean", "PastMean", "PdamMean", "SpistMean", "means")]
+par(mar=c(10,4,2,2))
+GO_heatmap <- heatmap.2(GOmatrix2[,1:6], scale="none", Rowv=FALSE, Colv=FALSE,
+  col = cols, ## using your colors
+  dendrogram = "none",  
+  margins= c(7,19), cexRow=1, cexCol=1.0, 
+  trace = "none", density.info = "none",
+  labCol = c("A. hyacinthus", "A. millepora", "A. palmata", "P. astreoides", 
+  "P. damicornis", "S. pistillata"),
+  srtCol = 45, lmat = lmat, lwid = lwid, lhei = lhei, key.xlab = "CpG O/E", key.title = NA)
 
