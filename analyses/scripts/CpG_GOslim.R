@@ -1,6 +1,10 @@
-#This script deals with reading in a tab delimited file
-#containing CpGo/e and GOSlim information
-#and plotting density and GO distributions
+# This script deals with reading in a tab delimited file
+# containing CpGo/e and GOSlim information.
+# The script performs Fisher's exact tests and plots various types
+# of figures. Note that some files are derived from analyses created in 
+# CpG_Density.R, so that script should be run prior to and alongside this
+# one.
+# Source files are derived from analyses in jupyter (.ipynb) notebooks.
 
 #Read in CpG data, remove NA values, and compute means and SEs
 
@@ -401,27 +405,24 @@ means <- rowMeans(GO5)
 GO6 <- cbind(GO5, means)
 GO7 <- GO6[order(GO6[,7],decreasing=TRUE),]
 GOmatrix <- data.matrix(GO7)
-GO_heatmap <- heatmap(GOmatrix[,1:6], Rowv=NA, Colv=NA, col = cm.colors(255), scale="column", margins=c(5,10))
+
 library(RColorBrewer)
-cols <- colorRampPalette(brewer.pal(8,"Blues"))(length(GOmatrix))
-GO_heatmap <- heatmap(GOmatrix[,1:6], Rowv=NA, Colv=NA, col = cols, scale="column", margins=c(10,10))
-#nice but no legend. levelplot() function provides legend
-library(lattice)
-legend <- levelplot(GOmatrix[,1:6], col.regions=cols)
-plot(legend)
-# ok but we'll try heatmap.2() in gplots package
-library(gplots)
-lmat = rbind(c(0,3),c(0,4),c(2,1))
-lwid = c(1.5,11)
-lhei = c(1.5,1,4)
+
+cols <- colorRampPalette(brewer.pal(8,"YlGnBu"))(length(GOmatrix))
+
 GOmatrix2 <- GOmatrix[, c("AhyaMean", "AmilMean", "ApalmMean", "PastMean", "PdamMean", "SpistMean", "means")]
-par(mar=c(10,4,2,2))
+
+setwd("~/Documents/Projects/Coral-CpG-ratio-MS/analyses")
+
+asterisks <- read.delim("asterisks.txt", header=T) #asterisks from results of Fisher tests
+
+par(oma=c(3,5,2,2))
+
 GO_heatmap <- heatmap.2(GOmatrix2[,1:6], scale="none", Rowv=FALSE, Colv=FALSE,
-  col = cols, ## using your colors
-  dendrogram = "none",  
-  margins= c(7,19), cexRow=1, cexCol=1.0, 
-  trace = "none", density.info = "none",
-  labCol = c("A. hyacinthus", "A. millepora", "A. palmata", "P. astreoides", 
-  "P. damicornis", "S. pistillata"),
-  srtCol = 45, lmat = lmat, lwid = lwid, lhei = lhei, key.xlab = "CpG O/E", key.title = NA)
+                        col = cols, dendrogram = "none", trace = "none", density.info = "none",
+                        labCol = c("A. hyacinthus", "A. millepora", "A. palmata", "P. astreoides", 
+                                   "P. damicornis", "S. pistillata"), srtCol = 45,
+                        lmat=rbind(c(4, 2), c(1, 3)), lhei=c(2, 8), lwid=c(4, 1), key.xlab = "CpG O/E",
+                        key.title = NA, cexCol = 0.95, cexRow = 0.95, cellnote = asterisks, notecol="black")
+
 

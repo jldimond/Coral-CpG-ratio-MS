@@ -1,4 +1,5 @@
-#This script plots and compares mixture models for CpG ratio data
+# This script plots and compares mixture models for CpG O/E data.
+# Source files are derived from analyses in jupyter (.ipynb) notebooks.
 
 #Read in CpG data and remove NA values
 
