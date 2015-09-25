@@ -131,7 +131,7 @@ The workflow for each species starts with jupyter notebooks ending with the suff
 - CpG_Density.R: Plots and compares mixture models for CpG O/E data.
 - CpG_GOslim.R: Deals with reading in a tab delimited file containing CpGo/e and GOSlim information. The script performs Fisher's exact tests and plots various types of figures. Note that some files are derived from analyses created in CpG_Density.R, so that script should be run prior to and alongside this one.
 - CpG_deg.R: Evaluates differentiallly expressed genes in Acropora hyacinthus, A. millepora, and A. palmata.
--Expression.R: Analyzes gene expression vs. CpG O/E.
+- Expression.R: Analyzes gene expression vs. CpG O/E.
 
 ---
 
