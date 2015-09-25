@@ -1,4 +1,4 @@
-# Germline DNA methylation in six species of reef corals: patterns and potential roles in response to environmental change
+# Germline DNA methylation in reef corals: patterns and potential roles in response to environmental change
 
 ---
 
@@ -126,14 +126,18 @@ This will launch IPython in your web browser.
 
 **Workflow** 
 
-The workflow for each species starts with jupyter notebooks ending with the suffix "_blast_anno.ipynb", which performs a blast annotation of the transcriptome and provides instructions for further annotation with GOSlim terms. Next, CpG O/E analysis is carried out in jupyter notebooks with the suffix "_CpG_ratio.ipynb". The remainder of analyses are conducted in R using the following scripts: 
+1) The workflow for each species starts with jupyter notebooks ending with the suffix `_blast_anno.ipynb`, which performs a blast annotation of the transcriptome and provides instructions for further annotation with GOSlim terms. 
+2) For *P. damicornis* and *S. pistillata*, jupyter notebooks with the suffix `_zoox_removal.ipynb` are used to remove putative *Symbiodinium* sequences. 
+3) Next, for all species, CpG O/E analysis is carried out in jupyter notebooks with the suffix `_CpG_ratio.ipynb`. 
+4) For *A. hyacinthus*, *A. millepora*, and *A. palmata*, gene expression count data are processed using jupyter notebooks with the suffix `_expression.ipynb`.
+4) The remainder of analyses (plotting and statistics) is conducted in R using the following scripts: 
 
-- CpG_Density.R: Plots and compares mixture models for CpG O/E data.
-- CpG_GOslim.R: Deals with reading in a tab delimited file containing CpGo/e and GOSlim information. The script performs Fisher's exact tests and plots various types of figures. Note that some files are derived from analyses created in CpG_Density.R, so that script should be run prior to and alongside this one.
-- CpG_deg.R: Evaluates differentiallly expressed genes in Acropora hyacinthus, A. millepora, and A. palmata.
-- Expression.R: Analyzes gene expression vs. CpG O/E.
+- `CpG_Density.R`: Plots and compares mixture models for CpG O/E data.
+- `CpG_GOslim.R`: Deals with reading in a tab delimited file containing CpGo/e and GOSlim information. The script performs Fisher's exact tests and plots various types of figures. Note that some files are derived from analyses created in `CpG_Density.R`, so that script should be run prior to and alongside this one.
+- `CpG_deg.R`: Evaluates differentiallly expressed genes in *A. hyacinthus*, *A. millepora*, and *A. palmata*.
+- `Expression.R`: Analyzes gene expression vs. CpG O/E in *A. hyacinthus*, *A. millepora*, and *A. palmata*.
 
 ---
 
-We are actively trying to improve this realizing that we are likely missing dependancies, etc. Any suggestions and feedback is welcome. 
+We are actively trying to improve this realizing that we are likely missing dependancies, etc. Any suggestions or feedback is welcome. 
 
