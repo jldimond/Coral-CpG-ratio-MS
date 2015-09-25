@@ -81,7 +81,7 @@ To execute the jupter (Ipython, `.ipynb`) notebooks in their entirety you will n
 * IPython - [install instructions](http://ipython.org/install.html)    
 * NBCI Blast -  [install instructions](http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download)  
 * R - [install instructions](http://www.r-project.org/)  
-* SQLShare-pythonclient [install instructions](https://github.com/uwescience/sqlshare-pythonclient)
+* SQLShare-pythonclient (optional; current workflow uses manual upload and download) [install instructions](https://github.com/uwescience/sqlshare-pythonclient)
 
 ---
 
@@ -121,6 +121,17 @@ This will launch IPython in your web browser.
 
 5) Execute code as written or modify to your liking. To execute cell type *shift-enter*. Relative pathnames assume you are within the Coral-CpG-ratio-MS directory.
 
+
+---
+
+**Workflow** 
+
+The workflow for each species starts with jupyter notebooks ending with the suffix "_blast_anno.ipynb", which performs a blast annotation of the transcriptome and provides instructions for further annotation with GOSlim terms. Next, CpG O/E analysis is carried out in jupyter notebooks with the suffix "_CpG_ratio.ipynb". The remainder of analyses are conducted in R using the following scripts: 
+
+-CpG_Density.R - Plots and compares mixture models for CpG O/E data.
+-CpG_GOslim.R - Deals with reading in a tab delimited file containing CpGo/e and GOSlim information. The script performs Fisher's exact tests and plots various types of figures. Note that some files are derived from analyses created in CpG_Density.R, so that script should be run prior to and alongside this one.
+-CpG_deg.R - Evaluates differentiallly expressed genes in Acropora hyacinthus, A. millepora, and A. palmata.
+-Expression.R - Analyzes gene expression vs. CpG O/E.
 
 ---
 
