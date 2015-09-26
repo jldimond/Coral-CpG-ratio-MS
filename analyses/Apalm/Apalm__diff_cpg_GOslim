@@ -1,1909 +1,0 @@
-AOKF1050_b2_c 	 0.405247 	 transport   
-AOKF386_g2_c 	 1.02326 	 cell organization and biogenesis
-AOKG1730_b2_c 	 0.852003 	 RNA metabolism  
-AOKG1730_b2_c 	 0.852003 	 cell organization and biogenesis
-CAOG977_b1_c 	 0.424244 	 protein metabolism  
-CAOH2436_g1_c 	 0.546901 	 other biological processes 
-CAOI2629_b1_c 	 1.07011 	 cell adhesion  
-CAOI2629_b1_c 	 1.07011 	 cell organization and biogenesis
-CAOI2629_b1_c 	 1.07011 	 developmental processes  
-CAOI2629_b1_c 	 1.07011 	 other biological processes 
-CAOI2629_b1_c 	 1.07011 	 other metabolic processes 
-CAOI2629_b1_c 	 1.07011 	 protein metabolism  
-CAOI2629_b1_c 	 1.07011 	 signal transduction  
-CAOI2629_b1_c 	 1.07011 	 stress response  
-CAOI641_b2_c 	 0.898445 	 other metabolic processes 
-CAOI641_b2_c 	 0.898445 	 protein metabolism  
-CAWS1371_b2_c 	 0.331062 	 RNA metabolism  
-CAWS1482_b2_c 	 0.706679 	 developmental processes  
-CAWS1482_b2_c 	 0.706679 	 other biological processes 
-CCHX11969_b1_c 	 0.932186 	 signal transduction  
-CCHX1314_b1_c 	 0.788706 	 other metabolic processes 
-CCHX14952_b1_c 	 0.363122 	 protein metabolism  
-CCHX15242_b1_c 	 0.40876 	 RNA metabolism  
-CCHX15242_b1_c 	 0.40876 	 other biological processes 
-CCHX15242_b1_c 	 0.40876 	 stress response  
-CCHX16619_b1_c 	 0.783179 	 cell organization and biogenesis
-CCHX16619_b1_c 	 0.783179 	 other metabolic processes 
-CCHX16619_b1_c 	 0.783179 	 transport   
-CCHX2147_b1_c 	 0.287108 	 other metabolic processes 
-CCHX4084_b1_c 	 0.752735 	 other metabolic processes 
-CCHX5422_b1_c 	 0.549186 	 other metabolic processes 
-CCHX5422_b1_c 	 0.549186 	 stress response  
-CCHX7039_b1_c 	 0.308911 	 other metabolic processes 
-CCHX7275_b1_c 	 0.905557 	 other metabolic processes 
-CCHX8585_b1_c 	 0.209281 	 other metabolic processes 
-CCHX9155_b1_c 	 0.750502 	 protein metabolism  
-CCHX9155_b1_c 	 0.750502 	 stress response  
-CCHX9618_b1_c 	 0.726452 	 cell adhesion  
-CCHX9618_b1_c 	 0.726452 	 developmental processes  
-Contig_10042 	 0.886648 	 cell organization and biogenesis
-Contig_10042 	 0.886648 	 developmental processes  
-Contig_10042 	 0.886648 	 other biological processes 
-Contig_10042 	 0.886648 	 transport   
-Contig_1005 	 0.47053 	 other metabolic processes 
-Contig_10058 	 1.01873 	 RNA metabolism  
-Contig_10071 	 0.925812 	 RNA metabolism  
-Contig_10071 	 0.925812 	 death   
-Contig_10071 	 0.925812 	 developmental processes  
-Contig_10078 	 0.750467 	 other biological processes 
-Contig_10078 	 0.750467 	 other metabolic processes 
-Contig_10078 	 0.750467 	 stress response  
-Contig_10194 	 0.555739 	 other metabolic processes 
-Contig_10194 	 0.555739 	 protein metabolism  
-Contig_10194 	 0.555739 	 signal transduction  
-Contig_10232 	 0.878515 	 RNA metabolism  
-Contig_10243 	 0.943912 	 cell cycle and proliferation
-Contig_10243 	 0.943912 	 cell organization and biogenesis
-Contig_10243 	 0.943912 	 other biological processes 
-Contig_10290 	 0.507053 	 other metabolic processes 
-Contig_10481 	 0.552943 	 RNA metabolism  
-Contig_10481 	 0.552943 	 other metabolic processes 
-Contig_10481 	 0.552943 	 transport   
-Contig_10515 	 1.0929 	 cell organization and biogenesis
-Contig_10515 	 1.0929 	 protein metabolism  
-Contig_10515 	 1.0929 	 transport   
-Contig_10592 	 0.960271 	 cell cycle and proliferation
-Contig_10592 	 0.960271 	 cell-cell signaling  
-Contig_10592 	 0.960271 	 other biological processes 
-Contig_10592 	 0.960271 	 other metabolic processes 
-Contig_10592 	 0.960271 	 signal transduction  
-Contig_10592 	 0.960271 	 transport   
-Contig_10632 	 0.353965 	 RNA metabolism  
-Contig_10632 	 0.353965 	 cell organization and biogenesis
-Contig_10632 	 0.353965 	 other biological processes 
-Contig_10632 	 0.353965 	 other metabolic processes 
-Contig_10632 	 0.353965 	 stress response  
-Contig_10794 	 0.411928 	 transport   
-Contig_10837 	 0.242036 	 protein metabolism  
-Contig_10941 	 0.48593 	 cell cycle and proliferation
-Contig_10949 	 0.375156 	 cell organization and biogenesis
-Contig_10949 	 0.375156 	 other metabolic processes 
-Contig_11002 	 0.817882 	 signal transduction  
-Contig_11034 	 0.724327 	 other metabolic processes 
-Contig_11066 	 0.289186 	 RNA metabolism  
-Contig_11066 	 0.289186 	 cell cycle and proliferation
-Contig_11066 	 0.289186 	 cell organization and biogenesis
-Contig_11069 	 0.696633 	 cell organization and biogenesis
-Contig_11069 	 0.696633 	 transport   
-Contig_11173 	 0.880862 	 RNA metabolism  
-Contig_11173 	 0.880862 	 other biological processes 
-Contig_11173 	 0.880862 	 other metabolic processes 
-Contig_11173 	 0.880862 	 transport   
-Contig_11188 	 0.303998 	 DNA metabolism  
-Contig_11188 	 0.303998 	 cell organization and biogenesis
-Contig_11188 	 0.303998 	 stress response  
-Contig_11246 	 0.489282 	 other metabolic processes 
-Contig_11270 	 0.99244 	 RNA metabolism  
-Contig_11270 	 0.99244 	 other biological processes 
-Contig_11270 	 0.99244 	 other metabolic processes 
-Contig_11270 	 0.99244 	 protein metabolism  
-Contig_11314 	 0.526005 	 other metabolic processes 
-Contig_11318 	 1.01539 	 transport   
-Contig_11586 	 0.462244 	 cell cycle and proliferation
-Contig_11586 	 0.462244 	 cell organization and biogenesis
-Contig_11586 	 0.462244 	 other biological processes 
-Contig_11626 	 0.690828 	 cell organization and biogenesis
-Contig_11626 	 0.690828 	 cell-cell signaling  
-Contig_11626 	 0.690828 	 developmental processes  
-Contig_11626 	 0.690828 	 other biological processes 
-Contig_11626 	 0.690828 	 signal transduction  
-Contig_11690 	 0.651903 	 other metabolic processes 
-Contig_11690 	 0.651903 	 protein metabolism  
-Contig_11710 	 0.995173 	 cell organization and biogenesis
-Contig_11710 	 0.995173 	 developmental processes  
-Contig_11710 	 0.995173 	 other biological processes 
-Contig_11710 	 0.995173 	 other metabolic processes 
-Contig_11710 	 0.995173 	 signal transduction  
-Contig_11721 	 0.994069 	 death   
-Contig_11783 	 0.532642 	 DNA metabolism  
-Contig_11783 	 0.532642 	 cell cycle and proliferation
-Contig_11783 	 0.532642 	 cell organization and biogenesis
-Contig_11783 	 0.532642 	 stress response  
-Contig_11878 	 0.523505 	 other biological processes 
-Contig_11878 	 0.523505 	 other metabolic processes 
-Contig_11926 	 0.803769 	 other biological processes 
-Contig_11935 	 0.951077 	 transport   
-Contig_11954 	 1.13962 	 RNA metabolism  
-Contig_12115 	 0.526692 	 RNA metabolism  
-Contig_12163 	 1.03742 	 RNA metabolism  
-Contig_1220 	 0.394679 	 other metabolic processes 
-Contig_12268 	 0.901502 	 other metabolic processes 
-Contig_12320 	 0.53023 	 other biological processes 
-Contig_12378 	 0.819261 	 other biological processes 
-Contig_12378 	 0.819261 	 transport   
-Contig_12401 	 0.449806 	 other biological processes 
-Contig_12401 	 0.449806 	 other metabolic processes 
-Contig_12438 	 0.764202 	 RNA metabolism  
-Contig_12438 	 0.764202 	 protein metabolism  
-Contig_12623 	 0.735666 	 transport   
-Contig_12635 	 0.254015 	 other metabolic processes 
-Contig_12737 	 0.809162 	 cell organization and biogenesis
-Contig_12737 	 0.809162 	 protein metabolism  
-Contig_12951 	 0.516938 	 other biological processes 
-Contig_12951 	 0.516938 	 other metabolic processes 
-Contig_13075 	 0.456577 	 stress response  
-Contig_13079 	 0.394234 	 other biological processes 
-Contig_13080 	 0.767898 	 RNA metabolism  
-Contig_13080 	 0.767898 	 developmental processes  
-Contig_13121 	 0.329671 	 DNA metabolism  
-Contig_13121 	 0.329671 	 RNA metabolism  
-Contig_13121 	 0.329671 	 stress response  
-Contig_13167 	 0.450826 	 other metabolic processes 
-Contig_13167 	 0.450826 	 transport   
-Contig_13168 	 0.487867 	 other metabolic processes 
-Contig_13168 	 0.487867 	 transport   
-Contig_13170 	 0.531473 	 RNA metabolism  
-Contig_13170 	 0.531473 	 cell organization and biogenesis
-Contig_13177 	 0.484508 	 RNA metabolism  
-Contig_13177 	 0.484508 	 cell organization and biogenesis
-Contig_13177 	 0.484508 	 other metabolic processes 
-Contig_13177 	 0.484508 	 transport   
-Contig_13274 	 0.280353 	 RNA metabolism  
-Contig_13274 	 0.280353 	 cell organization and biogenesis
-Contig_13274 	 0.280353 	 protein metabolism  
-Contig_13281 	 0.788103 	 cell organization and biogenesis
-Contig_13281 	 0.788103 	 death   
-Contig_13281 	 0.788103 	 developmental processes  
-Contig_13281 	 0.788103 	 other biological processes 
-Contig_13281 	 0.788103 	 other metabolic processes 
-Contig_13281 	 0.788103 	 stress response  
-Contig_13281 	 0.788103 	 transport   
-Contig_13285 	 0.589995 	 DNA metabolism  
-Contig_13285 	 0.589995 	 developmental processes  
-Contig_13341 	 0.7206 	 DNA metabolism  
-Contig_13344 	 0.617683 	 developmental processes  
-Contig_13344 	 0.617683 	 other metabolic processes 
-Contig_13344 	 0.617683 	 transport   
-Contig_13403 	 0.414241 	 other biological processes 
-Contig_13413 	 0.756144 	 cell organization and biogenesis
-Contig_13413 	 0.756144 	 other biological processes 
-Contig_13413 	 0.756144 	 other metabolic processes 
-Contig_13413 	 0.756144 	 transport   
-Contig_13468 	 0.787973 	 other biological processes 
-Contig_13468 	 0.787973 	 protein metabolism  
-Contig_13469 	 0.655733 	 RNA metabolism  
-Contig_13469 	 0.655733 	 other metabolic processes 
-Contig_13553 	 0.719468 	 RNA metabolism  
-Contig_13553 	 0.719468 	 other metabolic processes 
-Contig_13557 	 1.10708 	 cell adhesion  
-Contig_13570 	 0.757486 	 other biological processes 
-Contig_13570 	 0.757486 	 other metabolic processes 
-Contig_13606 	 1.00094 	 cell organization and biogenesis
-Contig_13606 	 1.00094 	 cell-cell signaling  
-Contig_13606 	 1.00094 	 stress response  
-Contig_13606 	 1.00094 	 transport   
-Contig_13641 	 0.72763 	 other biological processes 
-Contig_13641 	 0.72763 	 other metabolic processes 
-Contig_13641 	 0.72763 	 stress response  
-Contig_13666 	 0.717921 	 other metabolic processes 
-Contig_13670 	 1.07012 	 cell organization and biogenesis
-Contig_13672 	 1.05031 	 cell organization and biogenesis
-Contig_13696 	 0.392008 	 transport   
-Contig_13725 	 1.12979 	 cell organization and biogenesis
-Contig_13783 	 0.865658 	 RNA metabolism  
-Contig_13783 	 0.865658 	 developmental processes  
-Contig_13783 	 0.865658 	 signal transduction  
-Contig_13959 	 1.02541 	 cell cycle and proliferation
-Contig_13959 	 1.02541 	 cell organization and biogenesis
-Contig_13959 	 1.02541 	 developmental processes  
-Contig_13959 	 1.02541 	 other biological processes 
-Contig_13959 	 1.02541 	 transport   
-Contig_14018 	 0.805985 	 signal transduction  
-Contig_14019 	 0.773715 	 other biological processes 
-Contig_14081 	 1.04185 	 other biological processes 
-Contig_14112 	 0.379721 	 RNA metabolism  
-Contig_14236 	 0.74358 	 other metabolic processes 
-Contig_14297 	 0.382126 	 RNA metabolism  
-Contig_14297 	 0.382126 	 other metabolic processes 
-Contig_14297 	 0.382126 	 protein metabolism  
-Contig_14298 	 0.44911 	 RNA metabolism  
-Contig_14298 	 0.44911 	 developmental processes  
-Contig_14318 	 0.849225 	 other biological processes 
-Contig_14318 	 0.849225 	 other metabolic processes 
-Contig_14337 	 0.509421 	 developmental processes  
-Contig_14337 	 0.509421 	 other biological processes 
-Contig_14337 	 0.509421 	 other metabolic processes 
-Contig_14337 	 0.509421 	 protein metabolism  
-Contig_14337 	 0.509421 	 signal transduction  
-Contig_14337 	 0.509421 	 stress response  
-Contig_14338 	 0.647475 	 RNA metabolism  
-Contig_14338 	 0.647475 	 cell cycle and proliferation
-Contig_14338 	 0.647475 	 cell organization and biogenesis
-Contig_14338 	 0.647475 	 death   
-Contig_14338 	 0.647475 	 developmental processes  
-Contig_14338 	 0.647475 	 other biological processes 
-Contig_14338 	 0.647475 	 other metabolic processes 
-Contig_14338 	 0.647475 	 protein metabolism  
-Contig_14338 	 0.647475 	 signal transduction  
-Contig_14338 	 0.647475 	 stress response  
-Contig_1437 	 0.887534 	 cell organization and biogenesis
-Contig_14370 	 0.680834 	 death   
-Contig_14370 	 0.680834 	 other biological processes 
-Contig_14370 	 0.680834 	 other metabolic processes 
-Contig_14370 	 0.680834 	 stress response  
-Contig_14500 	 0.428008 	 other metabolic processes 
-Contig_14591 	 0.485825 	 cell cycle and proliferation
-Contig_14591 	 0.485825 	 stress response  
-Contig_14769 	 1.03925 	 signal transduction  
-Contig_14794 	 0.683313 	 RNA metabolism  
-Contig_14794 	 0.683313 	 cell cycle and proliferation
-Contig_14794 	 0.683313 	 cell organization and biogenesis
-Contig_14795 	 0.561773 	 cell cycle and proliferation
-Contig_14795 	 0.561773 	 cell organization and biogenesis
-Contig_14795 	 0.561773 	 cell-cell signaling  
-Contig_14795 	 0.561773 	 developmental processes  
-Contig_14795 	 0.561773 	 other biological processes 
-Contig_14795 	 0.561773 	 protein metabolism  
-Contig_14795 	 0.561773 	 signal transduction  
-Contig_14795 	 0.561773 	 transport   
-Contig_14802 	 0.861766 	 DNA metabolism  
-Contig_14918 	 0.842411 	 cell cycle and proliferation
-Contig_14918 	 0.842411 	 other biological processes 
-Contig_14918 	 0.842411 	 other metabolic processes 
-Contig_14918 	 0.842411 	 protein metabolism  
-Contig_14918 	 0.842411 	 signal transduction  
-Contig_14918 	 0.842411 	 stress response  
-Contig_14982 	 0.754619 	 other metabolic processes 
-Contig_15041 	 0.943427 	 transport   
-Contig_15060 	 0.91644 	 developmental processes  
-Contig_15060 	 0.91644 	 other biological processes 
-Contig_15060 	 0.91644 	 other metabolic processes 
-Contig_15060 	 0.91644 	 protein metabolism  
-Contig_15109 	 0.257587 	 other metabolic processes 
-Contig_15138 	 0.944659 	 other biological processes 
-Contig_15184 	 0.666778 	 developmental processes  
-Contig_15295 	 0.715961 	 death   
-Contig_15295 	 0.715961 	 other biological processes 
-Contig_15295 	 0.715961 	 other metabolic processes 
-Contig_15295 	 0.715961 	 stress response  
-Contig_15460 	 0.972023 	 other biological processes 
-Contig_15460 	 0.972023 	 transport   
-Contig_15497 	 0.941414 	 other biological processes 
-Contig_15497 	 0.941414 	 other metabolic processes 
-Contig_15560 	 0.535463 	 developmental processes  
-Contig_15636 	 0.566364 	 RNA metabolism  
-Contig_15696 	 0.618383 	 DNA metabolism  
-Contig_15696 	 0.618383 	 developmental processes  
-Contig_15697 	 0.375527 	 other biological processes 
-Contig_15771 	 0.906587 	 RNA metabolism  
-Contig_15771 	 0.906587 	 protein metabolism  
-Contig_15903 	 0.773236 	 other metabolic processes 
-Contig_15936 	 0.743528 	 other metabolic processes 
-Contig_15952 	 0.403098 	 DNA metabolism  
-Contig_15952 	 0.403098 	 cell cycle and proliferation
-Contig_15952 	 0.403098 	 other biological processes 
-Contig_15952 	 0.403098 	 protein metabolism  
-Contig_15952 	 0.403098 	 signal transduction  
-Contig_15952 	 0.403098 	 stress response  
-Contig_16004 	 0.266144 	 protein metabolism  
-Contig_16070 	 0.628756 	 cell-cell signaling  
-Contig_16070 	 0.628756 	 transport   
-Contig_16165 	 0.408643 	 protein metabolism  
-Contig_16202 	 0.897278 	 cell-cell signaling  
-Contig_16202 	 0.897278 	 developmental processes  
-Contig_16202 	 0.897278 	 signal transduction  
-Contig_16273 	 0.499751 	 cell cycle and proliferation
-Contig_16273 	 0.499751 	 cell organization and biogenesis
-Contig_16273 	 0.499751 	 cell-cell signaling  
-Contig_16273 	 0.499751 	 developmental processes  
-Contig_16273 	 0.499751 	 other biological processes 
-Contig_16273 	 0.499751 	 protein metabolism  
-Contig_16342 	 0.580511 	 other metabolic processes 
-Contig_16342 	 0.580511 	 transport   
-Contig_16424 	 0.802337 	 other biological processes 
-Contig_16424 	 0.802337 	 protein metabolism  
-Contig_1648 	 0.915483 	 cell organization and biogenesis
-Contig_1648 	 0.915483 	 developmental processes  
-Contig_1648 	 0.915483 	 other biological processes 
-Contig_1648 	 0.915483 	 other metabolic processes 
-Contig_1648 	 0.915483 	 stress response  
-Contig_16502 	 1.07789 	 other biological processes 
-Contig_16572 	 0.978642 	 other metabolic processes 
-Contig_16572 	 0.978642 	 stress response  
-Contig_16636 	 0.703687 	 cell organization and biogenesis
-Contig_16656 	 0.54981 	 other biological processes 
-Contig_16656 	 0.54981 	 other metabolic processes 
-Contig_16663 	 0.848566 	 other biological processes 
-Contig_16663 	 0.848566 	 signal transduction  
-Contig_16663 	 0.848566 	 transport   
-Contig_16878 	 0.854628 	 protein metabolism  
-Contig_16918 	 0.78294 	 cell adhesion  
-Contig_16918 	 0.78294 	 other biological processes 
-Contig_1695 	 0.561274 	 other biological processes 
-Contig_1695 	 0.561274 	 signal transduction  
-Contig_1695 	 0.561274 	 transport   
-Contig_16960 	 0.751498 	 death   
-Contig_16960 	 0.751498 	 protein metabolism  
-Contig_17046 	 0.458017 	 cell cycle and proliferation
-Contig_17046 	 0.458017 	 other biological processes 
-Contig_17046 	 0.458017 	 other metabolic processes 
-Contig_1711 	 1.00581 	 other metabolic processes 
-Contig_17181 	 0.944177 	 other biological processes 
-Contig_17181 	 0.944177 	 other metabolic processes 
-Contig_17196 	 0.407848 	 RNA metabolism  
-Contig_17263 	 0.749038 	 other metabolic processes 
-Contig_17263 	 0.749038 	 protein metabolism  
-Contig_17263 	 0.749038 	 signal transduction  
-Contig_17263 	 0.749038 	 stress response  
-Contig_17297 	 0.673964 	 other biological processes 
-Contig_17297 	 0.673964 	 stress response  
-Contig_17394 	 0.304967 	 other metabolic processes 
-Contig_17397 	 0.271627 	 other biological processes 
-Contig_17397 	 0.271627 	 other metabolic processes 
-Contig_17397 	 0.271627 	 stress response  
-Contig_17419 	 0.862054 	 other biological processes 
-Contig_17419 	 0.862054 	 signal transduction  
-Contig_17419 	 0.862054 	 stress response  
-Contig_17529 	 0.434816 	 cell organization and biogenesis
-Contig_17633 	 0.763769 	 death   
-Contig_17639 	 0.860752 	 other biological processes 
-Contig_17639 	 0.860752 	 other metabolic processes 
-Contig_17639 	 0.860752 	 stress response  
-Contig_17918 	 1.14528 	 other metabolic processes 
-Contig_17921 	 0.467756 	 DNA metabolism  
-Contig_17921 	 0.467756 	 RNA metabolism  
-Contig_17921 	 0.467756 	 cell cycle and proliferation
-Contig_17921 	 0.467756 	 cell organization and biogenesis
-Contig_17921 	 0.467756 	 stress response  
-Contig_17934 	 1.17084 	 RNA metabolism  
-Contig_17934 	 1.17084 	 death   
-Contig_17934 	 1.17084 	 developmental processes  
-Contig_17934 	 1.17084 	 other biological processes 
-Contig_17986 	 0.75446 	 other metabolic processes 
-Contig_17986 	 0.75446 	 signal transduction  
-Contig_17986 	 0.75446 	 stress response  
-Contig_18014 	 0.736176 	 cell organization and biogenesis
-Contig_18014 	 0.736176 	 developmental processes  
-Contig_18014 	 0.736176 	 other biological processes 
-Contig_18014 	 0.736176 	 other metabolic processes 
-Contig_18014 	 0.736176 	 transport   
-Contig_18059 	 0.996519 	 other metabolic processes 
-Contig_18059 	 0.996519 	 signal transduction  
-Contig_18098 	 0.786234 	 other biological processes 
-Contig_18155 	 1.02401 	 transport   
-Contig_18198 	 0.664261 	 other metabolic processes 
-Contig_18284 	 0.959668 	 RNA metabolism  
-Contig_18284 	 0.959668 	 developmental processes  
-Contig_18284 	 0.959668 	 other biological processes 
-Contig_18309 	 1.32686 	 RNA metabolism  
-Contig_18309 	 1.32686 	 cell organization and biogenesis
-Contig_18309 	 1.32686 	 developmental processes  
-Contig_18518 	 0.761729 	 other metabolic processes 
-Contig_18518 	 0.761729 	 protein metabolism  
-Contig_18533 	 0.979083 	 cell organization and biogenesis
-Contig_18625 	 0.669266 	 other biological processes 
-Contig_18697 	 0.544493 	 DNA metabolism  
-Contig_18697 	 0.544493 	 cell cycle and proliferation
-Contig_18697 	 0.544493 	 other metabolic processes 
-Contig_18697 	 0.544493 	 signal transduction  
-Contig_18697 	 0.544493 	 stress response  
-Contig_18782 	 0.733855 	 transport   
-Contig_18859 	 0.485232 	 RNA metabolism  
-Contig_18871 	 0.835417 	 other metabolic processes 
-Contig_18876 	 0.758824 	 transport   
-Contig_18911 	 0.94807 	 other metabolic processes 
-Contig_18911 	 0.94807 	 stress response  
-Contig_18984 	 0.52985 	 transport   
-Contig_19081 	 0.932474 	 developmental processes  
-Contig_19081 	 0.932474 	 other biological processes 
-Contig_19081 	 0.932474 	 signal transduction  
-Contig_19081 	 0.932474 	 stress response  
-Contig_19091 	 0.905537 	 protein metabolism  
-Contig_19112 	 0.730037 	 other biological processes 
-Contig_19114 	 0.583001 	 DNA metabolism  
-Contig_19114 	 0.583001 	 cell organization and biogenesis
-Contig_19114 	 0.583001 	 death   
-Contig_19155 	 0.463624 	 RNA metabolism  
-Contig_19171 	 0.896188 	 RNA metabolism  
-Contig_19171 	 0.896188 	 developmental processes  
-Contig_1923 	 1.01144 	 RNA metabolism  
-Contig_1923 	 1.01144 	 cell organization and biogenesis
-Contig_1923 	 1.01144 	 cell-cell signaling  
-Contig_1923 	 1.01144 	 death   
-Contig_1923 	 1.01144 	 developmental processes  
-Contig_1923 	 1.01144 	 other biological processes 
-Contig_1923 	 1.01144 	 signal transduction  
-Contig_19470 	 0.954925 	 other metabolic processes 
-Contig_19499 	 1.14056 	 cell organization and biogenesis
-Contig_19507 	 0.859454 	 DNA metabolism  
-Contig_19507 	 0.859454 	 cell cycle and proliferation
-Contig_19507 	 0.859454 	 cell organization and biogenesis
-Contig_19507 	 0.859454 	 death   
-Contig_19507 	 0.859454 	 developmental processes  
-Contig_19507 	 0.859454 	 other biological processes 
-Contig_19507 	 0.859454 	 other metabolic processes 
-Contig_19507 	 0.859454 	 signal transduction  
-Contig_19507 	 0.859454 	 stress response  
-Contig_19547 	 0.457698 	 RNA metabolism  
-Contig_19547 	 0.457698 	 cell organization and biogenesis
-Contig_19547 	 0.457698 	 cell-cell signaling  
-Contig_19547 	 0.457698 	 developmental processes  
-Contig_19547 	 0.457698 	 other biological processes 
-Contig_19547 	 0.457698 	 other metabolic processes 
-Contig_19547 	 0.457698 	 protein metabolism  
-Contig_19547 	 0.457698 	 signal transduction  
-Contig_19652 	 0.63758 	 other biological processes 
-Contig_1966 	 0.396393 	 RNA metabolism  
-Contig_1966 	 0.396393 	 other metabolic processes 
-Contig_19676 	 1.04271 	 cell-cell signaling  
-Contig_19676 	 1.04271 	 transport   
-Contig_1970 	 0.438449 	 other metabolic processes 
-Contig_19763 	 0.400422 	 RNA metabolism  
-Contig_19763 	 0.400422 	 protein metabolism  
-Contig_19775 	 0.551059 	 RNA metabolism  
-Contig_2002 	 0.282677 	 DNA metabolism  
-Contig_2002 	 0.282677 	 RNA metabolism  
-Contig_2002 	 0.282677 	 cell cycle and proliferation
-Contig_2002 	 0.282677 	 cell organization and biogenesis
-Contig_2002 	 0.282677 	 stress response  
-Contig_20021 	 0.531596 	 transport   
-Contig_20173 	 0.380963 	 cell organization and biogenesis
-Contig_2018 	 0.761395 	 signal transduction  
-Contig_20188 	 0.880953 	 transport   
-Contig_20277 	 0.714778 	 death   
-Contig_20277 	 0.714778 	 protein metabolism  
-Contig_20358 	 0.417686 	 cell organization and biogenesis
-Contig_20358 	 0.417686 	 other metabolic processes 
-Contig_20367 	 0.951441 	 cell organization and biogenesis
-Contig_20367 	 0.951441 	 other metabolic processes 
-Contig_20455 	 0.68854 	 cell adhesion  
-Contig_20459 	 0.756355 	 other metabolic processes 
-Contig_20491 	 0.526004 	 protein metabolism  
-Contig_20498 	 0.783837 	 signal transduction  
-Contig_2053 	 0.830101 	 signal transduction  
-Contig_20542 	 0.496796 	 cell organization and biogenesis
-Contig_20542 	 0.496796 	 protein metabolism  
-Contig_20542 	 0.496796 	 transport   
-Contig_20546 	 0.677108 	 RNA metabolism  
-Contig_20546 	 0.677108 	 other metabolic processes 
-Contig_20546 	 0.677108 	 transport   
-Contig_20626 	 0.704568 	 developmental processes  
-Contig_20626 	 0.704568 	 protein metabolism  
-Contig_20628 	 0.218019 	 DNA metabolism  
-Contig_20628 	 0.218019 	 protein metabolism  
-Contig_20628 	 0.218019 	 signal transduction  
-Contig_20628 	 0.218019 	 stress response  
-Contig_20670 	 0.293229 	 other metabolic processes 
-Contig_20696 	 0.409313 	 developmental processes  
-Contig_20776 	 0.39777 	 RNA metabolism  
-Contig_20776 	 0.39777 	 other metabolic processes 
-Contig_20790 	 0.415873 	 other metabolic processes 
-Contig_20916 	 0.456203 	 cell organization and biogenesis
-Contig_20916 	 0.456203 	 other biological processes 
-Contig_20916 	 0.456203 	 signal transduction  
-Contig_21112 	 0.498662 	 developmental processes  
-Contig_21112 	 0.498662 	 other biological processes 
-Contig_21112 	 0.498662 	 transport   
-Contig_2114 	 0.745465 	 protein metabolism  
-Contig_2124 	 0.811904 	 DNA metabolism  
-Contig_2124 	 0.811904 	 stress response  
-Contig_21450 	 0.554153 	 other metabolic processes 
-Contig_21450 	 0.554153 	 protein metabolism  
-Contig_21519 	 0.637893 	 other metabolic processes 
-Contig_21608 	 0.67294 	 other biological processes 
-Contig_21608 	 0.67294 	 other metabolic processes 
-Contig_21608 	 0.67294 	 transport   
-Contig_21622 	 0.466332 	 other biological processes 
-Contig_21622 	 0.466332 	 other metabolic processes 
-Contig_21645 	 0.835205 	 RNA metabolism  
-Contig_21645 	 0.835205 	 cell organization and biogenesis
-Contig_21645 	 0.835205 	 other biological processes 
-Contig_21645 	 0.835205 	 other metabolic processes 
-Contig_21645 	 0.835205 	 protein metabolism  
-Contig_21645 	 0.835205 	 transport   
-Contig_21840 	 0.364448 	 RNA metabolism  
-Contig_21840 	 0.364448 	 death   
-Contig_21840 	 0.364448 	 other biological processes 
-Contig_21840 	 0.364448 	 other metabolic processes 
-Contig_21840 	 0.364448 	 protein metabolism  
-Contig_21873 	 0.860862 	 other biological processes 
-Contig_21873 	 0.860862 	 transport   
-Contig_21931 	 0.699579 	 other biological processes 
-Contig_2208 	 0.861669 	 other metabolic processes 
-Contig_22130 	 0.742167 	 other biological processes 
-Contig_22130 	 0.742167 	 other metabolic processes 
-Contig_22227 	 0.75262 	 cell cycle and proliferation
-Contig_22227 	 0.75262 	 cell-cell signaling  
-Contig_22227 	 0.75262 	 developmental processes  
-Contig_22227 	 0.75262 	 signal transduction  
-Contig_22289 	 0.673687 	 cell adhesion  
-Contig_22289 	 0.673687 	 cell organization and biogenesis
-Contig_22289 	 0.673687 	 developmental processes  
-Contig_22289 	 0.673687 	 other biological processes 
-Contig_22289 	 0.673687 	 signal transduction  
-Contig_22425 	 0.285136 	 developmental processes  
-Contig_22449 	 0.950035 	 cell organization and biogenesis
-Contig_22477 	 0.610668 	 other metabolic processes 
-Contig_22568 	 0.810356 	 other biological processes 
-Contig_22568 	 0.810356 	 other metabolic processes 
-Contig_22568 	 0.810356 	 signal transduction  
-Contig_2258 	 0.562534 	 other biological processes 
-Contig_22595 	 0.652624 	 cell cycle and proliferation
-Contig_22665 	 0.674497 	 other biological processes 
-Contig_22677 	 0.831326 	 other metabolic processes 
-Contig_22764 	 0.686713 	 other metabolic processes 
-Contig_22772 	 0.354816 	 cell organization and biogenesis
-Contig_22772 	 0.354816 	 developmental processes  
-Contig_22772 	 0.354816 	 other biological processes 
-Contig_22772 	 0.354816 	 protein metabolism  
-Contig_22858 	 0.735138 	 cell adhesion  
-Contig_22858 	 0.735138 	 cell cycle and proliferation
-Contig_22858 	 0.735138 	 developmental processes  
-Contig_22858 	 0.735138 	 other biological processes 
-Contig_22858 	 0.735138 	 protein metabolism  
-Contig_22858 	 0.735138 	 signal transduction  
-Contig_22958 	 0.97356 	 other biological processes 
-Contig_22958 	 0.97356 	 signal transduction  
-Contig_23287 	 0.468164 	 DNA metabolism  
-Contig_23287 	 0.468164 	 protein metabolism  
-Contig_23287 	 0.468164 	 signal transduction  
-Contig_23287 	 0.468164 	 stress response  
-Contig_23389 	 0.740463 	 other biological processes 
-Contig_23389 	 0.740463 	 transport   
-Contig_23486 	 0.740477 	 cell adhesion  
-Contig_23486 	 0.740477 	 developmental processes  
-Contig_23486 	 0.740477 	 other biological processes 
-Contig_23563 	 0.598938 	 other biological processes 
-Contig_23563 	 0.598938 	 protein metabolism  
-Contig_23568 	 0.85974 	 other metabolic processes 
-Contig_23633 	 0.694082 	 stress response  
-Contig_23652 	 0.405522 	 other biological processes 
-Contig_23707 	 0.948183 	 developmental processes  
-Contig_23707 	 0.948183 	 other biological processes 
-Contig_23707 	 0.948183 	 transport   
-Contig_23776 	 0.833019 	 cell cycle and proliferation
-Contig_23776 	 0.833019 	 death   
-Contig_23776 	 0.833019 	 other biological processes 
-Contig_23776 	 0.833019 	 other metabolic processes 
-Contig_23776 	 0.833019 	 stress response  
-Contig_23776 	 0.833019 	 transport   
-Contig_23805 	 1.04516 	 cell cycle and proliferation
-Contig_23805 	 1.04516 	 cell-cell signaling  
-Contig_23805 	 1.04516 	 other biological processes 
-Contig_23805 	 1.04516 	 other metabolic processes 
-Contig_23805 	 1.04516 	 signal transduction  
-Contig_23805 	 1.04516 	 transport   
-Contig_23812 	 0.840134 	 developmental processes  
-Contig_23812 	 0.840134 	 other biological processes 
-Contig_23812 	 0.840134 	 other metabolic processes 
-Contig_23857 	 0.76476 	 developmental processes  
-Contig_23857 	 0.76476 	 other biological processes 
-Contig_23857 	 0.76476 	 stress response  
-Contig_23936 	 0.489266 	 other metabolic processes 
-Contig_23966 	 0.81947 	 other metabolic processes 
-Contig_24026 	 1.03403 	 signal transduction  
-Contig_24111 	 0.756305 	 cell cycle and proliferation
-Contig_24111 	 0.756305 	 cell organization and biogenesis
-Contig_24111 	 0.756305 	 protein metabolism  
-Contig_24124 	 0.334131 	 other biological processes 
-Contig_24159 	 0.892745 	 signal transduction  
-Contig_24210 	 1.0287 	 other metabolic processes 
-Contig_24220 	 0.522531 	 cell organization and biogenesis
-Contig_24220 	 0.522531 	 other metabolic processes 
-Contig_24220 	 0.522531 	 transport   
-Contig_24256 	 0.631726 	 cell organization and biogenesis
-Contig_24256 	 0.631726 	 other biological processes 
-Contig_24256 	 0.631726 	 other metabolic processes 
-Contig_24257 	 0.88867 	 RNA metabolism  
-Contig_24272 	 0.78151 	 developmental processes  
-Contig_24272 	 0.78151 	 other biological processes 
-Contig_24272 	 0.78151 	 protein metabolism  
-Contig_24388 	 0.491636 	 other metabolic processes 
-Contig_24570 	 0.460538 	 other biological processes 
-Contig_24591 	 0.644012 	 death   
-Contig_24591 	 0.644012 	 transport   
-Contig_246 	 0.700717 	 death   
-Contig_246 	 0.700717 	 transport   
-Contig_24690 	 0.14543 	 cell organization and biogenesis
-Contig_24690 	 0.14543 	 transport   
-Contig_24776 	 0.419097 	 other biological processes 
-Contig_2482 	 0.789135 	 RNA metabolism  
-Contig_2482 	 0.789135 	 other metabolic processes 
-Contig_2482 	 0.789135 	 signal transduction  
-Contig_2482 	 0.789135 	 stress response  
-Contig_24845 	 0.798969 	 other biological processes 
-Contig_24897 	 0.238607 	 other metabolic processes 
-Contig_24897 	 0.238607 	 protein metabolism  
-Contig_24919 	 0.68946 	 cell adhesion  
-Contig_24957 	 0.80867 	 transport   
-Contig_24975 	 0.813384 	 transport   
-Contig_25004 	 0.921704 	 cell organization and biogenesis
-Contig_25004 	 0.921704 	 developmental processes  
-Contig_25004 	 0.921704 	 other biological processes 
-Contig_25004 	 0.921704 	 protein metabolism  
-Contig_25004 	 0.921704 	 signal transduction  
-Contig_25030 	 1.01838 	 other biological processes 
-Contig_25106 	 1.12586 	 signal transduction  
-Contig_25183 	 1.10291 	 cell cycle and proliferation
-Contig_25183 	 1.10291 	 cell organization and biogenesis
-Contig_25183 	 1.10291 	 other biological processes 
-Contig_2526 	 0.839072 	 RNA metabolism  
-Contig_2526 	 0.839072 	 transport   
-Contig_2528 	 0.601988 	 other metabolic processes 
-Contig_25329 	 0.658055 	 DNA metabolism  
-Contig_25329 	 0.658055 	 RNA metabolism  
-Contig_25329 	 0.658055 	 cell cycle and proliferation
-Contig_25329 	 0.658055 	 cell organization and biogenesis
-Contig_25329 	 0.658055 	 other metabolic processes 
-Contig_25329 	 0.658055 	 protein metabolism  
-Contig_25329 	 0.658055 	 signal transduction  
-Contig_25379 	 0.70905 	 protein metabolism  
-Contig_25379 	 0.70905 	 stress response  
-Contig_25388 	 0.681871 	 cell organization and biogenesis
-Contig_25388 	 0.681871 	 other biological processes 
-Contig_25388 	 0.681871 	 protein metabolism  
-Contig_25393 	 0.895331 	 DNA metabolism  
-Contig_25393 	 0.895331 	 cell organization and biogenesis
-Contig_25393 	 0.895331 	 other biological processes 
-Contig_25393 	 0.895331 	 protein metabolism  
-Contig_25393 	 0.895331 	 signal transduction  
-Contig_25503 	 0.765453 	 RNA metabolism  
-Contig_25503 	 0.765453 	 cell organization and biogenesis
-Contig_25503 	 0.765453 	 cell-cell signaling  
-Contig_25503 	 0.765453 	 death   
-Contig_25503 	 0.765453 	 developmental processes  
-Contig_25503 	 0.765453 	 other biological processes 
-Contig_25503 	 0.765453 	 signal transduction  
-Contig_25503 	 0.765453 	 transport   
-Contig_25655 	 0.507247 	 other metabolic processes 
-Contig_25685 	 1.33861 	 RNA metabolism  
-Contig_25685 	 1.33861 	 developmental processes  
-Contig_2572 	 1.16544 	 cell organization and biogenesis
-Contig_2572 	 1.16544 	 transport   
-Contig_2573 	 0.880893 	 cell organization and biogenesis
-Contig_2573 	 0.880893 	 other metabolic processes 
-Contig_2573 	 0.880893 	 transport   
-Contig_2574 	 1.14187 	 other biological processes 
-Contig_2574 	 1.14187 	 protein metabolism  
-Contig_25815 	 0.870887 	 cell adhesion  
-Contig_25815 	 0.870887 	 cell organization and biogenesis
-Contig_25815 	 0.870887 	 developmental processes  
-Contig_25815 	 0.870887 	 other biological processes 
-Contig_25963 	 0.491464 	 cell organization and biogenesis
-Contig_25963 	 0.491464 	 other biological processes 
-Contig_26016 	 0.575343 	 developmental processes  
-Contig_26016 	 0.575343 	 other biological processes 
-Contig_26016 	 0.575343 	 other metabolic processes 
-Contig_26016 	 0.575343 	 stress response  
-Contig_26065 	 0.868408 	 protein metabolism  
-Contig_26238 	 0.75128 	 RNA metabolism  
-Contig_26238 	 0.75128 	 protein metabolism  
-Contig_2629 	 1.00969 	 other biological processes 
-Contig_2629 	 1.00969 	 stress response  
-Contig_26313 	 0.604841 	 other biological processes 
-Contig_26313 	 0.604841 	 other metabolic processes 
-Contig_26375 	 0.892893 	 death   
-Contig_26375 	 0.892893 	 protein metabolism  
-Contig_26384 	 0.119456 	 cell cycle and proliferation
-Contig_26384 	 0.119456 	 cell organization and biogenesis
-Contig_26384 	 0.119456 	 other biological processes 
-Contig_26384 	 0.119456 	 other metabolic processes 
-Contig_264 	 1.0603 	 other biological processes 
-Contig_26409 	 0.761137 	 transport   
-Contig_26424 	 0.198084 	 other metabolic processes 
-Contig_26437 	 0.874476 	 other metabolic processes 
-Contig_26550 	 0.999393 	 cell-cell signaling  
-Contig_26550 	 0.999393 	 signal transduction  
-Contig_26550 	 0.999393 	 transport   
-Contig_26551 	 0.968057 	 signal transduction  
-Contig_26704 	 0.607306 	 cell organization and biogenesis
-Contig_26704 	 0.607306 	 other metabolic processes 
-Contig_26813 	 0.955226 	 RNA metabolism  
-Contig_26813 	 0.955226 	 developmental processes  
-Contig_2682 	 0.66331 	 protein metabolism  
-Contig_26840 	 1.23525 	 RNA metabolism  
-Contig_26840 	 1.23525 	 developmental processes  
-Contig_26943 	 0.350085 	 other biological processes 
-Contig_26966 	 0.782146 	 other metabolic processes 
-Contig_2700 	 0.5956 	 other metabolic processes 
-Contig_2700 	 0.5956 	 protein metabolism  
-Contig_2700 	 0.5956 	 signal transduction  
-Contig_27209 	 0.695561 	 DNA metabolism  
-Contig_27209 	 0.695561 	 RNA metabolism  
-Contig_27209 	 0.695561 	 cell cycle and proliferation
-Contig_27209 	 0.695561 	 cell organization and biogenesis
-Contig_27209 	 0.695561 	 protein metabolism  
-Contig_27209 	 0.695561 	 stress response  
-Contig_27300 	 0.434255 	 RNA metabolism  
-Contig_27338 	 1.06694 	 cell organization and biogenesis
-Contig_27470 	 0.845986 	 cell organization and biogenesis
-Contig_27470 	 0.845986 	 developmental processes  
-Contig_27470 	 0.845986 	 other biological processes 
-Contig_27470 	 0.845986 	 other metabolic processes 
-Contig_27470 	 0.845986 	 stress response  
-Contig_27470 	 0.845986 	 transport   
-Contig_27516 	 0.72957 	 other metabolic processes 
-Contig_27516 	 0.72957 	 transport   
-Contig_27613 	 0.530843 	 other biological processes 
-Contig_27790 	 0.313042 	 RNA metabolism  
-Contig_27790 	 0.313042 	 cell organization and biogenesis
-Contig_27790 	 0.313042 	 developmental processes  
-Contig_27790 	 0.313042 	 other biological processes 
-Contig_27790 	 0.313042 	 other metabolic processes 
-Contig_27790 	 0.313042 	 protein metabolism  
-Contig_27790 	 0.313042 	 signal transduction  
-Contig_27790 	 0.313042 	 stress response  
-Contig_27790 	 0.313042 	 transport   
-Contig_27869 	 0.875806 	 developmental processes  
-Contig_27869 	 0.875806 	 signal transduction  
-Contig_27871 	 1.12164 	 other biological processes 
-Contig_27871 	 1.12164 	 other metabolic processes 
-Contig_27871 	 1.12164 	 signal transduction  
-Contig_27871 	 1.12164 	 stress response  
-Contig_27871 	 1.12164 	 transport   
-Contig_27883 	 0.395108 	 cell organization and biogenesis
-Contig_27883 	 0.395108 	 protein metabolism  
-Contig_27940 	 0.815157 	 RNA metabolism  
-Contig_27940 	 0.815157 	 other metabolic processes 
-Contig_27993 	 0.866756 	 protein metabolism  
-Contig_27993 	 0.866756 	 stress response  
-Contig_28215 	 0.497028 	 protein metabolism  
-Contig_28285 	 0.796298 	 protein metabolism  
-Contig_28285 	 0.796298 	 stress response  
-Contig_28477 	 0.958278 	 RNA metabolism  
-Contig_28477 	 0.958278 	 cell cycle and proliferation
-Contig_28477 	 0.958278 	 cell organization and biogenesis
-Contig_28477 	 0.958278 	 developmental processes  
-Contig_28477 	 0.958278 	 other biological processes 
-Contig_28477 	 0.958278 	 signal transduction  
-Contig_28759 	 0.709716 	 other biological processes 
-Contig_28759 	 0.709716 	 protein metabolism  
-Contig_28983 	 0.889912 	 cell organization and biogenesis
-Contig_28983 	 0.889912 	 developmental processes  
-Contig_28983 	 0.889912 	 signal transduction  
-Contig_28983 	 0.889912 	 transport   
-Contig_2905 	 0.96593 	 cell organization and biogenesis
-Contig_2906 	 0.746306 	 cell organization and biogenesis
-Contig_29115 	 0.713046 	 cell organization and biogenesis
-Contig_29115 	 0.713046 	 cell-cell signaling  
-Contig_29115 	 0.713046 	 death   
-Contig_29115 	 0.713046 	 developmental processes  
-Contig_29115 	 0.713046 	 other biological processes 
-Contig_29115 	 0.713046 	 signal transduction  
-Contig_29115 	 0.713046 	 transport   
-Contig_29163 	 0.537816 	 other metabolic processes 
-Contig_29178 	 0.987803 	 other metabolic processes 
-Contig_29178 	 0.987803 	 protein metabolism  
-Contig_29191 	 0.842756 	 other biological processes 
-Contig_29280 	 0.646777 	 developmental processes  
-Contig_29280 	 0.646777 	 other biological processes 
-Contig_29280 	 0.646777 	 other metabolic processes 
-Contig_29280 	 0.646777 	 protein metabolism  
-Contig_29280 	 0.646777 	 stress response  
-Contig_2937 	 0.290741 	 other biological processes 
-Contig_29384 	 0.980001 	 cell-cell signaling  
-Contig_29384 	 0.980001 	 other biological processes 
-Contig_29384 	 0.980001 	 signal transduction  
-Contig_29384 	 0.980001 	 stress response  
-Contig_29384 	 0.980001 	 transport   
-Contig_29606 	 0.635845 	 death   
-Contig_29606 	 0.635845 	 developmental processes  
-Contig_29606 	 0.635845 	 other metabolic processes 
-Contig_29606 	 0.635845 	 protein metabolism  
-Contig_29606 	 0.635845 	 signal transduction  
-Contig_29606 	 0.635845 	 stress response  
-Contig_29607 	 0.400613 	 RNA metabolism  
-Contig_29607 	 0.400613 	 other biological processes 
-Contig_2971 	 0.77874 	 RNA metabolism  
-Contig_2971 	 0.77874 	 cell cycle and proliferation
-Contig_2971 	 0.77874 	 cell organization and biogenesis
-Contig_2971 	 0.77874 	 cell-cell signaling  
-Contig_2971 	 0.77874 	 death   
-Contig_2971 	 0.77874 	 developmental processes  
-Contig_2971 	 0.77874 	 other biological processes 
-Contig_2971 	 0.77874 	 other metabolic processes 
-Contig_2971 	 0.77874 	 signal transduction  
-Contig_2971 	 0.77874 	 stress response  
-Contig_2971 	 0.77874 	 transport   
-Contig_29793 	 0.566171 	 death   
-Contig_29793 	 0.566171 	 other biological processes 
-Contig_29793 	 0.566171 	 other metabolic processes 
-Contig_29793 	 0.566171 	 stress response  
-Contig_3000 	 1.1028 	 RNA metabolism  
-Contig_3000 	 1.1028 	 cell-cell signaling  
-Contig_3000 	 1.1028 	 developmental processes  
-Contig_3000 	 1.1028 	 other biological processes 
-Contig_3000 	 1.1028 	 other metabolic processes 
-Contig_3000 	 1.1028 	 protein metabolism  
-Contig_3000 	 1.1028 	 signal transduction  
-Contig_3000 	 1.1028 	 stress response  
-Contig_30042 	 0.695984 	 stress response  
-Contig_30098 	 0.816213 	 cell adhesion  
-Contig_3018 	 1.13326 	 cell cycle and proliferation
-Contig_3018 	 1.13326 	 developmental processes  
-Contig_3018 	 1.13326 	 other biological processes 
-Contig_3018 	 1.13326 	 protein metabolism  
-Contig_30296 	 0.615795 	 protein metabolism  
-Contig_30302 	 0.742032 	 RNA metabolism  
-Contig_30536 	 0.878458 	 transport   
-Contig_3075 	 1.03026 	 other metabolic processes 
-Contig_30771 	 0.740912 	 cell organization and biogenesis
-Contig_30771 	 0.740912 	 other biological processes 
-Contig_30771 	 0.740912 	 signal transduction  
-Contig_30771 	 0.740912 	 stress response  
-Contig_30772 	 1.14195 	 protein metabolism  
-Contig_30816 	 1.17007 	 RNA metabolism  
-Contig_30816 	 1.17007 	 cell organization and biogenesis
-Contig_30816 	 1.17007 	 death   
-Contig_30816 	 1.17007 	 developmental processes  
-Contig_30816 	 1.17007 	 other biological processes 
-Contig_30843 	 1.10116 	 cell adhesion  
-Contig_30843 	 1.10116 	 other metabolic processes 
-Contig_30843 	 1.10116 	 protein metabolism  
-Contig_30938 	 0.664764 	 transport   
-Contig_30941 	 0.847869 	 other biological processes 
-Contig_30941 	 0.847869 	 transport   
-Contig_31150 	 0.423107 	 other biological processes 
-Contig_31150 	 0.423107 	 other metabolic processes 
-Contig_31191 	 0.915506 	 cell adhesion  
-Contig_31191 	 0.915506 	 cell organization and biogenesis
-Contig_31191 	 0.915506 	 other biological processes 
-Contig_31191 	 0.915506 	 other metabolic processes 
-Contig_31191 	 0.915506 	 protein metabolism  
-Contig_31211 	 0.598588 	 cell cycle and proliferation
-Contig_31211 	 0.598588 	 cell organization and biogenesis
-Contig_31211 	 0.598588 	 developmental processes  
-Contig_31211 	 0.598588 	 other biological processes 
-Contig_31211 	 0.598588 	 signal transduction  
-Contig_31211 	 0.598588 	 stress response  
-Contig_31211 	 0.598588 	 transport   
-Contig_31349 	 0.896214 	 RNA metabolism  
-Contig_31349 	 0.896214 	 cell organization and biogenesis
-Contig_31349 	 0.896214 	 developmental processes  
-Contig_31349 	 0.896214 	 other biological processes 
-Contig_31349 	 0.896214 	 protein metabolism  
-Contig_31384 	 1.13862 	 other biological processes 
-Contig_31398 	 0.593869 	 other metabolic processes 
-Contig_31398 	 0.593869 	 transport   
-Contig_3145 	 0.857402 	 transport   
-Contig_31578 	 0.893278 	 RNA metabolism  
-Contig_31578 	 0.893278 	 cell cycle and proliferation
-Contig_31578 	 0.893278 	 other biological processes 
-Contig_31578 	 0.893278 	 other metabolic processes 
-Contig_31578 	 0.893278 	 protein metabolism  
-Contig_31578 	 0.893278 	 signal transduction  
-Contig_31669 	 0.732867 	 other biological processes 
-Contig_31669 	 0.732867 	 signal transduction  
-Contig_31699 	 0.869174 	 other biological processes 
-Contig_31976 	 0.710663 	 cell cycle and proliferation
-Contig_31976 	 0.710663 	 developmental processes  
-Contig_31976 	 0.710663 	 other biological processes 
-Contig_31976 	 0.710663 	 signal transduction  
-Contig_31976 	 0.710663 	 stress response  
-Contig_31976 	 0.710663 	 transport   
-Contig_31984 	 0.501826 	 other metabolic processes 
-Contig_32056 	 0.846585 	 other metabolic processes 
-Contig_32056 	 0.846585 	 stress response  
-Contig_3227 	 0.341301 	 other biological processes 
-Contig_3227 	 0.341301 	 other metabolic processes 
-Contig_32354 	 0.764121 	 cell organization and biogenesis
-Contig_32354 	 0.764121 	 transport   
-Contig_3236 	 1.03952 	 signal transduction  
-Contig_32456 	 0.417341 	 cell organization and biogenesis
-Contig_32456 	 0.417341 	 other biological processes 
-Contig_32540 	 0.279446 	 DNA metabolism  
-Contig_32540 	 0.279446 	 RNA metabolism  
-Contig_32540 	 0.279446 	 other biological processes 
-Contig_32540 	 0.279446 	 protein metabolism  
-Contig_32540 	 0.279446 	 stress response  
-Contig_32808 	 0.913836 	 other biological processes 
-Contig_32890 	 0.708874 	 other biological processes 
-Contig_33058 	 0.757618 	 RNA metabolism  
-Contig_33058 	 0.757618 	 protein metabolism  
-Contig_33059 	 0.898601 	 DNA metabolism  
-Contig_33059 	 0.898601 	 other biological processes 
-Contig_33059 	 0.898601 	 stress response  
-Contig_3325 	 0.853997 	 cell organization and biogenesis
-Contig_3325 	 0.853997 	 other metabolic processes 
-Contig_3325 	 0.853997 	 transport   
-Contig_33317 	 0.93257 	 developmental processes  
-Contig_33418 	 0.773899 	 other biological processes 
-Contig_33493 	 0.635354 	 transport   
-Contig_33517 	 0.489916 	 RNA metabolism  
-Contig_33517 	 0.489916 	 cell organization and biogenesis
-Contig_33517 	 0.489916 	 other metabolic processes 
-Contig_33908 	 0.437062 	 developmental processes  
-Contig_33908 	 0.437062 	 other biological processes 
-Contig_33908 	 0.437062 	 protein metabolism  
-Contig_33947 	 0.802515 	 transport   
-Contig_33951 	 0.9738 	 protein metabolism  
-Contig_3397 	 0.46936 	 RNA metabolism  
-Contig_3397 	 0.46936 	 cell organization and biogenesis
-Contig_3397 	 0.46936 	 other metabolic processes 
-Contig_34051 	 0.685578 	 other metabolic processes 
-Contig_34057 	 0.886308 	 signal transduction  
-Contig_34057 	 0.886308 	 transport   
-Contig_34130 	 0.417731 	 cell organization and biogenesis
-Contig_34274 	 0.331132 	 transport   
-Contig_34328 	 1.14955 	 transport   
-Contig_34339 	 0.857278 	 cell cycle and proliferation
-Contig_34339 	 0.857278 	 cell organization and biogenesis
-Contig_34339 	 0.857278 	 developmental processes  
-Contig_34339 	 0.857278 	 other biological processes 
-Contig_34339 	 0.857278 	 other metabolic processes 
-Contig_34339 	 0.857278 	 stress response  
-Contig_34375 	 0.459957 	 other biological processes 
-Contig_34439 	 0.516175 	 cell organization and biogenesis
-Contig_34439 	 0.516175 	 developmental processes  
-Contig_34489 	 0.994098 	 RNA metabolism  
-Contig_34489 	 0.994098 	 cell organization and biogenesis
-Contig_34489 	 0.994098 	 cell-cell signaling  
-Contig_34489 	 0.994098 	 death   
-Contig_34489 	 0.994098 	 developmental processes  
-Contig_34489 	 0.994098 	 other biological processes 
-Contig_34489 	 0.994098 	 signal transduction  
-Contig_34539 	 1.16708 	 RNA metabolism  
-Contig_34539 	 1.16708 	 death   
-Contig_34539 	 1.16708 	 developmental processes  
-Contig_34539 	 1.16708 	 other biological processes 
-Contig_34686 	 0.809047 	 cell organization and biogenesis
-Contig_34686 	 0.809047 	 developmental processes  
-Contig_34686 	 0.809047 	 other biological processes 
-Contig_34686 	 0.809047 	 signal transduction  
-Contig_34726 	 0.281136 	 cell cycle and proliferation
-Contig_34726 	 0.281136 	 cell organization and biogenesis
-Contig_34726 	 0.281136 	 other biological processes 
-Contig_34746 	 0.61706 	 transport   
-Contig_34768 	 0.546087 	 death   
-Contig_34768 	 0.546087 	 signal transduction  
-Contig_34808 	 0.989328 	 cell organization and biogenesis
-Contig_3489 	 0.755086 	 cell organization and biogenesis
-Contig_3489 	 0.755086 	 developmental processes  
-Contig_3489 	 0.755086 	 other biological processes 
-Contig_3489 	 0.755086 	 other metabolic processes 
-Contig_3489 	 0.755086 	 protein metabolism  
-Contig_3489 	 0.755086 	 signal transduction  
-Contig_3489 	 0.755086 	 stress response  
-Contig_35031 	 0.770912 	 transport   
-Contig_35078 	 0.370049 	 transport   
-Contig_3510 	 0.6067 	 stress response  
-Contig_35100 	 1.18169 	 death   
-Contig_35130 	 0.910467 	 protein metabolism  
-Contig_35138 	 0.810707 	 RNA metabolism  
-Contig_35138 	 0.810707 	 other biological processes 
-Contig_35152 	 0.516479 	 other biological processes 
-Contig_35178 	 0.891092 	 cell-cell signaling  
-Contig_35178 	 0.891092 	 developmental processes  
-Contig_35178 	 0.891092 	 other biological processes 
-Contig_35178 	 0.891092 	 signal transduction  
-Contig_3521 	 0.786268 	 RNA metabolism  
-Contig_3521 	 0.786268 	 cell cycle and proliferation
-Contig_3521 	 0.786268 	 cell organization and biogenesis
-Contig_3521 	 0.786268 	 death   
-Contig_3521 	 0.786268 	 developmental processes  
-Contig_3521 	 0.786268 	 other biological processes 
-Contig_3521 	 0.786268 	 other metabolic processes 
-Contig_3521 	 0.786268 	 protein metabolism  
-Contig_3521 	 0.786268 	 signal transduction  
-Contig_3521 	 0.786268 	 stress response  
-Contig_3522 	 0.77312 	 RNA metabolism  
-Contig_3522 	 0.77312 	 other metabolic processes 
-Contig_3522 	 0.77312 	 protein metabolism  
-Contig_3522 	 0.77312 	 signal transduction  
-Contig_3522 	 0.77312 	 stress response  
-Contig_35457 	 0.371213 	 cell adhesion  
-Contig_35506 	 0.753643 	 other biological processes 
-Contig_35506 	 0.753643 	 signal transduction  
-Contig_3556 	 0.454726 	 cell organization and biogenesis
-Contig_3556 	 0.454726 	 developmental processes  
-Contig_3556 	 0.454726 	 other metabolic processes 
-Contig_3556 	 0.454726 	 protein metabolism  
-Contig_35560 	 0.752794 	 cell cycle and proliferation
-Contig_35560 	 0.752794 	 cell organization and biogenesis
-Contig_35560 	 0.752794 	 other biological processes 
-Contig_35560 	 0.752794 	 other metabolic processes 
-Contig_35560 	 0.752794 	 protein metabolism  
-Contig_35562 	 0.822132 	 RNA metabolism  
-Contig_35566 	 0.679521 	 cell organization and biogenesis
-Contig_35566 	 0.679521 	 death   
-Contig_35566 	 0.679521 	 developmental processes  
-Contig_35566 	 0.679521 	 other biological processes 
-Contig_35566 	 0.679521 	 other metabolic processes 
-Contig_35566 	 0.679521 	 protein metabolism  
-Contig_35566 	 0.679521 	 signal transduction  
-Contig_35566 	 0.679521 	 stress response  
-Contig_35568 	 0.935728 	 death   
-Contig_35675 	 0.60731 	 other metabolic processes 
-Contig_35675 	 0.60731 	 transport   
-Contig_35719 	 0.957622 	 RNA metabolism  
-Contig_35719 	 0.957622 	 cell organization and biogenesis
-Contig_35719 	 0.957622 	 developmental processes  
-Contig_35812 	 0.369056 	 other biological processes 
-Contig_35821 	 0.5671 	 protein metabolism  
-Contig_35876 	 0.775059 	 RNA metabolism  
-Contig_35876 	 0.775059 	 cell cycle and proliferation
-Contig_35876 	 0.775059 	 death   
-Contig_35876 	 0.775059 	 developmental processes  
-Contig_35876 	 0.775059 	 other biological processes 
-Contig_35876 	 0.775059 	 other metabolic processes 
-Contig_35876 	 0.775059 	 protein metabolism  
-Contig_35876 	 0.775059 	 signal transduction  
-Contig_35876 	 0.775059 	 stress response  
-Contig_35876 	 0.775059 	 transport   
-Contig_35899 	 0.996066 	 RNA metabolism  
-Contig_35903 	 1.13909 	 cell organization and biogenesis
-Contig_35903 	 1.13909 	 developmental processes  
-Contig_35903 	 1.13909 	 other biological processes 
-Contig_35903 	 1.13909 	 other metabolic processes 
-Contig_35903 	 1.13909 	 protein metabolism  
-Contig_35903 	 1.13909 	 signal transduction  
-Contig_35931 	 0.741664 	 DNA metabolism  
-Contig_35931 	 0.741664 	 death   
-Contig_35931 	 0.741664 	 other biological processes 
-Contig_35931 	 0.741664 	 protein metabolism  
-Contig_35931 	 0.741664 	 stress response  
-Contig_35931 	 0.741664 	 transport   
-Contig_3595 	 0.661229 	 other metabolic processes 
-Contig_3595 	 0.661229 	 protein metabolism  
-Contig_35993 	 0.748505 	 protein metabolism  
-Contig_36035 	 0.701909 	 cell adhesion  
-Contig_36035 	 0.701909 	 cell organization and biogenesis
-Contig_36086 	 0.444723 	 death   
-Contig_36086 	 0.444723 	 other metabolic processes 
-Contig_36086 	 0.444723 	 stress response  
-Contig_36089 	 1.08069 	 RNA metabolism  
-Contig_36089 	 1.08069 	 cell organization and biogenesis
-Contig_36089 	 1.08069 	 other metabolic processes 
-Contig_36089 	 1.08069 	 protein metabolism  
-Contig_36093 	 0.681874 	 other metabolic processes 
-Contig_36205 	 0.575676 	 cell adhesion  
-Contig_36205 	 0.575676 	 cell organization and biogenesis
-Contig_36205 	 0.575676 	 developmental processes  
-Contig_36274 	 1.13842 	 other biological processes 
-Contig_36274 	 1.13842 	 other metabolic processes 
-Contig_36274 	 1.13842 	 signal transduction  
-Contig_36388 	 0.70119 	 other metabolic processes 
-Contig_36407 	 0.905968 	 other biological processes 
-Contig_36407 	 0.905968 	 transport   
-Contig_36491 	 0.790879 	 other biological processes 
-Contig_36491 	 0.790879 	 signal transduction  
-Contig_36494 	 0.756985 	 other metabolic processes 
-Contig_36499 	 0.487799 	 developmental processes  
-Contig_36499 	 0.487799 	 other biological processes 
-Contig_36499 	 0.487799 	 other metabolic processes 
-Contig_36499 	 0.487799 	 signal transduction  
-Contig_3658 	 0.936922 	 RNA metabolism  
-Contig_3658 	 0.936922 	 developmental processes  
-Contig_36604 	 0.323725 	 cell organization and biogenesis
-Contig_36604 	 0.323725 	 other metabolic processes 
-Contig_36636 	 0.896726 	 signal transduction  
-Contig_36636 	 0.896726 	 stress response  
-Contig_36719 	 0.242754 	 other biological processes 
-Contig_36741 	 0.305301 	 other metabolic processes 
-Contig_36752 	 0.381037 	 other biological processes 
-Contig_36752 	 0.381037 	 transport   
-Contig_36827 	 1.11856 	 protein metabolism  
-Contig_36837 	 0.538792 	 cell organization and biogenesis
-Contig_36837 	 0.538792 	 death   
-Contig_36837 	 0.538792 	 other biological processes 
-Contig_36837 	 0.538792 	 protein metabolism  
-Contig_36837 	 0.538792 	 signal transduction  
-Contig_36867 	 0.988993 	 other biological processes 
-Contig_36867 	 0.988993 	 protein metabolism  
-Contig_36874 	 0.993636 	 other metabolic processes 
-Contig_36874 	 0.993636 	 protein metabolism  
-Contig_36934 	 0.889325 	 cell adhesion  
-Contig_36954 	 0.585805 	 other biological processes 
-Contig_36954 	 0.585805 	 transport   
-Contig_37016 	 0.719856 	 other biological processes 
-Contig_37052 	 0.519921 	 other metabolic processes 
-Contig_371 	 0.78716 	 RNA metabolism  
-Contig_371 	 0.78716 	 cell cycle and proliferation
-Contig_37107 	 0.151715 	 other metabolic processes 
-Contig_37107 	 0.151715 	 protein metabolism  
-Contig_37135 	 0.332895 	 other biological processes 
-Contig_37135 	 0.332895 	 other metabolic processes 
-Contig_37135 	 0.332895 	 transport   
-Contig_37168 	 0.575909 	 transport   
-Contig_37230 	 0.669427 	 RNA metabolism  
-Contig_37236 	 0.422451 	 other biological processes 
-Contig_37256 	 0.203506 	 other metabolic processes 
-Contig_37363 	 0.581408 	 RNA metabolism  
-Contig_37363 	 0.581408 	 other biological processes 
-Contig_37410 	 0.698952 	 cell adhesion  
-Contig_37410 	 0.698952 	 other metabolic processes 
-Contig_37410 	 0.698952 	 protein metabolism  
-Contig_37489 	 0.909183 	 signal transduction  
-Contig_37563 	 0.34624 	 other metabolic processes 
-Contig_3765 	 1.00544 	 cell organization and biogenesis
-Contig_37661 	 1.1223 	 RNA metabolism  
-Contig_37661 	 1.1223 	 developmental processes  
-Contig_37661 	 1.1223 	 other biological processes 
-Contig_37677 	 0.515803 	 developmental processes  
-Contig_37678 	 0.660757 	 other biological processes 
-Contig_37972 	 0.648824 	 RNA metabolism  
-Contig_3805 	 0.756014 	 DNA metabolism  
-Contig_3805 	 0.756014 	 cell cycle and proliferation
-Contig_3805 	 0.756014 	 cell organization and biogenesis
-Contig_3805 	 0.756014 	 other biological processes 
-Contig_3805 	 0.756014 	 protein metabolism  
-Contig_3805 	 0.756014 	 signal transduction  
-Contig_3805 	 0.756014 	 stress response  
-Contig_38064 	 0.511321 	 other biological processes 
-Contig_38064 	 0.511321 	 protein metabolism  
-Contig_38064 	 0.511321 	 signal transduction  
-Contig_38076 	 0.36018 	 death   
-Contig_38076 	 0.36018 	 protein metabolism  
-Contig_38080 	 0.913246 	 other biological processes 
-Contig_38080 	 0.913246 	 other metabolic processes 
-Contig_38080 	 0.913246 	 signal transduction  
-Contig_38080 	 0.913246 	 stress response  
-Contig_38096 	 0.583317 	 RNA metabolism  
-Contig_38096 	 0.583317 	 protein metabolism  
-Contig_38173 	 0.289539 	 cell organization and biogenesis
-Contig_38173 	 0.289539 	 transport   
-Contig_38220 	 0.993423 	 cell adhesion  
-Contig_38220 	 0.993423 	 cell cycle and proliferation
-Contig_38220 	 0.993423 	 developmental processes  
-Contig_38220 	 0.993423 	 other biological processes 
-Contig_38220 	 0.993423 	 other metabolic processes 
-Contig_38220 	 0.993423 	 signal transduction  
-Contig_38252 	 1.03995 	 cell organization and biogenesis
-Contig_38288 	 1.02797 	 cell cycle and proliferation
-Contig_38288 	 1.02797 	 cell organization and biogenesis
-Contig_38288 	 1.02797 	 developmental processes  
-Contig_38288 	 1.02797 	 other biological processes 
-Contig_38288 	 1.02797 	 other metabolic processes 
-Contig_38288 	 1.02797 	 signal transduction  
-Contig_38288 	 1.02797 	 transport   
-Contig_38293 	 0.70511 	 transport   
-Contig_38458 	 0.957559 	 protein metabolism  
-Contig_3853 	 0.393553 	 other metabolic processes 
-Contig_38753 	 0.382716 	 other metabolic processes 
-Contig_38779 	 0.535514 	 RNA metabolism  
-Contig_3880 	 1.01731 	 cell organization and biogenesis
-Contig_3880 	 1.01731 	 other metabolic processes 
-Contig_3880 	 1.01731 	 transport   
-Contig_38807 	 0.879851 	 RNA metabolism  
-Contig_38807 	 0.879851 	 other biological processes 
-Contig_38844 	 0.894745 	 other metabolic processes 
-Contig_38844 	 0.894745 	 transport   
-Contig_38870 	 0.810282 	 cell adhesion  
-Contig_38870 	 0.810282 	 signal transduction  
-Contig_38931 	 0.895049 	 other biological processes 
-Contig_38931 	 0.895049 	 signal transduction  
-Contig_38931 	 0.895049 	 transport   
-Contig_39102 	 0.438055 	 RNA metabolism  
-Contig_39189 	 0.262121 	 other metabolic processes 
-Contig_39209 	 0.844634 	 cell cycle and proliferation
-Contig_39209 	 0.844634 	 developmental processes  
-Contig_39209 	 0.844634 	 other biological processes 
-Contig_39209 	 0.844634 	 signal transduction  
-Contig_39209 	 0.844634 	 stress response  
-Contig_39209 	 0.844634 	 transport   
-Contig_39213 	 0.526622 	 other metabolic processes 
-Contig_39213 	 0.526622 	 signal transduction  
-Contig_39224 	 0.38004 	 other biological processes 
-Contig_39237 	 0.603587 	 other biological processes 
-Contig_39237 	 0.603587 	 other metabolic processes 
-Contig_39282 	 0.87074 	 protein metabolism  
-Contig_39359 	 0.933293 	 RNA metabolism  
-Contig_39359 	 0.933293 	 cell organization and biogenesis
-Contig_39359 	 0.933293 	 developmental processes  
-Contig_39359 	 0.933293 	 other biological processes 
-Contig_39420 	 0.51821 	 RNA metabolism  
-Contig_39432 	 0.609892 	 cell organization and biogenesis
-Contig_39432 	 0.609892 	 developmental processes  
-Contig_39432 	 0.609892 	 other biological processes 
-Contig_39432 	 0.609892 	 protein metabolism  
-Contig_39437 	 0.89696 	 RNA metabolism  
-Contig_39437 	 0.89696 	 developmental processes  
-Contig_39458 	 0.501811 	 death   
-Contig_39458 	 0.501811 	 developmental processes  
-Contig_39473 	 0.938648 	 other metabolic processes 
-Contig_39487 	 0.446129 	 other biological processes 
-Contig_39487 	 0.446129 	 signal transduction  
-Contig_39508 	 0.569403 	 RNA metabolism  
-Contig_39536 	 0.871785 	 other metabolic processes 
-Contig_39539 	 0.84517 	 transport   
-Contig_39545 	 0.983212 	 other biological processes 
-Contig_39545 	 0.983212 	 other metabolic processes 
-Contig_39545 	 0.983212 	 protein metabolism  
-Contig_39689 	 0.496185 	 cell organization and biogenesis
-Contig_39689 	 0.496185 	 protein metabolism  
-Contig_39728 	 0.735299 	 other metabolic processes 
-Contig_39728 	 0.735299 	 protein metabolism  
-Contig_39728 	 0.735299 	 signal transduction  
-Contig_39743 	 0.931716 	 cell organization and biogenesis
-Contig_39743 	 0.931716 	 other metabolic processes 
-Contig_39743 	 0.931716 	 signal transduction  
-Contig_39743 	 0.931716 	 transport   
-Contig_39810 	 0.88671 	 other metabolic processes 
-Contig_39905 	 0.554463 	 other metabolic processes 
-Contig_39996 	 1.04307 	 signal transduction  
-Contig_40003 	 0.215293 	 other metabolic processes 
-Contig_401 	 0.90728 	 cell adhesion  
-Contig_40133 	 0.397263 	 RNA metabolism  
-Contig_40133 	 0.397263 	 cell organization and biogenesis
-Contig_40133 	 0.397263 	 cell-cell signaling  
-Contig_40133 	 0.397263 	 developmental processes  
-Contig_40133 	 0.397263 	 other biological processes 
-Contig_40133 	 0.397263 	 other metabolic processes 
-Contig_40133 	 0.397263 	 protein metabolism  
-Contig_40133 	 0.397263 	 signal transduction  
-Contig_4025 	 0.828673 	 RNA metabolism  
-Contig_4025 	 0.828673 	 developmental processes  
-Contig_4025 	 0.828673 	 other biological processes 
-Contig_40251 	 0.879857 	 cell organization and biogenesis
-Contig_40251 	 0.879857 	 developmental processes  
-Contig_40251 	 0.879857 	 other biological processes 
-Contig_40251 	 0.879857 	 transport   
-Contig_40297 	 0.190147 	 other metabolic processes 
-Contig_40319 	 0.2939 	 RNA metabolism  
-Contig_40319 	 0.2939 	 other biological processes 
-Contig_40337 	 0.824279 	 RNA metabolism  
-Contig_40337 	 0.824279 	 cell cycle and proliferation
-Contig_40337 	 0.824279 	 cell organization and biogenesis
-Contig_40337 	 0.824279 	 death   
-Contig_40337 	 0.824279 	 developmental processes  
-Contig_40337 	 0.824279 	 other biological processes 
-Contig_40337 	 0.824279 	 other metabolic processes 
-Contig_40337 	 0.824279 	 protein metabolism  
-Contig_40337 	 0.824279 	 signal transduction  
-Contig_40337 	 0.824279 	 stress response  
-Contig_40337 	 0.824279 	 transport   
-Contig_40356 	 0.979484 	 RNA metabolism  
-Contig_40356 	 0.979484 	 developmental processes  
-Contig_40356 	 0.979484 	 other biological processes 
-Contig_4055 	 0.658915 	 developmental processes  
-Contig_4055 	 0.658915 	 other metabolic processes 
-Contig_4055 	 0.658915 	 signal transduction  
-Contig_4055 	 0.658915 	 stress response  
-Contig_40562 	 0.932026 	 death   
-Contig_40632 	 0.98218 	 signal transduction  
-Contig_40646 	 0.25812 	 RNA metabolism  
-Contig_40646 	 0.25812 	 other metabolic processes 
-Contig_40646 	 0.25812 	 protein metabolism  
-Contig_40671 	 0.883566 	 signal transduction  
-Contig_40722 	 0.760602 	 cell organization and biogenesis
-Contig_40722 	 0.760602 	 developmental processes  
-Contig_40754 	 0.462371 	 other biological processes 
-Contig_40754 	 0.462371 	 other metabolic processes 
-Contig_40842 	 0.689636 	 other metabolic processes 
-Contig_40885 	 0.236787 	 RNA metabolism  
-Contig_40885 	 0.236787 	 cell organization and biogenesis
-Contig_40885 	 0.236787 	 developmental processes  
-Contig_40885 	 0.236787 	 other metabolic processes 
-Contig_40885 	 0.236787 	 stress response  
-Contig_41108 	 0.887636 	 RNA metabolism  
-Contig_41115 	 0.739181 	 cell organization and biogenesis
-Contig_41115 	 0.739181 	 protein metabolism  
-Contig_41115 	 0.739181 	 transport   
-Contig_41201 	 0.834303 	 signal transduction  
-Contig_41201 	 0.834303 	 transport   
-Contig_41330 	 1.12055 	 other biological processes 
-Contig_41330 	 1.12055 	 protein metabolism  
-Contig_41330 	 1.12055 	 signal transduction  
-Contig_41506 	 0.885496 	 cell-cell signaling  
-Contig_41506 	 0.885496 	 other biological processes 
-Contig_41506 	 0.885496 	 transport   
-Contig_41608 	 0.663151 	 other metabolic processes 
-Contig_41642 	 0.898051 	 other biological processes 
-Contig_41642 	 0.898051 	 other metabolic processes 
-Contig_41667 	 0.814602 	 transport   
-Contig_41720 	 0.763921 	 signal transduction  
-Contig_41724 	 0.65403 	 other biological processes 
-Contig_41758 	 0.525982 	 cell adhesion  
-Contig_41758 	 0.525982 	 other biological processes 
-Contig_41795 	 0.793314 	 cell-cell signaling  
-Contig_41795 	 0.793314 	 developmental processes  
-Contig_41795 	 0.793314 	 other metabolic processes 
-Contig_41795 	 0.793314 	 protein metabolism  
-Contig_4190 	 1.2135 	 cell cycle and proliferation
-Contig_4190 	 1.2135 	 cell-cell signaling  
-Contig_4190 	 1.2135 	 death   
-Contig_4190 	 1.2135 	 other biological processes 
-Contig_4190 	 1.2135 	 signal transduction  
-Contig_4190 	 1.2135 	 stress response  
-Contig_4190 	 1.2135 	 transport   
-Contig_42123 	 0.646996 	 RNA metabolism  
-Contig_42123 	 0.646996 	 cell organization and biogenesis
-Contig_42134 	 0.704589 	 other metabolic processes 
-Contig_42178 	 1.10515 	 signal transduction  
-Contig_42271 	 0.834145 	 RNA metabolism  
-Contig_42271 	 0.834145 	 cell organization and biogenesis
-Contig_42324 	 0.552614 	 developmental processes  
-Contig_42337 	 0.376725 	 DNA metabolism  
-Contig_42337 	 0.376725 	 stress response  
-Contig_42399 	 0.660968 	 other biological processes 
-Contig_42619 	 0.663968 	 RNA metabolism  
-Contig_4339 	 0.459457 	 other metabolic processes 
-Contig_4383 	 0.835256 	 cell organization and biogenesis
-Contig_4383 	 0.835256 	 developmental processes  
-Contig_4383 	 0.835256 	 other biological processes 
-Contig_4383 	 0.835256 	 protein metabolism  
-Contig_4383 	 0.835256 	 signal transduction  
-Contig_4597 	 0.352252 	 RNA metabolism  
-Contig_4597 	 0.352252 	 cell organization and biogenesis
-Contig_4597 	 0.352252 	 other metabolic processes 
-Contig_4597 	 0.352252 	 protein metabolism  
-Contig_4602 	 0.677535 	 cell adhesion  
-Contig_4602 	 0.677535 	 developmental processes  
-Contig_4602 	 0.677535 	 other biological processes 
-Contig_4632 	 0.658839 	 cell organization and biogenesis
-Contig_4632 	 0.658839 	 other metabolic processes 
-Contig_4647 	 0.295797 	 cell adhesion  
-Contig_4647 	 0.295797 	 stress response  
-Contig_4665 	 0.447816 	 RNA metabolism  
-Contig_477 	 0.82417 	 RNA metabolism  
-Contig_477 	 0.82417 	 other biological processes 
-Contig_4800 	 0.606031 	 DNA metabolism  
-Contig_4800 	 0.606031 	 cell cycle and proliferation
-Contig_4821 	 0.740842 	 developmental processes  
-Contig_4821 	 0.740842 	 signal transduction  
-Contig_4841 	 0.505925 	 cell organization and biogenesis
-Contig_4841 	 0.505925 	 other biological processes 
-Contig_4841 	 0.505925 	 stress response  
-Contig_4841 	 0.505925 	 transport   
-Contig_4853 	 0.986728 	 other metabolic processes 
-Contig_5077 	 1.11598 	 cell cycle and proliferation
-Contig_5077 	 1.11598 	 developmental processes  
-Contig_5077 	 1.11598 	 other biological processes 
-Contig_5077 	 1.11598 	 other metabolic processes 
-Contig_5077 	 1.11598 	 signal transduction  
-Contig_5077 	 1.11598 	 transport   
-Contig_509 	 1.07805 	 RNA metabolism  
-Contig_509 	 1.07805 	 developmental processes  
-Contig_510 	 0.787966 	 cell cycle and proliferation
-Contig_510 	 0.787966 	 cell organization and biogenesis
-Contig_510 	 0.787966 	 transport   
-Contig_5119 	 0.712114 	 cell organization and biogenesis
-Contig_5119 	 0.712114 	 developmental processes  
-Contig_5119 	 0.712114 	 other biological processes 
-Contig_5119 	 0.712114 	 signal transduction  
-Contig_5149 	 0.716268 	 cell cycle and proliferation
-Contig_5149 	 0.716268 	 cell organization and biogenesis
-Contig_5149 	 0.716268 	 developmental processes  
-Contig_5149 	 0.716268 	 other biological processes 
-Contig_5149 	 0.716268 	 protein metabolism  
-Contig_5157 	 0.405771 	 other metabolic processes 
-Contig_5222 	 0.481185 	 other metabolic processes 
-Contig_5263 	 0.322776 	 developmental processes  
-Contig_5263 	 0.322776 	 protein metabolism  
-Contig_5267 	 0.742877 	 other biological processes 
-Contig_5267 	 0.742877 	 protein metabolism  
-Contig_5300 	 0.844514 	 RNA metabolism  
-Contig_5374 	 0.73512 	 cell organization and biogenesis
-Contig_5374 	 0.73512 	 other biological processes 
-Contig_5374 	 0.73512 	 other metabolic processes 
-Contig_5418 	 0.317624 	 transport   
-Contig_5450 	 0.481062 	 protein metabolism  
-Contig_5452 	 0.781332 	 other metabolic processes 
-Contig_5560 	 0.927365 	 other metabolic processes 
-Contig_5579 	 0.752167 	 other metabolic processes 
-Contig_5613 	 0.451805 	 cell cycle and proliferation
-Contig_5613 	 0.451805 	 cell organization and biogenesis
-Contig_5613 	 0.451805 	 other biological processes 
-Contig_5626 	 0.89252 	 other biological processes 
-Contig_5626 	 0.89252 	 other metabolic processes 
-Contig_5626 	 0.89252 	 stress response  
-Contig_5626 	 0.89252 	 transport   
-Contig_5656 	 0.658176 	 other biological processes 
-Contig_5656 	 0.658176 	 protein metabolism  
-Contig_5731 	 0.457297 	 death   
-Contig_5731 	 0.457297 	 other biological processes 
-Contig_5757 	 0.320717 	 other metabolic processes 
-Contig_5759 	 0.652779 	 other metabolic processes 
-Contig_5759 	 0.652779 	 signal transduction  
-Contig_5954 	 0.89587 	 developmental processes  
-Contig_5954 	 0.89587 	 signal transduction  
-Contig_6027 	 0.424545 	 RNA metabolism  
-Contig_6075 	 0.478563 	 other biological processes 
-Contig_6132 	 0.963459 	 protein metabolism  
-Contig_6184 	 0.431076 	 cell organization and biogenesis
-Contig_6184 	 0.431076 	 protein metabolism  
-Contig_6187 	 0.560465 	 other metabolic processes 
-Contig_6187 	 0.560465 	 transport   
-Contig_6191 	 0.971343 	 cell organization and biogenesis
-Contig_6302 	 1.13793 	 other biological processes 
-Contig_6302 	 1.13793 	 other metabolic processes 
-Contig_6302 	 1.13793 	 signal transduction  
-Contig_6940 	 0.255384 	 other biological processes 
-Contig_6940 	 0.255384 	 transport   
-Contig_6972 	 0.582582 	 DNA metabolism  
-Contig_6972 	 0.582582 	 cell cycle and proliferation
-Contig_6972 	 0.582582 	 cell organization and biogenesis
-Contig_6972 	 0.582582 	 developmental processes  
-Contig_6972 	 0.582582 	 other biological processes 
-Contig_6972 	 0.582582 	 protein metabolism  
-Contig_6972 	 0.582582 	 signal transduction  
-Contig_6972 	 0.582582 	 stress response  
-Contig_6998 	 0.712962 	 developmental processes  
-Contig_6998 	 0.712962 	 other biological processes 
-Contig_6998 	 0.712962 	 other metabolic processes 
-Contig_6998 	 0.712962 	 protein metabolism  
-Contig_6998 	 0.712962 	 signal transduction  
-Contig_7004 	 0.874785 	 cell-cell signaling  
-Contig_7004 	 0.874785 	 other biological processes 
-Contig_7004 	 0.874785 	 other metabolic processes 
-Contig_7004 	 0.874785 	 protein metabolism  
-Contig_7004 	 0.874785 	 signal transduction  
-Contig_7004 	 0.874785 	 stress response  
-Contig_7004 	 0.874785 	 transport   
-Contig_7124 	 0.614965 	 transport   
-Contig_7174 	 0.565328 	 transport   
-Contig_7292 	 0.858173 	 other biological processes 
-Contig_739 	 1.16782 	 other metabolic processes 
-Contig_739 	 1.16782 	 signal transduction  
-Contig_7433 	 0.37121 	 other metabolic processes 
-Contig_7447 	 0.21165 	 DNA metabolism  
-Contig_7447 	 0.21165 	 RNA metabolism  
-Contig_7447 	 0.21165 	 cell cycle and proliferation
-Contig_7447 	 0.21165 	 cell organization and biogenesis
-Contig_7447 	 0.21165 	 other biological processes 
-Contig_7447 	 0.21165 	 other metabolic processes 
-Contig_748 	 0.954356 	 other metabolic processes 
-Contig_7504 	 0.866308 	 cell adhesion  
-Contig_7504 	 0.866308 	 other biological processes 
-Contig_8057 	 1.13909 	 RNA metabolism  
-Contig_8066 	 0.319638 	 RNA metabolism  
-Contig_8098 	 0.53876 	 other biological processes 
-Contig_8098 	 0.53876 	 transport   
-Contig_8119 	 1.02002 	 other biological processes 
-Contig_8119 	 1.02002 	 other metabolic processes 
-Contig_8119 	 1.02002 	 stress response  
-Contig_8128 	 0.951868 	 developmental processes  
-Contig_8128 	 0.951868 	 other biological processes 
-Contig_8128 	 0.951868 	 signal transduction  
-Contig_8170 	 0.279098 	 cell cycle and proliferation
-Contig_8170 	 0.279098 	 cell organization and biogenesis
-Contig_8170 	 0.279098 	 developmental processes  
-Contig_8170 	 0.279098 	 other biological processes 
-Contig_8170 	 0.279098 	 other metabolic processes 
-Contig_8170 	 0.279098 	 transport   
-Contig_8171 	 0.292518 	 RNA metabolism  
-Contig_8179 	 0.853501 	 transport   
-Contig_8263 	 1.08129 	 signal transduction  
-Contig_8283 	 1.03758 	 cell cycle and proliferation
-Contig_8283 	 1.03758 	 cell organization and biogenesis
-Contig_8283 	 1.03758 	 developmental processes  
-Contig_8283 	 1.03758 	 other biological processes 
-Contig_8283 	 1.03758 	 other metabolic processes 
-Contig_8300 	 0.69844 	 cell organization and biogenesis
-Contig_8300 	 0.69844 	 developmental processes  
-Contig_8300 	 0.69844 	 transport   
-Contig_836 	 0.339162 	 cell cycle and proliferation
-Contig_836 	 0.339162 	 cell organization and biogenesis
-Contig_836 	 0.339162 	 death   
-Contig_836 	 0.339162 	 other biological processes 
-Contig_836 	 0.339162 	 protein metabolism  
-Contig_8368 	 0.510661 	 DNA metabolism  
-Contig_8368 	 0.510661 	 RNA metabolism  
-Contig_8368 	 0.510661 	 cell cycle and proliferation
-Contig_8368 	 0.510661 	 cell organization and biogenesis
-Contig_8368 	 0.510661 	 other biological processes 
-Contig_8368 	 0.510661 	 other metabolic processes 
-Contig_8368 	 0.510661 	 protein metabolism  
-Contig_8368 	 0.510661 	 stress response  
-Contig_8392 	 0.274945 	 other metabolic processes 
-Contig_8401 	 0.933976 	 other metabolic processes 
-Contig_8438 	 0.761826 	 transport   
-Contig_8502 	 1.00099 	 cell organization and biogenesis
-Contig_8544 	 0.887927 	 RNA metabolism  
-Contig_8544 	 0.887927 	 cell organization and biogenesis
-Contig_8544 	 0.887927 	 developmental processes  
-Contig_8544 	 0.887927 	 other biological processes 
-Contig_8544 	 0.887927 	 signal transduction  
-Contig_8581 	 0.442184 	 developmental processes  
-Contig_8581 	 0.442184 	 other biological processes 
-Contig_8711 	 0.940278 	 other metabolic processes 
-Contig_8711 	 0.940278 	 transport   
-Contig_8899 	 0.825313 	 other biological processes 
-Contig_8906 	 0.993877 	 cell organization and biogenesis
-Contig_8906 	 0.993877 	 developmental processes  
-Contig_8906 	 0.993877 	 signal transduction  
-Contig_8980 	 0.87507 	 other metabolic processes 
-Contig_8980 	 0.87507 	 transport   
-Contig_8984 	 0.841938 	 other metabolic processes 
-Contig_8984 	 0.841938 	 transport   
-Contig_903 	 0.450222 	 protein metabolism  
-Contig_9146 	 0.880165 	 transport   
-Contig_9233 	 0.858225 	 transport   
-Contig_9298 	 0.566467 	 cell organization and biogenesis
-Contig_9299 	 0.305535 	 other metabolic processes 
-Contig_9307 	 0.385895 	 other biological processes 
-Contig_9307 	 0.385895 	 signal transduction  
-Contig_9342 	 0.536577 	 cell cycle and proliferation
-Contig_9342 	 0.536577 	 cell organization and biogenesis
-Contig_9342 	 0.536577 	 cell-cell signaling  
-Contig_9342 	 0.536577 	 developmental processes  
-Contig_9342 	 0.536577 	 other biological processes 
-Contig_9342 	 0.536577 	 protein metabolism  
-Contig_9375 	 0.386908 	 other metabolic processes 
-Contig_9438 	 0.526808 	 other metabolic processes 
-Contig_9445 	 0.864844 	 RNA metabolism  
-Contig_9445 	 0.864844 	 cell organization and biogenesis
-Contig_9445 	 0.864844 	 developmental processes  
-Contig_9445 	 0.864844 	 other biological processes 
-Contig_9445 	 0.864844 	 other metabolic processes 
-Contig_9445 	 0.864844 	 signal transduction  
-Contig_9445 	 0.864844 	 stress response  
-Contig_9445 	 0.864844 	 transport   
-Contig_9506 	 0.462586 	 other biological processes 
-Contig_9519 	 0.661715 	 other biological processes 
-Contig_9520 	 0.558435 	 other biological processes 
-Contig_9703 	 0.797258 	 other biological processes 
-Contig_9742 	 0.678189 	 DNA metabolism  
-Contig_9742 	 0.678189 	 cell cycle and proliferation
-Contig_9742 	 0.678189 	 cell organization and biogenesis
-Contig_9742 	 0.678189 	 other biological processes 
-Contig_9742 	 0.678189 	 stress response  
-Contig_9781 	 0.758385 	 RNA metabolism  
-Contig_9799 	 0.711726 	 protein metabolism  
-Contig_9799 	 0.711726 	 stress response  
-Contig_9807 	 0.704931 	 cell-cell signaling  
-Contig_9807 	 0.704931 	 other biological processes 
-Contig_9807 	 0.704931 	 other metabolic processes 
-Contig_9807 	 0.704931 	 signal transduction  
-Contig_9807 	 0.704931 	 stress response  
-Contig_9822 	 0.483907 	 transport   
-Contig_9824 	 0.397702 	 other metabolic processes 
-Contig_9826 	 0.331023 	 cell cycle and proliferation
-Contig_9935 	 0.866136 	 other biological processes 
-F66KHFO01A14S9 	 0.0600174 	 transport   
-F66KHFO01AED3Q 	 0.813073 	 transport   
-F66KHFO01AMTUZ 	 0.927188 	 other biological processes 
-F66KHFO01AMTUZ 	 0.927188 	 transport   
-F66KHFO01AMZDR 	 0.730534 	 cell organization and biogenesis
-F66KHFO01AMZDR 	 0.730534 	 developmental processes  
-F66KHFO01AMZDR 	 0.730534 	 other biological processes 
-F66KHFO01AMZDR 	 0.730534 	 transport   
-F66KHFO01ANB6R 	 0.697719 	 other metabolic processes 
-F66KHFO01ANB6R 	 0.697719 	 transport   
-F66KHFO01AOJMZ 	 0.427742 	 cell cycle and proliferation
-F66KHFO01AOJMZ 	 0.427742 	 cell organization and biogenesis
-F66KHFO01AOJMZ 	 0.427742 	 developmental processes  
-F66KHFO01AOJMZ 	 0.427742 	 other biological processes 
-F66KHFO01AOJMZ 	 0.427742 	 other metabolic processes 
-F66KHFO01AOJMZ 	 0.427742 	 protein metabolism  
-F66KHFO01AOJMZ 	 0.427742 	 stress response  
-F66KHFO01AT09C 	 0.785721 	 DNA metabolism  
-F66KHFO01AT09C 	 0.785721 	 cell cycle and proliferation
-F66KHFO01AT09C 	 0.785721 	 cell organization and biogenesis
-F66KHFO01AT09C 	 0.785721 	 developmental processes  
-F66KHFO01AT09C 	 0.785721 	 other biological processes 
-F66KHFO01AT09C 	 0.785721 	 protein metabolism  
-F66KHFO01AU612 	 0.797582 	 protein metabolism  
-F66KHFO01AV0AK 	 0.459353 	 RNA metabolism  
-F66KHFO01AV0AK 	 0.459353 	 cell organization and biogenesis
-F66KHFO01AXPYH 	 0.244911 	 other metabolic processes 
-F66KHFO01AY18M 	 0.860303 	 other metabolic processes 
-F66KHFO01AYBGZ 	 0.374612 	 cell organization and biogenesis
-F66KHFO01AYBGZ 	 0.374612 	 developmental processes  
-F66KHFO01AYBGZ 	 0.374612 	 other biological processes 
-F66KHFO01AYBGZ 	 0.374612 	 other metabolic processes 
-F66KHFO01B1VJD 	 0.610632 	 other biological processes 
-F66KHFO01B5II6 	 0.730491 	 other metabolic processes 
-F66KHFO01B5II6 	 0.730491 	 protein metabolism  
-F66KHFO01B6N43 	 0.752093 	 other biological processes 
-F66KHFO01B6VCP 	 0.741493 	 developmental processes  
-F66KHFO01B6YXH 	 0.872261 	 stress response  
-F66KHFO01BAPGT 	 0.567532 	 RNA metabolism  
-F66KHFO01BAPGT 	 0.567532 	 other metabolic processes 
-F66KHFO01BBSZZ 	 0.400219 	 other biological processes 
-F66KHFO01BBTGR 	 0.247894 	 protein metabolism  
-F66KHFO01BE6CX 	 0.291927 	 protein metabolism  
-F66KHFO01BJD7K 	 0.57346 	 cell adhesion  
-F66KHFO01BJD7K 	 0.57346 	 cell organization and biogenesis
-F66KHFO01BJD7K 	 0.57346 	 developmental processes  
-F66KHFO01BJD7K 	 0.57346 	 other biological processes 
-F66KHFO01BJD7K 	 0.57346 	 other metabolic processes 
-F66KHFO01BJD7K 	 0.57346 	 transport   
-F66KHFO01BJRGH 	 0.786848 	 other biological processes 
-F66KHFO01BJRGH 	 0.786848 	 transport   
-F66KHFO01BKGAC 	 0.291017 	 other metabolic processes 
-F66KHFO01BKHPJ 	 0.554254 	 cell organization and biogenesis
-F66KHFO01BKHPJ 	 0.554254 	 developmental processes  
-F66KHFO01BKHPJ 	 0.554254 	 other biological processes 
-F66KHFO01BKHPJ 	 0.554254 	 stress response  
-F66KHFO01BL9WC 	 0.685072 	 other biological processes 
-F66KHFO01BL9WC 	 0.685072 	 other metabolic processes 
-F66KHFO01BOWQH 	 0.676441 	 RNA metabolism  
-F66KHFO01BOWQH 	 0.676441 	 cell organization and biogenesis
-F66KHFO01BOWQH 	 0.676441 	 death   
-F66KHFO01BOWQH 	 0.676441 	 other biological processes 
-F66KHFO01BOWQH 	 0.676441 	 other metabolic processes 
-F66KHFO01BOWQH 	 0.676441 	 protein metabolism  
-F66KHFO01BOWQH 	 0.676441 	 signal transduction  
-F66KHFO01BOWQH 	 0.676441 	 stress response  
-F66KHFO01BPAFU 	 1.00188 	 other metabolic processes 
-F66KHFO01BSO80 	 0.451458 	 protein metabolism  
-F66KHFO01BTEV8 	 1.00368 	 other metabolic processes 
-F66KHFO01C0AJJ 	 0.717206 	 cell adhesion  
-F66KHFO01C0AJJ 	 0.717206 	 cell organization and biogenesis
-F66KHFO01C0AJJ 	 0.717206 	 cell-cell signaling  
-F66KHFO01C0AJJ 	 0.717206 	 developmental processes  
-F66KHFO01C0AJJ 	 0.717206 	 other biological processes 
-F66KHFO01C0AJJ 	 0.717206 	 signal transduction  
-F66KHFO01C0W31 	 0.47439 	 cell organization and biogenesis
-F66KHFO01C0W31 	 0.47439 	 death   
-F66KHFO01C0W31 	 0.47439 	 other biological processes 
-F66KHFO01C0W31 	 0.47439 	 other metabolic processes 
-F66KHFO01C0W31 	 0.47439 	 transport   
-F66KHFO01C1CHH 	 0.706885 	 transport   
-F66KHFO01C3ODL 	 0.85753 	 other biological processes 
-F66KHFO01C3ODL 	 0.85753 	 other metabolic processes 
-F66KHFO01C3ODL 	 0.85753 	 protein metabolism  
-F66KHFO01C9FGF 	 0.613909 	 protein metabolism  
-F66KHFO01CDV27 	 0.657065 	 cell adhesion  
-F66KHFO01CDV27 	 0.657065 	 signal transduction  
-F66KHFO01CMFUA 	 0.549846 	 other biological processes 
-F66KHFO01CMFUA 	 0.549846 	 other metabolic processes 
-F66KHFO01CNQQR 	 0.798135 	 other metabolic processes 
-F66KHFO01CQZWW 	 0.45435 	 protein metabolism  
-F66KHFO01CW4NG 	 0.32639 	 other biological processes 
-F66KHFO01CW4NG 	 0.32639 	 other metabolic processes 
-F66KHFO01D4RZ3 	 1.04869 	 cell organization and biogenesis
-F66KHFO01D7QE8 	 0.344676 	 transport   
-F66KHFO01DDCHI 	 0.391306 	 other metabolic processes 
-F66KHFO01DHJEM 	 0.161626 	 protein metabolism  
-F66KHFO01DHTBK 	 0.376113 	 developmental processes  
-F66KHFO01DHTBK 	 0.376113 	 other biological processes 
-F66KHFO01DHTBK 	 0.376113 	 other metabolic processes 
-F66KHFO01DHTBK 	 0.376113 	 stress response  
-F66KHFO01DIX4E 	 1.02598 	 other metabolic processes 
-F66KHFO01DJ2HE 	 0.817975 	 other biological processes 
-F66KHFO01DJ2HE 	 0.817975 	 other metabolic processes 
-F66KHFO01DK479 	 0.467289 	 RNA metabolism  
-F66KHFO01DK479 	 0.467289 	 other biological processes 
-F66KHFO01DK479 	 0.467289 	 other metabolic processes 
-F66KHFO01DORV4 	 0.32858 	 other metabolic processes 
-F66KHFO01DPR0K 	 0.427915 	 other metabolic processes 
-F66KHFO01DPR0K 	 0.427915 	 transport   
-F66KHFO01DPZYM 	 1.08799 	 other biological processes 
-F66KHFO01DT4K0 	 0.390502 	 cell organization and biogenesis
-F66KHFO01DT4K0 	 0.390502 	 other biological processes 
-F66KHFO01DT4K0 	 0.390502 	 signal transduction  
-F66KHFO01DU0G5 	 0.701084 	 other metabolic processes 
-F66KHFO01DUMOF 	 0.802261 	 cell adhesion  
-F66KHFO01DVWKU 	 1.18109 	 developmental processes  
-F66KHFO01DVWKU 	 1.18109 	 other biological processes 
-F66KHFO01DW57F 	 1.01122 	 other metabolic processes 
-F66KHFO01DYFBI 	 0.501099 	 other biological processes 
-F66KHFO01DYFBI 	 0.501099 	 other metabolic processes 
-F66KHFO01DYLE2 	 0.37057 	 other biological processes 
-F66KHFO01DYYZ5 	 0.395835 	 DNA metabolism  
-F66KHFO01DYYZ5 	 0.395835 	 cell cycle and proliferation
-F66KHFO01DYYZ5 	 0.395835 	 developmental processes  
-F66KHFO01DYYZ5 	 0.395835 	 other biological processes 
-F66KHFO01DZMAF 	 0.794936 	 other biological processes 
-F66KHFO01DZMAF 	 0.794936 	 other metabolic processes 
-F66KHFO01DZMAF 	 0.794936 	 signal transduction  
-F66KHFO01E15UX 	 0.982728 	 cell cycle and proliferation
-F66KHFO01E15UX 	 0.982728 	 other metabolic processes 
-F66KHFO01EHMLO 	 0.0881122 	 other biological processes 
-F66KHFO01EHMLO 	 0.0881122 	 other metabolic processes 
-F66KHFO01EHMLO 	 0.0881122 	 stress response  
-F66KHFO01EILWH 	 0.768481 	 RNA metabolism  
-F66KHFO01EILWH 	 0.768481 	 death   
-F66KHFO01EILWH 	 0.768481 	 other biological processes 
-F66KHFO01EILWH 	 0.768481 	 stress response  
-F66KHFO01EILWH 	 0.768481 	 transport   
-F66KHFO01EIZ41 	 0.33711 	 other metabolic processes 
-F66KHFO01EIZ41 	 0.33711 	 protein metabolism  
-F66KHFO01EOKCH 	 0.210065 	 transport   
-F66KHFO01EPJ0J 	 0.651679 	 other metabolic processes 
-F66KHFO01EQHHW 	 0.573131 	 other metabolic processes 
-F66KHFO01EW7B3 	 0.772942 	 other biological processes 
-F66KHFO01EZTOD 	 1.01393 	 RNA metabolism  
-F66KHFO01EZTOD 	 1.01393 	 developmental processes  
-F66KHFO02F4TOJ 	 0.275422 	 other biological processes 
-F66KHFO02F5JO3 	 0.532789 	 other biological processes 
-F66KHFO02F5JO3 	 0.532789 	 other metabolic processes 
-F66KHFO02F5JO3 	 0.532789 	 protein metabolism  
-F66KHFO02F5JO3 	 0.532789 	 transport   
-F66KHFO02F62C9 	 0.645379 	 DNA metabolism  
-F66KHFO02F9PV8 	 0.638135 	 other biological processes 
-F66KHFO02F9PV8 	 0.638135 	 other metabolic processes 
-F66KHFO02F9U6A 	 0.708583 	 DNA metabolism  
-F66KHFO02F9U6A 	 0.708583 	 cell cycle and proliferation
-F66KHFO02F9U6A 	 0.708583 	 cell organization and biogenesis
-F66KHFO02F9U6A 	 0.708583 	 other biological processes 
-F66KHFO02F9U6A 	 0.708583 	 stress response  
-F66KHFO02FJ0Z7 	 0.782543 	 other biological processes 
-F66KHFO02FJ0Z7 	 0.782543 	 other metabolic processes 
-F66KHFO02FJ5HI 	 0.189809 	 transport   
-F66KHFO02FN15I 	 0.883587 	 cell adhesion  
-F66KHFO02FN15I 	 0.883587 	 developmental processes  
-F66KHFO02FN15I 	 0.883587 	 other biological processes 
-F66KHFO02FNQ9Q 	 0.869719 	 RNA metabolism  
-F66KHFO02FNQ9Q 	 0.869719 	 protein metabolism  
-F66KHFO02FOLKS 	 0.117176 	 cell cycle and proliferation
-F66KHFO02FP2F9 	 0.60852 	 RNA metabolism  
-F66KHFO02FP2F9 	 0.60852 	 cell cycle and proliferation
-F66KHFO02FP2F9 	 0.60852 	 death   
-F66KHFO02FP2F9 	 0.60852 	 developmental processes  
-F66KHFO02FP2F9 	 0.60852 	 other biological processes 
-F66KHFO02FP2F9 	 0.60852 	 other metabolic processes 
-F66KHFO02FP2F9 	 0.60852 	 protein metabolism  
-F66KHFO02FP2F9 	 0.60852 	 signal transduction  
-F66KHFO02FP2F9 	 0.60852 	 stress response  
-F66KHFO02FP2F9 	 0.60852 	 transport   
-F66KHFO02FQJXY 	 0.748522 	 cell organization and biogenesis
-F66KHFO02FQJXY 	 0.748522 	 cell-cell signaling  
-F66KHFO02FQJXY 	 0.748522 	 other biological processes 
-F66KHFO02FQJXY 	 0.748522 	 transport   
-F66KHFO02FR1YV 	 0.927578 	 RNA metabolism  
-F66KHFO02FR1YV 	 0.927578 	 other biological processes 
-F66KHFO02FX9Q7 	 0.261733 	 cell organization and biogenesis
-F66KHFO02FXUQZ 	 1.35795 	 transport   
-F66KHFO02FYPUH 	 0.946309 	 other metabolic processes 
-F66KHFO02FYPUH 	 0.946309 	 protein metabolism  
-F66KHFO02G3Y0A 	 0.737069 	 cell organization and biogenesis
-F66KHFO02G3Y0A 	 0.737069 	 death   
-F66KHFO02G3Y0A 	 0.737069 	 developmental processes  
-F66KHFO02G3Y0A 	 0.737069 	 other biological processes 
-F66KHFO02G3Y0A 	 0.737069 	 protein metabolism  
-F66KHFO02G66F1 	 0.647745 	 other metabolic processes 
-F66KHFO02G7T8N 	 0.963493 	 protein metabolism  
-F66KHFO02G7V20 	 0.646267 	 other biological processes 
-F66KHFO02G7V20 	 0.646267 	 transport   
-F66KHFO02GAOPS 	 0.634564 	 protein metabolism  
-F66KHFO02GAOPS 	 0.634564 	 transport   
-F66KHFO02GD7UE 	 0.541228 	 cell organization and biogenesis
-F66KHFO02GD7UE 	 0.541228 	 transport   
-F66KHFO02GEHLZ 	 0.995405 	 other metabolic processes 
-F66KHFO02GEX7E 	 0.407292 	 RNA metabolism  
-F66KHFO02GEX7E 	 0.407292 	 cell adhesion  
-F66KHFO02GEX7E 	 0.407292 	 cell organization and biogenesis
-F66KHFO02GEX7E 	 0.407292 	 developmental processes  
-F66KHFO02GEX7E 	 0.407292 	 other metabolic processes 
-F66KHFO02GEX7E 	 0.407292 	 protein metabolism  
-F66KHFO02GEX7E 	 0.407292 	 signal transduction  
-F66KHFO02GEX7E 	 0.407292 	 transport   
-F66KHFO02GG0B7 	 0.393656 	 other biological processes 
-F66KHFO02GG0B7 	 0.393656 	 protein metabolism  
-F66KHFO02GIOBT 	 0.299244 	 other metabolic processes 
-F66KHFO02GJYPD 	 1.16441 	 other biological processes 
-F66KHFO02GJYPD 	 1.16441 	 signal transduction  
-F66KHFO02GLEQH 	 0.737736 	 other metabolic processes 
-F66KHFO02GLEQH 	 0.737736 	 stress response  
-F66KHFO02GQCQC 	 0.56416 	 cell organization and biogenesis
-F66KHFO02GQCQC 	 0.56416 	 other biological processes 
-F66KHFO02GQCQC 	 0.56416 	 other metabolic processes 
-F66KHFO02GQI22 	 0.942858 	 other biological processes 
-F66KHFO02GQI22 	 0.942858 	 protein metabolism  
-F66KHFO02GQI22 	 0.942858 	 transport   
-F66KHFO02GQZ7I 	 0.577063 	 transport   
-F66KHFO02GRFLN 	 0.702497 	 DNA metabolism  
-F66KHFO02GRFLN 	 0.702497 	 RNA metabolism  
-F66KHFO02GRFLN 	 0.702497 	 cell cycle and proliferation
-F66KHFO02GRFLN 	 0.702497 	 cell organization and biogenesis
-F66KHFO02GRFLN 	 0.702497 	 other biological processes 
-F66KHFO02GRFLN 	 0.702497 	 stress response  
-F66KHFO02GRG2U 	 0.227145 	 RNA metabolism  
-F66KHFO02GRG2U 	 0.227145 	 protein metabolism  
-F66KHFO02GUDYC 	 0.866198 	 transport   
-F66KHFO02GY6A9 	 1.05464 	 cell adhesion  
-F66KHFO02GY6A9 	 1.05464 	 cell organization and biogenesis
-F66KHFO02GY6A9 	 1.05464 	 developmental processes  
-F66KHFO02GY6A9 	 1.05464 	 other biological processes 
-F66KHFO02GY6A9 	 1.05464 	 signal transduction  
-F66KHFO02H11H9 	 0.534866 	 cell cycle and proliferation
-F66KHFO02H11H9 	 0.534866 	 cell organization and biogenesis
-F66KHFO02H11H9 	 0.534866 	 other biological processes 
-F66KHFO02H7L40 	 0.398432 	 cell organization and biogenesis
-F66KHFO02H9KG7 	 0.273495 	 other metabolic processes 
-F66KHFO02H9KG7 	 0.273495 	 protein metabolism  
-F66KHFO02HBWAM 	 0.999328 	 cell adhesion  
-F66KHFO02HBWAM 	 0.999328 	 cell cycle and proliferation
-F66KHFO02HBWAM 	 0.999328 	 cell organization and biogenesis
-F66KHFO02HBWAM 	 0.999328 	 death   
-F66KHFO02HBWAM 	 0.999328 	 developmental processes  
-F66KHFO02HBWAM 	 0.999328 	 other biological processes 
-F66KHFO02HBWAM 	 0.999328 	 other metabolic processes 
-F66KHFO02HBWAM 	 0.999328 	 protein metabolism  
-F66KHFO02HBWAM 	 0.999328 	 signal transduction  
-F66KHFO02HBWAM 	 0.999328 	 stress response  
-F66KHFO02HBWAM 	 0.999328 	 transport   
-F66KHFO02HC8UD 	 0.775367 	 other biological processes 
-F66KHFO02HF4AE 	 0.855331 	 RNA metabolism  
-F66KHFO02HRG9L 	 0.931045 	 other metabolic processes 
-F66KHFO02HT1DW 	 0.147292 	 other metabolic processes 
-F66KHFO02HVYA3 	 0.504229 	 transport   
-F66KHFO02HWNYO 	 0.880488 	 developmental processes  
-F66KHFO02HWNYO 	 0.880488 	 other biological processes 
-F66KHFO02HZKO1 	 0.728046 	 transport   
-F66KHFO02I138Q 	 0.525969 	 protein metabolism  
-F66KHFO02I138Q 	 0.525969 	 stress response  
-F66KHFO02I1COJ 	 0.94338 	 cell organization and biogenesis
-F66KHFO02I1COJ 	 0.94338 	 developmental processes  
-F66KHFO02I1COJ 	 0.94338 	 other biological processes 
-F66KHFO02I1COJ 	 0.94338 	 other metabolic processes 
-F66KHFO02I1COJ 	 0.94338 	 signal transduction  
-F66KHFO02I3HZ6 	 0.932207 	 other metabolic processes 
-F66KHFO02I3HZ6 	 0.932207 	 protein metabolism  
-F66KHFO02I3HZ6 	 0.932207 	 stress response  
-F66KHFO02I4RII 	 0.798189 	 other biological processes 
-F66KHFO02I4RII 	 0.798189 	 other metabolic processes 
-F66KHFO02I4RII 	 0.798189 	 signal transduction  
-F66KHFO02IBC6M 	 0.356692 	 developmental processes  
-F66KHFO02IBC6M 	 0.356692 	 other biological processes 
-F66KHFO02IBC6M 	 0.356692 	 other metabolic processes 
-F66KHFO02IBC6M 	 0.356692 	 protein metabolism  
-F66KHFO02IGNHO 	 0.558197 	 RNA metabolism  
-F66KHFO02IHEKI 	 0.691784 	 other metabolic processes 
-F66KHFO02II348 	 0.215927 	 cell cycle and proliferation
-F66KHFO02II348 	 0.215927 	 cell organization and biogenesis
-F66KHFO02II348 	 0.215927 	 other biological processes 
-F66KHFO02II348 	 0.215927 	 other metabolic processes 
-F66KHFO02IKGMI 	 0.962609 	 cell adhesion  
-F66KHFO02ILIKA 	 0.256732 	 other metabolic processes 
-F66KHFO02ILJOW 	 0.829998 	 developmental processes  
-F66KHFO02ILJOW 	 0.829998 	 other biological processes 
-F66KHFO02ILJOW 	 0.829998 	 other metabolic processes 
-F66KHFO02ILJOW 	 0.829998 	 protein metabolism  
-F66KHFO02ILW21 	 0.873883 	 signal transduction  
-F66KHFO02ILW21 	 0.873883 	 transport   
-F66KHFO02IN4WY 	 0.301022 	 other metabolic processes 
-F66KHFO02IN4WY 	 0.301022 	 protein metabolism  
-F66KHFO02INB9A 	 0.708336 	 other metabolic processes 
-F66KHFO02INJ32 	 0.753148 	 cell organization and biogenesis
-F66KHFO02INJ32 	 0.753148 	 other biological processes 
-F66KHFO02INJ32 	 0.753148 	 protein metabolism  
-F66KHFO02INJ32 	 0.753148 	 transport   
-F66KHFO02IO4B5 	 0.737794 	 cell adhesion  
-F66KHFO02IO4B5 	 0.737794 	 protein metabolism  
-F66KHFO02IO4B5 	 0.737794 	 signal transduction  
-F66KHFO02IOCNQ 	 0.982825 	 protein metabolism  
-F66KHFO02IRSL9 	 0.862706 	 other biological processes 
-F66KHFO02IRSL9 	 0.862706 	 protein metabolism  
-F66KHFO02J2KQP 	 0.859879 	 other biological processes 
-F66KHFO02J2KQP 	 0.859879 	 other metabolic processes 
-F66KHFO02J3DCX 	 0.777464 	 cell cycle and proliferation
-F66KHFO02J3DCX 	 0.777464 	 cell-cell signaling  
-F66KHFO02J3DCX 	 0.777464 	 developmental processes  
-F66KHFO02J3DCX 	 0.777464 	 other biological processes 
-F66KHFO02J3DCX 	 0.777464 	 other metabolic processes 
-F66KHFO02J3DCX 	 0.777464 	 signal transduction  
-F66KHFO02J3DCX 	 0.777464 	 transport   
-F66KHFO02J3VJ6 	 1.0392 	 RNA metabolism  
-F66KHFO02J3VJ6 	 1.0392 	 cell cycle and proliferation
-F66KHFO02J3VJ6 	 1.0392 	 cell organization and biogenesis
-F66KHFO02J3VJ6 	 1.0392 	 death   
-F66KHFO02J3VJ6 	 1.0392 	 protein metabolism  
-F66KHFO02J3VJ6 	 1.0392 	 signal transduction  
-F66KHFO02JCQIY 	 0.831741 	 transport   
-F66KHFO02JEH8U 	 0.47377 	 transport   
-F66KHFO02JH11M 	 0.380762 	 other metabolic processes 
-F66KHFO02JH6QK 	 0.813869 	 cell organization and biogenesis
-F66KHFO02JH6QK 	 0.813869 	 developmental processes  
-F66KHFO02JH6QK 	 0.813869 	 other biological processes 
-F66KHFO02JH6QK 	 0.813869 	 stress response  
-F66KHFO02JLTK7 	 0.677554 	 developmental processes  
-F66KHFO02JQPWC 	 0.436226 	 other biological processes 
-F66KHFO02JQPWC 	 0.436226 	 other metabolic processes 
-F66KHFO02JQPWC 	 0.436226 	 transport   
-F66KHFO02JRJIB 	 0.379576 	 cell-cell signaling  
-F66KHFO02JRJIB 	 0.379576 	 developmental processes  
-F66KHFO02JRJIB 	 0.379576 	 other metabolic processes 
-F66KHFO02JSUBP 	 0.724542 	 other metabolic processes 
-F66KHFO02JUJ1P 	 0.259713 	 other biological processes 
-F66KHFO02JUJ1P 	 0.259713 	 stress response  
-F66KHFO02JUJ1P 	 0.259713 	 transport   
-F66KHFO02JUUKW 	 0.593258 	 RNA metabolism  
-F66KHFO02JVQ28 	 0.469748 	 cell organization and biogenesis
-F66KHFO02JVQ28 	 0.469748 	 other biological processes 
-F66KHFO02JVQ28 	 0.469748 	 other metabolic processes 
-F66KHFO02JVXP5 	 0.203597 	 other metabolic processes 
